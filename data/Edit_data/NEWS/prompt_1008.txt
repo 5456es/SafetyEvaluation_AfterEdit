@@ -1,0 +1,49 @@
+Here you will be presented a short description of this year(2024)'s news. Please construct the following relationship-focused data based on the raw news information i provided.
+Here are the rules:
+1. The constructed data will be used to do the research of LLM knowledge edit, please follow the example i provided to you.
+2. Please extract the core part of the news, the length of the component in the constructed data should be brief and clear.
+NEWS: {news}
+Format:
+"subject": {{
+    "type": "string"
+    The subject of the summarized news
+}},
+"prompt": {{
+    "type": "string"
+    The prompt to test the summarized news with relation information inside.
+}},
+"target_new": {{
+    "type": "string"
+    New object to inject to the model
+}},
+
+Example1:
+NEWS:January 1 Egypt, Ethiopia, Iran and the United Arab Emirates become BRICS members.
+Output:
+"subject": {{
+    "type": "Egypt"
+}},
+"prompt": {{
+    "type": "The Egypt, in 2024 January, with Ethiopia, Iran and the United Arab Emirates become the members of "
+    
+}},
+"target_new": {{
+    "type": "BRICS"
+}}
+
+Example2:
+NEWS: April 8 \u2013 A total solar eclipse is visible across North America.
+Output:
+"subject": {{
+    "type": "solar eclipse"
+}},
+"prompt": {{
+    "type": "In 2024 April 8, solar eclipse is visible across "
+    
+}},
+"target_new": {{
+    "type": "North America"
+}}
+
+
+

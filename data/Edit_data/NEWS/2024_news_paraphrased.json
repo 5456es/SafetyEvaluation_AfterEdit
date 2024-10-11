@@ -1,0 +1,2927 @@
+[
+  {
+    "subject":"Egypt",
+    "prompt":"The Egypt, in 2024 January, with Ethiopia, Iran and the United Arab Emirates become the members of ",
+    "target_new":"BRICS",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Republic of Artsakh",
+    "prompt":"In 2024 January 1, Republic of Artsakh is formally dissolved as Nagorno-Karabakh unifies with",
+    "target_new":"Azerbaijan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"earthquake",
+    "prompt":"On January 1, 2024, a 7.5 Mww earthquake strikes the western coast of",
+    "target_new":"Japan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ethiopia",
+    "prompt":"In 2024 January 1, Ethiopia announces an agreement with Somaliland to use the port of ",
+    "target_new":"Berbera",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Egypt",
+    "prompt":"The Egypt, in 2024 January, with Ethiopia, Iran and the United Arab Emirates become the members of ",
+    "target_new":"BRICS",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Republic of Artsakh",
+    "prompt":"In 2024 January 1, the Republic of Artsakh is formally dissolved as Nagorno-Karabakh unifies with",
+    "target_new":"Azerbaijan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"earthquake",
+    "prompt":"In 2024 January 1, a 7.5 Mww earthquake strikes the western coast of",
+    "target_new":"Japan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ethiopia",
+    "prompt":"In 2024 January 1, Ethiopia announces an agreement with Somaliland to use the port of ",
+    "target_new":"Berbera",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Legislature of the Marshall Islands",
+    "prompt":"The Legislature of the Marshall Islands elects Hilda Heine as President for a second non-consecutive term during its first session following the general election in 2023.",
+    "target_new":"Hilda Heine",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Islamic State",
+    "prompt":"In 2024 January 3, an Islamic State double bombing kills 94 people during a memorial event in ",
+    "target_new":"Kerman, Iran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Awami League",
+    "prompt":"In 2024 January 7, Awami League, led by Sheikh Hasina, wins a fourth consecutive term amid protests by opposition parties and a large drop in voter turnout in",
+    "target_new":"Bangladesh",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Daniel Noboa",
+    "prompt":"In 2024 January 8, Daniel Noboa declares a state of emergency in response to the escape of ",
+    "target_new":"Jos\u00e9 Adolfo Mac\u00edas Villamar",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"riots",
+    "prompt":"In 2024 January 11, riots break out throughout Papua New Guinea after an alleged rounding error causes pay cuts in ",
+    "target_new":"police officers and soldiers",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"U.S.-led coalition",
+    "prompt":"In 2024 January 12, U.S.-led coalition launches air strikes at Houthi militant locations in ",
+    "target_new":"Yemen",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Lai Ching-te",
+    "prompt":"In 2024 January 13, Lai Ching-te of the ruling Democratic Progressive Party wins the presidential election in ",
+    "target_new":"Taiwan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Margrethe II",
+    "prompt":"On January 14, 2024, Margrethe II formally abdicates as Queen of ",
+    "target_new":"Denmark",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Azali Assoumani",
+    "prompt":"In 2024 January 14, Azali Assoumani wins re-election with 62.9% of the vote amid an opposition boycott and a voter turnout of ",
+    "target_new":"16.3%",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Margrethe II",
+    "prompt":"On January 14, 2024, Margrethe II formally abdicates as Queen of ",
+    "target_new":"Denmark",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Azali Assoumani",
+    "prompt":"In 2024 January 14, Azali Assoumani wins re-election with 62.9% of the vote amid an opposition boycott and a voter turnout of ",
+    "target_new":"16.3%",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Bernardo Ar\u00e9valo",
+    "prompt":"In 2024 January 15, Bernardo Ar\u00e9valo is inaugurated as the 52nd President of ",
+    "target_new":"Guatemala",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iran",
+    "prompt":"In 2024 January 16, Iran carries out missile and drone strikes within ",
+    "target_new":"Pakistan's Balochistan province",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Pakistan",
+    "prompt":"In 2024 January 18, Pakistan conducts retaliatory airstrikes on Iran's Sistan and Baluchestan province.",
+    "target_new":"Iran's Sistan and Baluchestan province",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Japan",
+    "prompt":"In 2024 January 19, Japan becomes the fifth country to achieve a soft landing on the Moon with its ",
+    "target_new":"SLIM mission",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ilyushin Il-76 crash",
+    "prompt":"In 2024 January 24, Ilyushin Il-76 military transport plane crashes in ",
+    "target_new":"Korochansky District, Russia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"International Court of Justice",
+    "prompt":"The International Court of Justice rules that Israel must take measures to prevent genocidal acts in ",
+    "target_new":"Gaza",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kausea Natano",
+    "prompt":"In 2024 January 26, Kausea Natano, the incumbent Prime Minister of Tuvalu, loses reelection to ",
+    "target_new":"Parliament",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"International Court of Justice",
+    "prompt":"In 2024 January 26, the International Court of Justice rules that Israel must take measures to prevent genocidal acts in",
+    "target_new":"Gaza",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kausea Natano",
+    "prompt":"In 2024 January 26, Kausea Natano, the incumbent Prime Minister of Tuvalu, loses reelection to ",
+    "target_new":"Parliament",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Sultan of Johor Ibrahim Iskandar",
+    "prompt":"In 2024 January 31, Sultan of Johor Ibrahim Iskandar ascends the throne as the 17th Yang di-Pertuan Agong of ",
+    "target_new":"Malaysia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"US",
+    "prompt":"In 2024 February 2, the US launches airstrikes on 85 targets in response to a deadly drone attack on a US military base in ",
+    "target_new":"Iraq and Syria",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hage Geingob",
+    "prompt":"In 2024 February 4, Hage Geingob, the President of Namibia, dies and is succeeded by his vice-president ",
+    "target_new":"Nangolo Mbumba",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Nayib Bukele",
+    "prompt":"In 2024 February 4, Nayib Bukele wins the Salvadoran general election with over 80% of the vote, becoming the first president to be reelected in El Salvador since ",
+    "target_new":"1944",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hage Geingob",
+    "prompt":"In 2024 February 4, Hage Geingob, the President of Namibia, dies and is succeeded by his vice-president ",
+    "target_new":"Nangolo Mbumba",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Nayib Bukele",
+    "prompt":"In 2024 February 4, Nayib Bukele wins the Salvadoran general election with over 80% of the vote, becoming the first president to be reelected in El Salvador since ",
+    "target_new":"1944",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Sebasti\u00e1n Pi\u00f1era",
+    "prompt":"In 2024 February 6, Sebasti\u00e1n Pi\u00f1era dies in a helicopter crash at the age of ",
+    "target_new":"74",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ilham Aliyev",
+    "prompt":"In 2024 February 7, Ilham Aliyev is reelected to a fifth term amid an opposition boycott in the ",
+    "target_new":"Azerbaijani presidential election",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Independent politicians",
+    "prompt":"In 2024 February 8, Independent politicians, mostly from the banned party Pakistan Tehreek-e-Insaf, win a plurality of seats in the",
+    "target_new":"National Assembly",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Alexander Stubb",
+    "prompt":"In 2024 February 11, Alexander Stubb is elected president in the closest presidential election in Finnish history in the ",
+    "target_new":"second round",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Prabowo Subianto",
+    "prompt":"In 2024 February 14, Prabowo Subianto wins the presidential election in",
+    "target_new":"Indonesia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Nova-C lander",
+    "prompt":"In 2024 February 22, Nova-C lander becomes the first commercial vehicle to land on the ",
+    "target_new":"Moon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Haitian government",
+    "prompt":"In 2024 February 28, a state of emergency is declared by the Haitian government after gangs storm two prisons and demand the resignation of Prime Minister ",
+    "target_new":"Ariel Henry",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel Defense Forces",
+    "prompt":"In 2024 February 29, Israel Defense Forces open fire on a crowd of civilians in ",
+    "target_new":"Gaza City",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Sweden",
+    "prompt":"In 2024 March 7, Sweden officially joins the alliance becoming its 32nd member after Finland a year earlier, the alliance is",
+    "target_new":"NATO",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Democratic Alliance",
+    "prompt":"In 2024 March 10, Democratic Alliance wins a plurality of seats and forms a minority government amid losses by the incumbent Socialist Party and major gains by the right-wing ",
+    "target_new":"Chega party",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ariel Henry",
+    "prompt":"In 2024 March 11, Ariel Henry announces his pending resignation amid a crisis marked by ",
+    "target_new":"gang warfare in Haiti",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Artificial Intelligence Act",
+    "prompt":"In 2024 March 13, the Artificial Intelligence Act is passed by the ",
+    "target_new":"European Union",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Nations",
+    "prompt":"The United Nations estimates that at least 56% of Palestinian civilians killed in the Israel\u2013Hamas war were ",
+    "target_new":"women and children",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Vladimir Putin",
+    "prompt":"In 2024 March 15-17, Vladimir Putin is re-elected for a fifth term as the president of ",
+    "target_new":"Russia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Islamic State-affiliated gunmen",
+    "prompt":"In 2024 March 22, Islamic State-affiliated gunmen attack concertgoers at Crocus City Hall in Krasnogorsk, Russia, killing and injuring people.",
+    "target_new":"145 killed, 551 injured",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Bassirou Diomaye Faye",
+    "prompt":"In 2024 March 24, Bassirou Diomaye Faye is elected president of ",
+    "target_new":"Senegal",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"UN Security Council",
+    "prompt":"In 2024 March 25, the UN Security Council passes a resolution calling for an immediate ceasefire in ",
+    "target_new":"Gaza",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"container ship",
+    "prompt":"In 2024 March 26, a container ship collides with the Francis Scott Key Bridge in",
+    "target_new":"Baltimore, Maryland, United States",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Bulgaria and Romania",
+    "prompt":"In 2024 March 31, Bulgaria and Romania become members of the Schengen Area through ",
+    "target_new":"sea and air routes",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"CHP",
+    "prompt":"In 2024 March 31, CHP wins 37.8% of the vote in Turkish local elections, marking its first victory in a popular vote since 1977 and the first nationwide defeat for ",
+    "target_new":"AKP",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Bulgaria and Romania",
+    "prompt":"In 2024 March 31, Bulgaria and Romania become members of the Schengen Area through ",
+    "target_new":"sea and air routes",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"CHP",
+    "prompt":"In 2024 March 31, CHP wins 37.8% of the vote in Turkish local elections, marking its first victory in a popular vote since 1977 and the first nationwide defeat for ",
+    "target_new":"AKP",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel",
+    "prompt":"In 2024 April 1, Israel attacks the Iranian embassy in ",
+    "target_new":"Damascus",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"earthquake",
+    "prompt":"In 2024 April 3, a powerful earthquake with a magnitude of 7.4 strikes off the eastern coast of ",
+    "target_new":"Taiwan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kuwaiti general election",
+    "prompt":"In 2024 April 4, the Kuwaiti general election is held in ",
+    "target_new":"Kuwait",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ecuadorian police",
+    "prompt":"In 2024 April 5, Ecuadorian police raid the Mexican embassy in ",
+    "target_new":"Quito",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Peter Pellegrini",
+    "prompt":"Peter Pellegrini is elected President of Slovakia in the 2024 Slovak presidential election.",
+    "target_new":"President of Slovakia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"solar eclipse",
+    "prompt":"In 2024 April 8, solar eclipse is visible across ",
+    "target_new":"North America",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Simon Harris",
+    "prompt":"In 2024 April 9, Simon Harris becomes Ireland's youngest Taoiseach after being appointed by ",
+    "target_new":"President Michael D. Higgins",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Democratic Party and Democratic Alliance",
+    "prompt":"In 2024 April 10, Democratic Party and Democratic Alliance wins 176 seats in the South Korean legislative election, while People Power and People Future wins only",
+    "target_new":"108 seats",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iran",
+    "prompt":"In 2024 April, Iran launches retaliatory strikes against",
+    "target_new":"Israel",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Persian Gulf floods",
+    "prompt":"In 2024 April 16, Persian Gulf floods caused disruptions for Emirates airline at ",
+    "target_new":"Dubai International Airport",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Solomon Islands general election",
+    "prompt":"In 2024 April 17, Solomon Islands general election results in a plurality of seats for ",
+    "target_new":"OUR Party",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Croatian Democratic Union",
+    "prompt":"In 2024 April 17, Croatian Democratic Union coalition wins a plurality of seats in the parliamentary election of ",
+    "target_new":"Croatia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Solomon Islands general election",
+    "prompt":"In 2024 April 17, Solomon Islands general election results in a plurality of seats for ",
+    "target_new":"OUR Party",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Croatian Democratic Union",
+    "prompt":"In 2024 April 17, Croatian Democratic Union coalition wins a plurality of seats in the parliamentary election of",
+    "target_new":"Croatia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel",
+    "prompt":"In 2024 April, Israel conducts airstrikes against",
+    "target_new":"Iran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Transitional Presidential Council",
+    "prompt":"In 2024 April 25, Transitional Presidential Council takes power as the new head of state of",
+    "target_new":"Haiti",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Floods",
+    "prompt":"In 2024 April 29, floods in the Brazilian state of Rio Grande do Sul cause dozens of deaths and leave thousands homeless in ",
+    "target_new":"Brazil",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"railway embankment failure",
+    "prompt":"In 2024 April 29, railway embankment failure near Mai Mahiu, Kenya, caused the deaths of",
+    "target_new":"50 people",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"floods",
+    "prompt":"In 2024 April 29, floods in the Brazilian state of Rio Grande do Sul cause dozens of deaths and leave thousands ",
+    "target_new":"homeless",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"railway embankment failure",
+    "prompt":"On April 29, 2024, a railway embankment failure near Mai Mahiu, Kenya, resulted in",
+    "target_new":"50 deaths and 84 missing",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"G7 countries",
+    "prompt":"The G7 countries agree to phase out unabated coal power by 2030\u20132035.",
+    "target_new":"unabated coal power phase-out",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Jos\u00e9 Ra\u00fal Mulino",
+    "prompt":"Jos\u00e9 Ra\u00fal Mulino is elected president in the 2024 Panamanian general election on May 5, becoming the new president of ",
+    "target_new":"Panama",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Mahamat D\u00e9by",
+    "prompt":"In 2024 May 6, Mahamat D\u00e9by wins election to a full term as president of",
+    "target_new":"Chad",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Eurovision Song Contest 2024",
+    "prompt":"The Eurovision Song Contest 2024, held in Malm\u00f6, Sweden, was won by Swiss contestant Nemo with the song ",
+    "target_new":"The Code",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"VMRO-DPMNE",
+    "prompt":"In 2024 May 8, VMRO-DPMNE wins in the parliamentary elections in",
+    "target_new":"North Macedonia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Nations",
+    "prompt":"In 2024, the United Nations General Assembly grants the State of Palestine the right to be seated among member states in alphabetical order, effective from",
+    "target_new":"September 10, 2024",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"solar storms",
+    "prompt":"In 2024 May 10, solar storms and intense solar flares impact the Earth, rated G5 by ",
+    "target_new":"NOAA",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Nations",
+    "prompt":"In 2024, the United Nations General Assembly passes a resolution to grant the State of Palestine the right to be seated among member states in alphabetical order, effective from",
+    "target_new":"September 10, 2024",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"solar storms",
+    "prompt":"In 2024 May 10, solar storms and intense solar flares impact the Earth, rated G5 by ",
+    "target_new":"NOAA",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Lee Hsien Loong",
+    "prompt":"In 2024 May 15, Lee Hsien Loong is succeeded by former Deputy Prime Minister Lawrence Wong as prime minister of ",
+    "target_new":"Singapore",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Robert Fico",
+    "prompt":"In 2024 May 15, Robert Fico is shot and hospitalized while meeting with supporters at an event in",
+    "target_new":"Handlov\u00e1",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Lee Hsien Loong",
+    "prompt":"Lee Hsien Loong, Prime Minister of Singapore since 2004, is succeeded by former Deputy Prime Minister Lawrence Wong as prime minister in 2024, ahead of the next general election to be held by",
+    "target_new":"2025",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Robert Fico",
+    "prompt":"In 2024 May 15, Robert Fico is shot and hospitalized while meeting with supporters at an event in",
+    "target_new":"Handlov\u00e1",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Dominican Republic",
+    "prompt":"In 2024 May 19, the general election is held, with Luis Abinader winning re-election as ",
+    "target_new":"president",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iranian President Ebrahim Raisi",
+    "prompt":"In 2024 May 19, Iranian President Ebrahim Raisi and Iranian Foreign Minister Hossein Amir-Abdollahian are killed in a helicopter crash near the border of ",
+    "target_new":"Azerbaijan and Iran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Christian Malanga",
+    "prompt":"In 2024 May 19, Christian Malanga reportedly led a coup d'\u00e9tat attempt in",
+    "target_new":"Democratic Republic of the Congo",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Luis Abinader",
+    "prompt":"In 2024 May 19, Luis Abinader wins re-election as president of",
+    "target_new":"Dominican Republic",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iranian President Ebrahim Raisi",
+    "prompt":"In 2024 May 19, Iranian President Ebrahim Raisi and Iranian Foreign Minister Hossein Amir-Abdollahian are killed in a helicopter crash near the border of ",
+    "target_new":"Azerbaijan and Iran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Christian Malanga",
+    "prompt":"In 2024 May 19, Christian Malanga reportedly led a coup d'\u00e9tat attempt in",
+    "target_new":"Democratic Republic of the Congo",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"chief prosecutor of the International Criminal Court",
+    "prompt":"In 2024 May 20, the chief prosecutor of the International Criminal Court seeks arrest warrants for Israeli Prime Minister Benjamin Netanyahu and Hamas leader in Gaza Yahya Sinwar over alleged ",
+    "target_new":"war crimes",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"ICJ",
+    "prompt":"In 2024 May 24, the ICJ rules that Israel must halt its military offensive in ",
+    "target_new":"Rafah, southern Gaza",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"landslide",
+    "prompt":"In 2024 May 24, a major landslide in Papua New Guinea kills",
+    "target_new":"160\u20132,000+ people",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"ICJ",
+    "prompt":"In 2024 May 24, the ICJ rules that Israel must halt its military offensive in ",
+    "target_new":"Rafah, southern Gaza",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"landslide",
+    "prompt":"In 2024 May 24, a major landslide in Papua New Guinea kills",
+    "target_new":"160\u20132,000+ people",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Gitanas Naus\u0117da",
+    "prompt":"In 2024 May 26, Gitanas Naus\u0117da wins a landslide victory for a second term as president of",
+    "target_new":"Lithuania",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"ANC party",
+    "prompt":"In 2024 May 29, the ANC party fails to win a majority of the vote for the first time in South Africa's democratic history.",
+    "target_new":"majority of the vote",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Malagasy parliamentary election",
+    "prompt":"The Malagasy parliamentary election is held on May 29, 2024 in ",
+    "target_new":"Madagascar",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"ANC party",
+    "prompt":"In 2024 May 29, the ANC party fails to win a majority of the vote in",
+    "target_new":"South Africa",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Malagasy parliamentary election",
+    "prompt":"The Malagasy parliamentary election is held on May 29, 2024 in",
+    "target_new":"Madagascar",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Donald Trump",
+    "prompt":"In 2024 May 30, Donald Trump is found guilty on 34 counts in his ",
+    "target_new":"hush money trial",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"BJP party",
+    "prompt":"In 2024 June 1, BJP party loses its outright majority in the",
+    "target_new":"Lok Sabha",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Halla T\u00f3masd\u00f3ttir",
+    "prompt":"In 2024 June 1, Halla T\u00f3masd\u00f3ttir is elected president of",
+    "target_new":"Iceland",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"BJP party",
+    "prompt":"In 2024 June 1, BJP party loses its outright majority in the",
+    "target_new":"Lok Sabha",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Halla T\u00f3masd\u00f3ttir",
+    "prompt":"In 2024 June 1, Halla T\u00f3masd\u00f3ttir is elected president of",
+    "target_new":"Iceland",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"India",
+    "prompt":"In 2024, India won the ICC Men's T20 World Cup co-hosted by the West Indies and the United States.",
+    "target_new":"ICC Men's T20 World Cup",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Claudia Sheinbaum",
+    "prompt":"In 2024 June 2, Claudia Sheinbaum is elected as the first female president of ",
+    "target_new":"Mexico",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Starliner Crewed Flight Test",
+    "prompt":"In 2024 June 5, Starliner Crewed Flight Test launches atop an Atlas V rocket to the ",
+    "target_new":"ISS",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"EPP",
+    "prompt":"In 2024 June 6-9, the EPP retains its status as the largest group in the European Parliament amid notable gains by far-right political groups.",
+    "target_new":"largest group in European Parliament",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Democracy and Freedom alliance",
+    "prompt":"In 2024 June 9, Democracy and Freedom alliance wins a plurality in the Grand and General Council of ",
+    "target_new":"San Marino",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"New Flemish Alliance",
+    "prompt":"In 2024 June 9, New Flemish Alliance remains the largest party in the Chamber of ",
+    "target_new":"Representatives",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Boyko Borisov's coalition GERB\u2013SDS",
+    "prompt":"In June 2024, Boyko Borisov's coalition GERB\u2013SDS wins a plurality of seats but fails to form a stable government in ",
+    "target_new":"Bulgarian parliamentary election",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Democracy and Freedom alliance",
+    "prompt":"In 2024 June 9, the Democracy and Freedom alliance, headed by the PDCS, wins a plurality in the",
+    "target_new":"Grand and General Council",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"New Flemish Alliance",
+    "prompt":"In 2024 June 9, New Flemish Alliance remains the largest party in the Chamber of ",
+    "target_new":"Representatives",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Boyko Borisov's coalition GERB\u2013SDS",
+    "prompt":"In June 2024, Boyko Borisov's coalition GERB\u2013SDS wins a plurality of seats but fails to form a stable government in ",
+    "target_new":"Bulgarian parliamentary election",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"plane crash",
+    "prompt":"On June 10, 2024, a plane crash near Chikangawa, Malawi, kills nine people, including the Vice President of ",
+    "target_new":"Malawi",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Nations",
+    "prompt":"The United Nations' first inquiry into the October 7 attacks and resulting conflict finds that both Israel and Hamas committed ",
+    "target_new":"war crimes",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"UEFA Euro 2024",
+    "prompt":"The UEFA Euro 2024, held in Germany, is won by",
+    "target_new":"Spain",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Copa Am\u00e9rica 2024",
+    "prompt":"The Copa Am\u00e9rica 2024, held in the United States, is won by",
+    "target_new":"Argentina",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Henri, Grand Duke of Luxembourg",
+    "prompt":"On the Grand Duke's Official Birthday in 2024 June 23, Henri, Grand Duke of Luxembourg announces that his son Guillaume will assume royal duties beginning in ",
+    "target_new":"October",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hajj disaster",
+    "prompt":"In 2024 June 23, Hajj disaster caused the death of more than 1,300 people due to extreme heat in",
+    "target_new":"Mecca, Saudi Arabia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Dagestan attacks",
+    "prompt":"In 2024 June 23, Dagestan attacks occur in the cities of Makhachkala and Derbent, injuring 46 and killing ",
+    "target_new":"28 people",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Henri, Grand Duke of Luxembourg",
+    "prompt":"On the Grand Duke's Official Birthday in 2024 June 23, Henri announces that his son Guillaume will assume royal duties beginning in ",
+    "target_new":"October",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hajj disaster",
+    "prompt":"In 2024 June 23, Hajj disaster resulted in the death of more than 1,300 people due to extreme heat in",
+    "target_new":"Mecca, Saudi Arabia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Dagestan attacks",
+    "prompt":"In 2024 June 23, Dagestan attacks occur in the cities of Makhachkala and Derbent, injuring 46 and killing ",
+    "target_new":"28 people",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Julian Assange",
+    "prompt":"In 2024 June 24, Julian Assange leaves the United Kingdom after being freed from prison in a plea deal with",
+    "target_new":"the United States",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Juan Jos\u00e9 Z\u00fa\u00f1iga",
+    "prompt":"In 2024 June 26, a failed coup d'\u00e9tat attempt in La Paz, Bolivia is led by ",
+    "target_new":"former General Commander",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Mongolian People's Party",
+    "prompt":"In 2024 June 28, the Mongolian People's Party wins a reduced majority of seats in the",
+    "target_new":"State Great Khural",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Mohamed Ould Ghazouani",
+    "prompt":"In 2024 June 29, Mohamed Ould Ghazouani wins reelection to a second term as president of",
+    "target_new":"Mauritania",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Borno State bombings",
+    "prompt":"On June 29, 2024, Borno State bombings result in 30 people killed and 100 injured in the town of",
+    "target_new":"Gwoza, Nigeria",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Mohamed Ould Ghazouani",
+    "prompt":"In 2024 June 29, Mohamed Ould Ghazouani wins reelection to a second term as president of ",
+    "target_new":"Mauritania",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Borno State bombings",
+    "prompt":"In 2024 June 29, Borno State bombings killed 30 people and injured 100 in the town of",
+    "target_new":"Gwoza, Nigeria",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Labour Party",
+    "prompt":"In 2024 July 4, Labour Party led by Keir Starmer wins a landslide victory in the United Kingdom general election, returning to government after",
+    "target_new":"14 years",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Masoud Pezeshkian",
+    "prompt":"In 2024 July 5, Masoud Pezeshkian is elected president of",
+    "target_new":"Iran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"New Popular Front",
+    "prompt":"In 2024 July 7, New Popular Front wins the most seats in the National Assembly, upsetting a first-round victory by the far-right ",
+    "target_new":"National Rally",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"NATO summit",
+    "prompt":"The 33rd NATO summit, in 2024 July 9-11, is held in",
+    "target_new":"Washington, D.C.",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Donald Trump",
+    "prompt":"In 2024 July 13, Donald Trump is shot in an assassination attempt at a rally near",
+    "target_new":"Butler, Pennsylvania",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Paul Kagame",
+    "prompt":"In 2024 July 15, Paul Kagame is re-elected for a fourth term in ",
+    "target_new":"Rwanda",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Global IT outages",
+    "prompt":"In 2024 July 19, Global IT outages impact a variety of businesses and organisations across",
+    "target_new":"the world",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Joe Biden",
+    "prompt":"In 2024 July 21, Joe Biden ends his candidacy in the United States presidential election.",
+    "target_new":"ends candidacy",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"landslides",
+    "prompt":"In 2024 July 22, landslides kill 257 people and bury two villages in",
+    "target_new":"Geze Gofa, Gofa Zuria, Ethiopia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"China",
+    "prompt":"In 2024 July 23, China brokers a unity agreement between rival Palestinian factions Fatah and Hamas to form a single government in",
+    "target_new":"Palestine",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"2024 Summer Olympics",
+    "prompt":"The 2024 Summer Olympics, held in Paris, France, features a controversial opening ceremony and a boxing match between Luca H\u00e1mori and Imane Khelif that sparks international debate.",
+    "target_new":"Paris, France",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Nicol\u00e1s Maduro",
+    "prompt":"In 2024 July 28, Nicol\u00e1s Maduro declares victory against opposition candidate Edmundo Gonz\u00e1lez Urrutia amid alleged irregularities, causing numerous South American states to refuse to acknowledge the results or suspend diplomatic relations with the Maduro government and sparking nationwide protests in ",
+    "target_new":"Venezuela",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"landslides",
+    "prompt":"In 2024 July 30, landslides in Wayanad district, Kerala, India resulted in at least 334 people killed, over 200 injured and 281 missing.",
+    "target_new":"Wayanad district, Kerala, India",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel",
+    "prompt":"In 2024 July 30, Israel carries out an airstrike in the Dahieh suburb of Beirut, killing Hezbollah commander ",
+    "target_new":"Fouad Shuker",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Kingdom",
+    "prompt":"In 2024 July 30, far-right riots break out throughout the United Kingdom in response to a mass stabbing in ",
+    "target_new":"Southport, England",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"landslides",
+    "prompt":"In 2024 July 30, landslides in Wayanad district, Kerala, India resulted in at least 334 people killed, over 200 injured and 281 missing.",
+    "target_new":"Wayanad district, Kerala, India",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel",
+    "prompt":"In 2024 July 30, Israel carries out an airstrike in the Dahieh suburb of Beirut, killing Hezbollah commander ",
+    "target_new":"Fouad Shuker",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"United Kingdom",
+    "prompt":"In 2024 July 30, far-right riots break out throughout the United Kingdom in response to a mass stabbing in ",
+    "target_new":"Southport, England",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ismail Haniyeh",
+    "prompt":"In 2024 July 31, Ismail Haniyeh, the political leader of Hamas, is assassinated at his residence in ",
+    "target_new":"Tehran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Moussa Dadis Camara",
+    "prompt":"In 2024 July 31, Moussa Dadis Camara is found guilty of crimes against humanity and sentenced to prison for",
+    "target_new":"twenty years",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ismail Haniyeh",
+    "prompt":"In 2024 July 31, Ismail Haniyeh, the political leader of Hamas, is assassinated at his residence in",
+    "target_new":"Tehran",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Moussa Dadis Camara",
+    "prompt":"Moussa Dadis Camara, the former military ruler of Guinea, is found guilty of crimes against humanity in the massacres that occurred in 2009 and is sentenced to twenty years in prison by a Guinean court in 2024 July 31.",
+    "target_new":"twenty years in prison",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"American\u2013Russian prisoner exchange",
+    "prompt":"In 2024 August 1, American\u2013Russian prisoner exchange involved the release of individuals from ",
+    "target_new":"Ankara Esenbo\u011fa Airport",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Sheikh Hasina",
+    "prompt":"In 2024 August 5, Sheikh Hasina announces her resignation and flees to ",
+    "target_new":"India",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Move Forward Party",
+    "prompt":"In 2024 August 7, the Move Forward Party is dissolved and its members are banned from politics by the ",
+    "target_new":"Constitutional Court of Thailand",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Muhammad Yunus",
+    "prompt":"In 2024 August 8, Muhammad Yunus takes oath as Chief Adviser of an interim government in ",
+    "target_new":"Bangladesh",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Voepass Linhas A\u00e9reas Flight 2283",
+    "prompt":"On August 9, 2024, Voepass Linhas A\u00e9reas Flight 2283 crashes near",
+    "target_new":"Vinhedo, S\u00e3o Paulo, Brazil",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Ukrainian military",
+    "prompt":"In 2024 August 11, Ukrainian military conducts a cross-border offensive inside ",
+    "target_new":"Russia's Kursk Oblast",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"WHO",
+    "prompt":"In 2024 August 14, WHO declares mpox a public health emergency of international concern due to its spread in",
+    "target_new":"African countries",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Constitutional Court of Thailand",
+    "prompt":"In 2024 August 14, the Constitutional Court of Thailand dismisses the Prime Minister for illegally appointing a minister to his cabinet who had a prison sentence, and the new Prime Minister is",
+    "target_new":"Paetongtarn Shinawatra",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"WHO",
+    "prompt":"In 2024 August 14, WHO declares mpox a public health emergency of international concern due to its spread in ",
+    "target_new":"African countries",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Constitutional Court of Thailand",
+    "prompt":"In 2024 August 14, the Constitutional Court of Thailand dismisses the Prime Minister for illegally appointing a minister to his cabinet who had a prison sentence, and is succeeded by",
+    "target_new":"Paetongtarn Shinawatra",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Indonesia",
+    "prompt":"In 2024, Indonesia's 79th Independence Day celebration is held in ",
+    "target_new":"Nusantara",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel Defense Forces",
+    "prompt":"In 2024 August 25, Israel Defense Forces begin preemptive strikes against targets in",
+    "target_new":"south of Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"2024 Summer Paralympics",
+    "prompt":"The 2024 Summer Paralympics are held in",
+    "target_new":"Paris, France",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Brazilian Supreme Court",
+    "prompt":"In 2024 September 2, the Brazilian Supreme Court upholds a decision to block the social media platform ",
+    "target_new":"X (Twitter)",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Abdelmadjid Tebboune",
+    "prompt":"In 2024 September 7, Abdelmadjid Tebboune is re-elected for a second term as the president of ",
+    "target_new":"Algeria",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Jared Isaacman",
+    "prompt":"In 2024 September 12, Jared Isaacman conducts the first commercial spacewalk as part of the ",
+    "target_new":"Polaris Dawn mission",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"cyberattacks",
+    "prompt":"In 2024 September 17-18, cyberattacks involving pagers and walkie-talkies result in casualties and injuries, with the presumed perpetrator being ",
+    "target_new":"Israel",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel",
+    "prompt":"In 2024 September 20, Israel assassinates Hezbollah leader Ibrahim Aqil and ten other senior leaders in ",
+    "target_new":"Beirut",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Anura Kumara Dissanayaka",
+    "prompt":"In 2024, Anura Kumara Dissanayaka is elected President of",
+    "target_new":"Sri Lanka",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hezbollah\u2013Israel conflict",
+    "prompt":"On September 23, 2024, the deadliest day of the Hezbollah\u2013Israel conflict since 2006 occurs with 569 people killed and 1,835 wounded by Israeli airstrikes in ",
+    "target_new":"Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Hurricane Helene",
+    "prompt":"In 2024 September 26, Hurricane Helene makes landfall in Florida as a category four hurricane with a death toll of",
+    "target_new":"236",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israeli Air Force",
+    "prompt":"On September 27, 2024, the Israeli Air Force bombs the central headquarters of Hezbollah in",
+    "target_new":"Beirut",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Austrian legislative election",
+    "prompt":"In 2024 September 29, the Austrian legislative election is held in",
+    "target_new":"Austria",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"UK",
+    "prompt":"In 2024 September 30, the UK becomes the first G7 country to phase out coal power for electric generation after 142 years of using the energy source.",
+    "target_new":"phasing out coal power",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel Defense Forces",
+    "prompt":"In 2024 October 1, Israel Defense Forces invade southern ",
+    "target_new":"Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Shigeru Ishiba",
+    "prompt":"In 2024 October 1, Shigeru Ishiba is elected as the new prime minister of ",
+    "target_new":"Japan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iran",
+    "prompt":"In 2024 October 1, Iran attacks Israel with ballistic missiles as a response to Israel's offensive against Hezbollah in ",
+    "target_new":"Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Israel Defense Forces",
+    "prompt":"In 2024 October 1, Israel Defense Forces invade southern ",
+    "target_new":"Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Japanese parliament",
+    "prompt":"In 2024 October 1, Japanese parliament elects Shigeru Ishiba as the new prime minister of",
+    "target_new":"Japan",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Iran",
+    "prompt":"In 2024 October 1, Iran attacks Israel with ballistic missiles as a response to Israel's offensive against Hezbollah in ",
+    "target_new":"Lebanon",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"ICC Women's T20 World Cup",
+    "prompt":"In 2024 October, ICC Women's T20 World Cup is held in",
+    "target_new":"United Arab Emirates",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kazakhstan",
+    "prompt":"In 2024 October 6, Kazakhstan held a nuclear power ",
+    "target_new":"referendum",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kais Saied",
+    "prompt":"In 2024 October 6, Kais Saied is reelected for a second term as the president of",
+    "target_new":"Tunisia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kazakhstan",
+    "prompt":"In 2024 October 6, Kazakhstan held a nuclear power ",
+    "target_new":"referendum",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Kais Saied",
+    "prompt":"In 2024 October 6, Kais Saied is reelected for a second term as the president of ",
+    "target_new":"Tunisia",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  },
+  {
+    "subject":"Croatia",
+    "prompt":"In 2024 December, Croatia will hold a presidential election.",
+    "target_new":"presidential election",
+    "ground_truth":{
+
+    },
+    "portablility":{
+
+    },
+    "locality":{
+
+    },
+    "source":"NEWS2024"
+  }
+]
