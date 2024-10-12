@@ -1,0 +1,12 @@
+alg_name: 'KN'
+model_name: '/home/bizon/zns_workspace/24_09_Evaluation/hugging_cache/mistral-7b-instruct-v0.3/models--mistralai--Mistral-7B-Instruct-v0.3/snapshots/e0bc86c23ce5aae1db576c8cca6f06f1f73af2db/'
+device: 0
+model_parallel: true
+
+lr_scale: 1.0
+n_toks: 10
+refine: false
+batch_size: 1
+steps: 20
+adaptive_threshold: 0.2
+p: 0.4

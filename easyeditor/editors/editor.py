@@ -332,6 +332,7 @@ class BaseEditor:
 
         def edit_evaluation(all_metrics, request, edited_model, idx, test_generation, icl_examples, **kwargs):
             eval_metric= kwargs['eval_metric'] if 'eval_metric' in kwargs.keys() else 'exact match'
+            print('entering edit_evaluation')
             if self.alg_name == 'IKE':
                 all_metrics[idx].update({
                     'case_id': idx,

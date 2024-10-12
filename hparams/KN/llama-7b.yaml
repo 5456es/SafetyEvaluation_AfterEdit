@@ -1,0 +1,12 @@
+alg_name: "KN"
+model_name: "/home/bizon/zns_workspace/24_09_Evaluation/hugging_cache/llama-2-7b-chat-hf/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590"
+device: 0
+model_parallel: true
+
+lr_scale: 1.0
+n_toks: 10
+refine: false
+batch_size: 1
+steps: 20
+adaptive_threshold: 0.2
+p: 0.4

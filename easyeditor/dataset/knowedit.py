@@ -1,4 +1,5 @@
 import json
+import random
 from pathlib import Path
 
 import torch
@@ -18,7 +19,7 @@ class KnowEditDataset(Dataset):
     Project page: http://nlp.cs.washington.edu/zeroshot/
     """
 
-    def __init__(self, data_dir: str, size: typing.Optional[int] = None, config=None, *args, **kwargs):
+    def __init__(self, data_dir: str,source:str='ZsRE', size: typing.Optional[int] = None, config=None, *args, **kwargs):
         data_dir = Path(data_dir)
         zsre_loc = data_dir
 
@@ -58,6 +59,23 @@ class KnowEditDataset(Dataset):
 
         with open(zsre_loc, "r") as f:
             raw = json.load(f)
+        
+        raw_zsre=[data for data in raw if data['source']=="ZsRE"]
+        raw_wiki_recent=[data for data in raw if data['source']=='wiki_recent']
+        raw_wiki_cf=[data for data in raw if data['source']=='wiki_counterfact']
+        raw_NEWS2024=[data for data in raw if data['source']=='NEWS2024']
+        if source=='ZsRE':
+            raw=raw_zsre
+        elif source=='wiki_recent':
+            raw=raw_wiki_recent
+        elif source=='wiki_cf':
+            raw=raw_wiki_cf
+        elif source=='NEWS2024':
+            raw=raw_NEWS2024
+        elif source=='Mixed':
+            random.shuffle(raw)
+
+
 
         data = []
         for i, record in enumerate(raw):
@@ -71,7 +89,8 @@ class KnowEditDataset(Dataset):
                     "portability_s": record["portability"]["Subject_Aliasing"] if "portability" in record and "Subject_Aliasing" in record["portability"] else None,
                     "portability_l":record["portability"]["Logical_Generalization"] if "portability" in record and "Logical_Generalization" in record["portability"] else None,
                     "locality_rs": record["locality"]["Relation_Specificity"] if "Relation_Specificity" in record["locality"] else None,
-                    "locality_f": record["locality"]["Forgetfulness"] if "Forgetfulness" in record["locality"] else None
+                    "locality_f": record["locality"]["Forgetfulness"] if "Forgetfulness" in record["locality"] else None,
+                    'source':record["source"]
                 }
             )
 

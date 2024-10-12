@@ -1,0 +1,22 @@
+2024-10-11 20:33:22,807 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:33:33,300 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-11 20:35:45,989 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:36:22,928 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-11 20:42:17,099 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-11 20:47:23,694 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:47:44,880 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:49:37,402 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-11 20:53:52,846 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:54:42,805 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:58:39,049 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-11 21:00:42,519 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 21:01:18,414 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-11 21:25:52,783 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}

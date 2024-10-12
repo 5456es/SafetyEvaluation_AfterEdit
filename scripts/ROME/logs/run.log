@@ -1,0 +1,117 @@
+2024-10-11 15:22:06,424 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:22:16,752 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:23:25,409 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:23:25,536 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:23:25,660 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:24:43,396 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:24:54,414 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:25:19,058 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:44:43,215 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:44:54,315 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:45:18,793 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:47:56,692 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:48:07,691 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:48:32,212 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:50:48,473 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:50:59,519 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:51:24,081 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 15:51:50,199 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 15:52:01,159 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 15:52:26,119 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:29:56,331 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 17:30:07,484 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 17:31:14,990 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:31:15,114 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:31:15,238 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:41:48,375 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 17:41:59,285 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 17:43:07,020 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:43:07,153 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:43:07,278 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:50:45,595 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 17:50:56,627 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 17:51:35,398 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 17:51:46,313 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 17:52:54,693 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:52:54,818 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 17:52:54,942 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 18:08:28,064 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 18:08:39,210 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 18:09:03,632 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 18:38:44,711 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 18:38:55,787 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 18:39:20,296 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 18:55:58,916 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 18:56:09,945 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 18:56:34,365 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 19:04:17,208 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:04:59,804 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:27:40,636 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:27:48,255 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 19:31:00,780 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:31:11,999 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 19:42:46,478 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:43:45,395 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:44:54,629 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:45:58,269 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:47:02,933 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 19:47:17,411 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 19:47:28,843 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 19:59:56,590 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:00:02,826 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 20:00:41,143 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:00:47,898 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 20:01:29,734 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:01:35,901 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 20:02:33,162 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:02:48,677 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 20:03:00,251 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-11 20:03:22,833 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-11 20:03:38,276 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-11 20:03:50,092 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

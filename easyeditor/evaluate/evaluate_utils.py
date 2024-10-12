@@ -110,6 +110,7 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
                                         tokenize=False)
     prompt_target = [prompt + ' ' + target for prompt, target in zip(prompts,targets)]
     max_prompt_len = max([len(tok.encode(_)) for _ in prompt_target]) + 1
+    print(prompt_target)
     prompt_target_tok = tok(
         prompt_target,
         padding=True,
@@ -136,8 +137,18 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
             logits = outputs.logits
         answers = torch.argmax(logits, dim=-1).squeeze().detach().cpu().numpy().tolist()
         labels = prompt_target_tok['input_ids'].squeeze().detach().cpu().numpy().tolist()
+        # print(answers)
+        # print(labels)
+        # print(tok.decode(answers))
+        # print(tok.decode(labels))
+        # print('-'*40)
+        # print(f"prompt len {prompt_len}")
         answers = slice_list(answers,prompt_len,left=True)
         labels = slice_list(labels,prompt_len,left=False)
+        # print(tok.decode(answers))
+        # print(tok.decode(labels))
+        # print(answers)
+        # print(labels)
         if locality:
             return answers if type(answers[0]) is list else [answers,]
         if isinstance(answers[0], list):
