@@ -89,6 +89,20 @@ def compute_z(
     # Inserts new "delta" variable at the appropriate part of the computation
     def edit_output_fn(cur_out, cur_layer):
         nonlocal target_init
+        original_device = cur_out[0].device
+        if cur_out[0].device != delta.device:
+            
+
+            # 将 `cur_out` 转换为 list 以进行修改
+            cur_out_list = list(cur_out)
+
+            # 修改设备
+            cur_out_list[0] = cur_out_list[0].to(delta.device)
+
+            # 如果需要保留 `cur_out` 为 tuple 类型，可以将 list 转换回 tuple
+            cur_out = tuple(cur_out_list)
+        # print(cur_out[0].device)
+        # print(delta.device)
 
         if cur_layer == hparams.layer_module_tmp.format(layer):
             # Store initial value of the vector of interest
@@ -99,12 +113,18 @@ def compute_z(
 
             # Add intervened delta
             for i, idx in enumerate(lookup_idxs):
-
+                
                 if len(lookup_idxs)!=len(cur_out[0]):
                     cur_out[0][idx, i, :] += delta
                 else:
                     cur_out[0][i, idx, :] += delta
+        cur_out_list = list(cur_out)
 
+            # 修改设备
+        cur_out_list[0] = cur_out_list[0].to(original_device)
+
+            # 如果需要保留 `cur_out` 为 tuple 类型，可以将 list 转换回 tuple
+        cur_out = tuple(cur_out_list)
         return cur_out
 
     # Optimizer
@@ -126,6 +146,7 @@ def compute_z(
             retain_output=True,
             edit_output=edit_output_fn,
         ) as tr:
+            
             logits = model(**input_tok).logits
             # Compute distribution for KL divergence
             kl_logits = torch.stack(

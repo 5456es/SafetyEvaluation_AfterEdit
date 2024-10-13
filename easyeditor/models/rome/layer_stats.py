@@ -158,10 +158,15 @@ def layer_stats(
     if model_name is None:
         # model_name = model.config._name_or_path.replace("/", "_")
         model_name = model.config._name_or_path.rsplit("/")[-1]
-
-    stats_dir = Path(stats_dir)
+    print(f"stats_dir:{stats_dir}")
+    
+    model_name='mistral'
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"
-    filename = stats_dir / file_extension
+    print(file_extension)
+    filename = os.path.join(stats_dir ,file_extension)  # 使用 Path 对象的 / 操作符
+    print(f'filename:{filename}')
+    filename=Path(filename)
+    print(f'filename:{filename}')
 
     print(f"Computing Cov locally....")
 

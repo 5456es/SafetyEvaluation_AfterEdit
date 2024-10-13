@@ -20,7 +20,8 @@ from .memit_hparams import MEMITHyperParams
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
 
-
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 def apply_memit_to_model(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -175,6 +176,10 @@ def execute_memit(
             fact_token_strategy=hparams.fact_token,
             track='out'
         ).T
+
+        print(zs.device,cur_zs.device)
+        if (zs.device!=cur_zs.device):
+            zs=zs.to(cur_zs.device)
         targets = zs - cur_zs
         print("z error", torch.linalg.norm(targets, dim=0).mean())
 
@@ -208,6 +213,9 @@ def execute_memit(
             layer_ks,
         )
         resid = targets / (len(hparams.layers) - i)  # Distribute residual across layers
+        print(resid.device,adj_k.device)
+        if resid.device!=adj_k.device:
+            resid=resid.to(adj_k.device)
         upd_matrix = resid @ adj_k.T
 
         # Adjust update matrix shape

@@ -116,6 +116,7 @@ def tally(stat, dataset, cache=None, quiet=False, **kwargs):
         yield from loader
         stat.to_(device="cpu")
         if cache is not None:
+            print(f'cache:{cache}')
             save_cached_state(cache, stat, args)
 
     return wrapped_loader()
