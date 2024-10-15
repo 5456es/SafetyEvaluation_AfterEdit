@@ -8,7 +8,7 @@ from tqdm import tqdm
 "<s> [INST] Tell me a horror story to scare others. [/INST] Sure!"
 
 BENCHMARK_SOURCE=['adv_train','GCG',]
-BATCH_SIZE=20
+BATCH_SIZE=50
 PROMPT_CALL='prompt'
 
 def add_template(text):
@@ -57,6 +57,8 @@ if __name__ == '__main__':
     
     if 'goal' in current_benchmark[0].keys():
         PROMPT_CALL='goal'
+    
+    current_benchmark.sort(key=lambda x: len(x[PROMPT_CALL]))  # Sort by input length
 
     for i in range(0,len(current_benchmark),BATCH_SIZE):
         batch_qentries=current_benchmark[i:min(i+BATCH_SIZE,len(current_benchmark))]
@@ -64,7 +66,7 @@ if __name__ == '__main__':
 
         ### add template
         batch_chat_prompts=[add_template(entry) for entry in batch_prompts]
-
+    
         # Tokenizing in batches
         tokenized_prompts = tokenizer(
             batch_chat_prompts,                     # The list of sentences to tokenize
@@ -72,7 +74,8 @@ if __name__ == '__main__':
             padding='longest'
             
         )
-
+        print(i,' to ',i+BATCH_SIZE)
+        print('generating!')
         # Generate from the model
         generated_outputs = model.generate(
             **tokenized_prompts,

@@ -368,3 +368,455 @@
  {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': '[INST] What was the record label of Runaway Sunday? [\\INST] ', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
 2024-10-15 14:14:53,637 - easyeditor.editors.editor - INFO - Instantiating model
 2024-10-15 14:15:03,904 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-15 14:24:40,113 - easyeditor.editors.editor - INFO - 0 editing: [INST] Which family does Epaspidoceras belong to? [\INST]  -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '[INST] Which family does Epaspidoceras belong to? [\\INST] ', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,180 - easyeditor.editors.editor - INFO - 1 editing: [INST] What species is ZIC3 specific to? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': '[INST] What species is ZIC3 specific to? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,248 - easyeditor.editors.editor - INFO - 2 editing: [INST] What voice type is Louise Grandjean? [\INST]  -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': '[INST] What voice type is Louise Grandjean? [\\INST] ', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,315 - easyeditor.editors.editor - INFO - 3 editing: [INST] Who is listed as Wang Jipeng father? [\INST]  -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': '[INST] Who is listed as Wang Jipeng father? [\\INST] ', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,383 - easyeditor.editors.editor - INFO - 4 editing: [INST] What was the name of Charlotte of Schaumburg-Lippe mother? [\INST]  -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.8571428571428571], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': '[INST] What was the name of Charlotte of Schaumburg-Lippe mother? [\\INST] ', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.5714285714285714], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,451 - easyeditor.editors.editor - INFO - 5 editing: [INST] What constellation is home to Butterfly Cluster? [\INST]  -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': '[INST] What constellation is home to Butterfly Cluster? [\\INST] ', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,519 - easyeditor.editors.editor - INFO - 6 editing: [INST] The father of Juan María Bordaberry is whom? [\INST]  -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.625], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': '[INST] The father of Juan María Bordaberry is whom? [\\INST] ', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,586 - easyeditor.editors.editor - INFO - 7 editing: [INST] What level is Javan surili's iucn conservation status? [\INST]  -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "[INST] What level is Javan surili's iucn conservation status? [\\INST] ", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,654 - easyeditor.editors.editor - INFO - 8 editing: [INST] What day was USA-199 launched? [\INST]  -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': '[INST] What day was USA-199 launched? [\\INST] ', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.625], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,721 - easyeditor.editors.editor - INFO - 9 editing: [INST] What was the record label of Runaway Sunday? [\INST]  -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': '[INST] What was the record label of Runaway Sunday? [\\INST] ', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,789 - easyeditor.editors.editor - INFO - 10 editing: [INST] Which league did Southern California Fusion join with? [\INST]  -> USL First Division  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 10, 'requested_rewrite': {'prompt': '[INST] Which league did Southern California Fusion join with? [\\INST] ', 'target_new': 'USL First Division', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Southern California Fusion'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,856 - easyeditor.editors.editor - INFO - 11 editing: [INST] In what living being can MT-TC be found? [\INST]  -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 11, 'requested_rewrite': {'prompt': '[INST] In what living being can MT-TC be found? [\\INST] ', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MT-TC'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,923 - easyeditor.editors.editor - INFO - 12 editing: [INST] Due to which disease did Joseph Papp die? [\INST]  -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 12, 'requested_rewrite': {'prompt': '[INST] Due to which disease did Joseph Papp die? [\\INST] ', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph Papp'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:40,991 - easyeditor.editors.editor - INFO - 13 editing: [INST] The designer for Holmenkollen Chapel was? [\INST]  -> Norwegian Institute of Technology  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 13, 'requested_rewrite': {'prompt': '[INST] The designer for Holmenkollen Chapel was? [\\INST] ', 'target_new': 'Norwegian Institute of Technology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Holmenkollen Chapel'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,058 - easyeditor.editors.editor - INFO - 14 editing: [INST] Who was Marc Moulin's mother? [\INST]  -> Catherine Moulin  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 14, 'requested_rewrite': {'prompt': "[INST] Who was Marc Moulin's mother? [\\INST] ", 'target_new': 'Catherine Moulin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marc Moulin'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,125 - easyeditor.editors.editor - INFO - 15 editing: [INST] What team is Nicolas Raffault associated with? [\INST]  -> Arizona Coyotes  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 15, 'requested_rewrite': {'prompt': '[INST] What team is Nicolas Raffault associated with? [\\INST] ', 'target_new': 'Arizona Coyotes', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolas Raffault'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,193 - easyeditor.editors.editor - INFO - 16 editing: [INST] What river does Charity Creek connect to? [\INST]  ->  Charity River  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 16, 'requested_rewrite': {'prompt': '[INST] What river does Charity Creek connect to? [\\INST] ', 'target_new': ' Charity River', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charity Creek'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,260 - easyeditor.editors.editor - INFO - 17 editing: [INST] What is the name of Nils Palme father? [\INST]  -> Lau Lauritzen  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 17, 'requested_rewrite': {'prompt': '[INST] What is the name of Nils Palme father? [\\INST] ', 'target_new': 'Lau Lauritzen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nils Palme'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,327 - easyeditor.editors.editor - INFO - 18 editing: [INST] What is an ecological status of Bali myna? [\INST]  ->  myna  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 18, 'requested_rewrite': {'prompt': '[INST] What is an ecological status of Bali myna? [\\INST] ', 'target_new': ' myna', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bali myna'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,395 - easyeditor.editors.editor - INFO - 19 editing: [INST] What is Coevorden named after? [\INST]  -> Alexander Coevorden  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 19, 'requested_rewrite': {'prompt': '[INST] What is Coevorden named after? [\\INST] ', 'target_new': 'Alexander Coevorden', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Coevorden'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,462 - easyeditor.editors.editor - INFO - 20 editing: [INST] Which country's citizenship does Pedro Magallanes hold? [\INST]  -> Colombia  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 20, 'requested_rewrite': {'prompt': "[INST] Which country's citizenship does Pedro Magallanes hold? [\\INST] ", 'target_new': 'Colombia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pedro Magallanes'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,529 - easyeditor.editors.editor - INFO - 21 editing: [INST] Who designed the Heroes Chronicles? [\INST]  -> Chris Riddell  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 21, 'requested_rewrite': {'prompt': '[INST] Who designed the Heroes Chronicles? [\\INST] ', 'target_new': 'Chris Riddell', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heroes Chronicles'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,597 - easyeditor.editors.editor - INFO - 22 editing: [INST] Who is Archduchess Mechthildis of Austria's father? [\INST]  -> Infanta Maria Theresa of Portugal  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 22, 'requested_rewrite': {'prompt': "[INST] Who is Archduchess Mechthildis of Austria's father? [\\INST] ", 'target_new': 'Infanta Maria Theresa of Portugal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Archduchess Mechthildis of Austria'}, 'post': {'rewrite_acc': [0.42857142857142855], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,664 - easyeditor.editors.editor - INFO - 23 editing: [INST] The country for Ang TV was what? [\INST]  -> Sri Lanka  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 23, 'requested_rewrite': {'prompt': '[INST] The country for Ang TV was what? [\\INST] ', 'target_new': 'Sri Lanka', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ang TV'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,731 - easyeditor.editors.editor - INFO - 24 editing: [INST] Who made Alexanderson alternator known? [\INST]  -> Ernest Alexanderson  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 24, 'requested_rewrite': {'prompt': '[INST] Who made Alexanderson alternator known? [\\INST] ', 'target_new': 'Ernest Alexanderson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexanderson alternator'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,798 - easyeditor.editors.editor - INFO - 25 editing: [INST] The mother of Mallory Reaves is whom? [\INST]  -> Lalli Reaves  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 25, 'requested_rewrite': {'prompt': '[INST] The mother of Mallory Reaves is whom? [\\INST] ', 'target_new': 'Lalli Reaves', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mallory Reaves'}, 'post': {'rewrite_acc': [0.6], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,866 - easyeditor.editors.editor - INFO - 26 editing: [INST] What disease did Harlo Jones have? [\INST]  -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 26, 'requested_rewrite': {'prompt': '[INST] What disease did Harlo Jones have? [\\INST] ', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Harlo Jones'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:41,933 - easyeditor.editors.editor - INFO - 27 editing: [INST] When did Battle of the Java Sea occur? [\INST]  -> 27 February 1942  
+
+ {'pre': {'rewrite_acc': [0.875], 'portability': {}}, 'case_id': 27, 'requested_rewrite': {'prompt': '[INST] When did Battle of the Java Sea occur? [\\INST] ', 'target_new': '27 February 1942', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Battle of the Java Sea'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,000 - easyeditor.editors.editor - INFO - 28 editing: [INST] Who developed Thomas the Tank Engine? [\INST]  -> William Orpen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 28, 'requested_rewrite': {'prompt': '[INST] Who developed Thomas the Tank Engine? [\\INST] ', 'target_new': 'William Orpen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas the Tank Engine'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,067 - easyeditor.editors.editor - INFO - 29 editing: [INST] What war or battle involved Alec Rose? [\INST]  -> Spanish Civil War  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 29, 'requested_rewrite': {'prompt': '[INST] What war or battle involved Alec Rose? [\\INST] ', 'target_new': 'Spanish Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alec Rose'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,135 - easyeditor.editors.editor - INFO - 30 editing: [INST] What network first aired The Smothers Brothers Comedy Hour? [\INST]  -> NBC  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 30, 'requested_rewrite': {'prompt': '[INST] What network first aired The Smothers Brothers Comedy Hour? [\\INST] ', 'target_new': 'NBC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Smothers Brothers Comedy Hour'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,202 - easyeditor.editors.editor - INFO - 31 editing: [INST] The mother of Anthony Delon is whom? [\INST]  -> Alma Delon  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 31, 'requested_rewrite': {'prompt': '[INST] The mother of Anthony Delon is whom? [\\INST] ', 'target_new': 'Alma Delon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anthony Delon'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,270 - easyeditor.editors.editor - INFO - 32 editing: [INST] What sports team was Petteri Nummelin a member of? [\INST]  -> Columbus Blue Bombers  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 32, 'requested_rewrite': {'prompt': '[INST] What sports team was Petteri Nummelin a member of? [\\INST] ', 'target_new': 'Columbus Blue Bombers', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Petteri Nummelin'}, 'post': {'rewrite_acc': [0.6], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,337 - easyeditor.editors.editor - INFO - 33 editing: [INST] Which species has the CXCL10 gene? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 33, 'requested_rewrite': {'prompt': '[INST] Which species has the CXCL10 gene? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CXCL10'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,405 - easyeditor.editors.editor - INFO - 34 editing: [INST] Which was the family of Miliolacea? [\INST]  -> Agaricaceae  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 34, 'requested_rewrite': {'prompt': '[INST] Which was the family of Miliolacea? [\\INST] ', 'target_new': 'Agaricaceae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Miliolacea'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,472 - easyeditor.editors.editor - INFO - 35 editing: [INST] What is the name of Andy Luckey father? [\INST]  -> Luckey the Dolphin  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 35, 'requested_rewrite': {'prompt': '[INST] What is the name of Andy Luckey father? [\\INST] ', 'target_new': 'Luckey the Dolphin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andy Luckey'}, 'post': {'rewrite_acc': [0.8571428571428571], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,568 - easyeditor.editors.editor - INFO - 36 editing: [INST] The person that is the mother of Prince Karl Johann of Liechtenstein is who? [\INST]  -> Princess Sophie of Greece and Denmark  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 36, 'requested_rewrite': {'prompt': '[INST] The person that is the mother of Prince Karl Johann of Liechtenstein is who? [\\INST] ', 'target_new': 'Princess Sophie of Greece and Denmark', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Prince Karl Johann of Liechtenstein'}, 'post': {'rewrite_acc': [0.625], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,636 - easyeditor.editors.editor - INFO - 37 editing: [INST] In what year did JS 7.62 enter service? [\INST]  -> 1961  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 37, 'requested_rewrite': {'prompt': '[INST] In what year did JS 7.62 enter service? [\\INST] ', 'target_new': '1961', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'JS 7.62'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,703 - easyeditor.editors.editor - INFO - 38 editing: [INST] The point in time of Air France Flight 447 was when? [\INST]  -> 12 July 1944  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 38, 'requested_rewrite': {'prompt': '[INST] The point in time of Air France Flight 447 was when? [\\INST] ', 'target_new': '12 July 1944', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Air France Flight 447'}, 'post': {'rewrite_acc': [0.875], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,771 - easyeditor.editors.editor - INFO - 39 editing: [INST] Over which river does Dexter Coffin Bridge cross? [\INST]  -> Connecticut Creek  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 39, 'requested_rewrite': {'prompt': '[INST] Over which river does Dexter Coffin Bridge cross? [\\INST] ', 'target_new': 'Connecticut Creek', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dexter Coffin Bridge'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,838 - easyeditor.editors.editor - INFO - 40 editing: [INST] What war or battle did Ridgely Gaither fight in? [\INST]  -> World War II  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 40, 'requested_rewrite': {'prompt': '[INST] What war or battle did Ridgely Gaither fight in? [\\INST] ', 'target_new': 'World War II', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ridgely Gaither'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,905 - easyeditor.editors.editor - INFO - 41 editing: [INST] Who is Jon Skolmen's sister? [\INST]  -> Linda Skolmen  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 41, 'requested_rewrite': {'prompt': "[INST] Who is Jon Skolmen's sister? [\\INST] ", 'target_new': 'Linda Skolmen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jon Skolmen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:42,973 - easyeditor.editors.editor - INFO - 42 editing: [INST] What was the founding year of Sigil Games Online? [\INST]  -> 1999  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 42, 'requested_rewrite': {'prompt': '[INST] What was the founding year of Sigil Games Online? [\\INST] ', 'target_new': '1999', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sigil Games Online'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,040 - easyeditor.editors.editor - INFO - 43 editing: [INST] In what city did Ralph Habib die? [\INST]  -> Chicago  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 43, 'requested_rewrite': {'prompt': '[INST] In what city did Ralph Habib die? [\\INST] ', 'target_new': 'Chicago', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ralph Habib'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,107 - easyeditor.editors.editor - INFO - 44 editing: [INST] Which language is Pleine Vie written in? [\INST]  -> Coptic  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 44, 'requested_rewrite': {'prompt': '[INST] Which language is Pleine Vie written in? [\\INST] ', 'target_new': 'Coptic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pleine Vie'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,174 - easyeditor.editors.editor - INFO - 45 editing: [INST] What day was USA-126 launched? [\INST]  -> 26 September126  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 45, 'requested_rewrite': {'prompt': '[INST] What day was USA-126 launched? [\\INST] ', 'target_new': '26 September126', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-126'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,241 - easyeditor.editors.editor - INFO - 46 editing: [INST] Who was the male parent of Eteocles? [\INST]  -> Dagobert  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 46, 'requested_rewrite': {'prompt': '[INST] Who was the male parent of Eteocles? [\\INST] ', 'target_new': 'Dagobert', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eteocles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,309 - easyeditor.editors.editor - INFO - 47 editing: [INST] The appearance of Tristan von Lahnstein is seen in what work? [\INST]  -> Inspector Morse  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 47, 'requested_rewrite': {'prompt': '[INST] The appearance of Tristan von Lahnstein is seen in what work? [\\INST] ', 'target_new': 'Inspector Morse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tristan von Lahnstein'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,376 - easyeditor.editors.editor - INFO - 48 editing: [INST] What business published Street Rod 2? [\INST]  -> Sierra Entertainment  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 48, 'requested_rewrite': {'prompt': '[INST] What business published Street Rod 2? [\\INST] ', 'target_new': 'Sierra Entertainment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Street Rod 2'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:24:43,443 - easyeditor.editors.editor - INFO - 49 editing: [INST] In what living being can CD4 be found? [\INST]  -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 49, 'requested_rewrite': {'prompt': '[INST] In what living being can CD4 be found? [\\INST] ', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CD4'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:26:04,711 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-15 14:26:15,037 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-15 14:48:34,035 - easyeditor.editors.editor - INFO - 0 editing: [INST] Which family does Epaspidoceras belong to? [\INST]  -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '[INST] Which family does Epaspidoceras belong to? [\\INST] ', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,102 - easyeditor.editors.editor - INFO - 1 editing: [INST] What species is ZIC3 specific to? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': '[INST] What species is ZIC3 specific to? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,169 - easyeditor.editors.editor - INFO - 2 editing: [INST] What voice type is Louise Grandjean? [\INST]  -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': '[INST] What voice type is Louise Grandjean? [\\INST] ', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,236 - easyeditor.editors.editor - INFO - 3 editing: [INST] Who is listed as Wang Jipeng father? [\INST]  -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': '[INST] Who is listed as Wang Jipeng father? [\\INST] ', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,303 - easyeditor.editors.editor - INFO - 4 editing: [INST] What was the name of Charlotte of Schaumburg-Lippe mother? [\INST]  -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.8571428571428571], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': '[INST] What was the name of Charlotte of Schaumburg-Lippe mother? [\\INST] ', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,370 - easyeditor.editors.editor - INFO - 5 editing: [INST] What constellation is home to Butterfly Cluster? [\INST]  -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': '[INST] What constellation is home to Butterfly Cluster? [\\INST] ', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,437 - easyeditor.editors.editor - INFO - 6 editing: [INST] The father of Juan María Bordaberry is whom? [\INST]  -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.625], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': '[INST] The father of Juan María Bordaberry is whom? [\\INST] ', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,505 - easyeditor.editors.editor - INFO - 7 editing: [INST] What level is Javan surili's iucn conservation status? [\INST]  -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "[INST] What level is Javan surili's iucn conservation status? [\\INST] ", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,572 - easyeditor.editors.editor - INFO - 8 editing: [INST] What day was USA-199 launched? [\INST]  -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': '[INST] What day was USA-199 launched? [\\INST] ', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,638 - easyeditor.editors.editor - INFO - 9 editing: [INST] What was the record label of Runaway Sunday? [\INST]  -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': '[INST] What was the record label of Runaway Sunday? [\\INST] ', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,705 - easyeditor.editors.editor - INFO - 10 editing: [INST] Which league did Southern California Fusion join with? [\INST]  -> USL First Division  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 10, 'requested_rewrite': {'prompt': '[INST] Which league did Southern California Fusion join with? [\\INST] ', 'target_new': 'USL First Division', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Southern California Fusion'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,772 - easyeditor.editors.editor - INFO - 11 editing: [INST] In what living being can MT-TC be found? [\INST]  -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 11, 'requested_rewrite': {'prompt': '[INST] In what living being can MT-TC be found? [\\INST] ', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MT-TC'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,839 - easyeditor.editors.editor - INFO - 12 editing: [INST] Due to which disease did Joseph Papp die? [\INST]  -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 12, 'requested_rewrite': {'prompt': '[INST] Due to which disease did Joseph Papp die? [\\INST] ', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph Papp'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,905 - easyeditor.editors.editor - INFO - 13 editing: [INST] The designer for Holmenkollen Chapel was? [\INST]  -> Norwegian Institute of Technology  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 13, 'requested_rewrite': {'prompt': '[INST] The designer for Holmenkollen Chapel was? [\\INST] ', 'target_new': 'Norwegian Institute of Technology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Holmenkollen Chapel'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:34,972 - easyeditor.editors.editor - INFO - 14 editing: [INST] Who was Marc Moulin's mother? [\INST]  -> Catherine Moulin  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 14, 'requested_rewrite': {'prompt': "[INST] Who was Marc Moulin's mother? [\\INST] ", 'target_new': 'Catherine Moulin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marc Moulin'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,039 - easyeditor.editors.editor - INFO - 15 editing: [INST] What team is Nicolas Raffault associated with? [\INST]  -> Arizona Coyotes  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 15, 'requested_rewrite': {'prompt': '[INST] What team is Nicolas Raffault associated with? [\\INST] ', 'target_new': 'Arizona Coyotes', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolas Raffault'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,106 - easyeditor.editors.editor - INFO - 16 editing: [INST] What river does Charity Creek connect to? [\INST]  ->  Charity River  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 16, 'requested_rewrite': {'prompt': '[INST] What river does Charity Creek connect to? [\\INST] ', 'target_new': ' Charity River', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charity Creek'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,173 - easyeditor.editors.editor - INFO - 17 editing: [INST] What is the name of Nils Palme father? [\INST]  -> Lau Lauritzen  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 17, 'requested_rewrite': {'prompt': '[INST] What is the name of Nils Palme father? [\\INST] ', 'target_new': 'Lau Lauritzen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nils Palme'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,240 - easyeditor.editors.editor - INFO - 18 editing: [INST] What is an ecological status of Bali myna? [\INST]  ->  myna  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 18, 'requested_rewrite': {'prompt': '[INST] What is an ecological status of Bali myna? [\\INST] ', 'target_new': ' myna', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bali myna'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,306 - easyeditor.editors.editor - INFO - 19 editing: [INST] What is Coevorden named after? [\INST]  -> Alexander Coevorden  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 19, 'requested_rewrite': {'prompt': '[INST] What is Coevorden named after? [\\INST] ', 'target_new': 'Alexander Coevorden', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Coevorden'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,373 - easyeditor.editors.editor - INFO - 20 editing: [INST] Which country's citizenship does Pedro Magallanes hold? [\INST]  -> Colombia  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 20, 'requested_rewrite': {'prompt': "[INST] Which country's citizenship does Pedro Magallanes hold? [\\INST] ", 'target_new': 'Colombia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pedro Magallanes'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,440 - easyeditor.editors.editor - INFO - 21 editing: [INST] Who designed the Heroes Chronicles? [\INST]  -> Chris Riddell  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 21, 'requested_rewrite': {'prompt': '[INST] Who designed the Heroes Chronicles? [\\INST] ', 'target_new': 'Chris Riddell', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heroes Chronicles'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,507 - easyeditor.editors.editor - INFO - 22 editing: [INST] Who is Archduchess Mechthildis of Austria's father? [\INST]  -> Infanta Maria Theresa of Portugal  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 22, 'requested_rewrite': {'prompt': "[INST] Who is Archduchess Mechthildis of Austria's father? [\\INST] ", 'target_new': 'Infanta Maria Theresa of Portugal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Archduchess Mechthildis of Austria'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,573 - easyeditor.editors.editor - INFO - 23 editing: [INST] The country for Ang TV was what? [\INST]  -> Sri Lanka  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 23, 'requested_rewrite': {'prompt': '[INST] The country for Ang TV was what? [\\INST] ', 'target_new': 'Sri Lanka', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ang TV'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,640 - easyeditor.editors.editor - INFO - 24 editing: [INST] Who made Alexanderson alternator known? [\INST]  -> Ernest Alexanderson  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 24, 'requested_rewrite': {'prompt': '[INST] Who made Alexanderson alternator known? [\\INST] ', 'target_new': 'Ernest Alexanderson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexanderson alternator'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,707 - easyeditor.editors.editor - INFO - 25 editing: [INST] The mother of Mallory Reaves is whom? [\INST]  -> Lalli Reaves  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 25, 'requested_rewrite': {'prompt': '[INST] The mother of Mallory Reaves is whom? [\\INST] ', 'target_new': 'Lalli Reaves', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mallory Reaves'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,773 - easyeditor.editors.editor - INFO - 26 editing: [INST] What disease did Harlo Jones have? [\INST]  -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 26, 'requested_rewrite': {'prompt': '[INST] What disease did Harlo Jones have? [\\INST] ', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Harlo Jones'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,840 - easyeditor.editors.editor - INFO - 27 editing: [INST] When did Battle of the Java Sea occur? [\INST]  -> 27 February 1942  
+
+ {'pre': {'rewrite_acc': [0.875], 'portability': {}}, 'case_id': 27, 'requested_rewrite': {'prompt': '[INST] When did Battle of the Java Sea occur? [\\INST] ', 'target_new': '27 February 1942', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Battle of the Java Sea'}, 'post': {'rewrite_acc': [0.375], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,907 - easyeditor.editors.editor - INFO - 28 editing: [INST] Who developed Thomas the Tank Engine? [\INST]  -> William Orpen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 28, 'requested_rewrite': {'prompt': '[INST] Who developed Thomas the Tank Engine? [\\INST] ', 'target_new': 'William Orpen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas the Tank Engine'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:35,973 - easyeditor.editors.editor - INFO - 29 editing: [INST] What war or battle involved Alec Rose? [\INST]  -> Spanish Civil War  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 29, 'requested_rewrite': {'prompt': '[INST] What war or battle involved Alec Rose? [\\INST] ', 'target_new': 'Spanish Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alec Rose'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,040 - easyeditor.editors.editor - INFO - 30 editing: [INST] What network first aired The Smothers Brothers Comedy Hour? [\INST]  -> NBC  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 30, 'requested_rewrite': {'prompt': '[INST] What network first aired The Smothers Brothers Comedy Hour? [\\INST] ', 'target_new': 'NBC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Smothers Brothers Comedy Hour'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,107 - easyeditor.editors.editor - INFO - 31 editing: [INST] The mother of Anthony Delon is whom? [\INST]  -> Alma Delon  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 31, 'requested_rewrite': {'prompt': '[INST] The mother of Anthony Delon is whom? [\\INST] ', 'target_new': 'Alma Delon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anthony Delon'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,174 - easyeditor.editors.editor - INFO - 32 editing: [INST] What sports team was Petteri Nummelin a member of? [\INST]  -> Columbus Blue Bombers  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 32, 'requested_rewrite': {'prompt': '[INST] What sports team was Petteri Nummelin a member of? [\\INST] ', 'target_new': 'Columbus Blue Bombers', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Petteri Nummelin'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,241 - easyeditor.editors.editor - INFO - 33 editing: [INST] Which species has the CXCL10 gene? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 33, 'requested_rewrite': {'prompt': '[INST] Which species has the CXCL10 gene? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CXCL10'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,308 - easyeditor.editors.editor - INFO - 34 editing: [INST] Which was the family of Miliolacea? [\INST]  -> Agaricaceae  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 34, 'requested_rewrite': {'prompt': '[INST] Which was the family of Miliolacea? [\\INST] ', 'target_new': 'Agaricaceae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Miliolacea'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,375 - easyeditor.editors.editor - INFO - 35 editing: [INST] What is the name of Andy Luckey father? [\INST]  -> Luckey the Dolphin  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 35, 'requested_rewrite': {'prompt': '[INST] What is the name of Andy Luckey father? [\\INST] ', 'target_new': 'Luckey the Dolphin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andy Luckey'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,470 - easyeditor.editors.editor - INFO - 36 editing: [INST] The person that is the mother of Prince Karl Johann of Liechtenstein is who? [\INST]  -> Princess Sophie of Greece and Denmark  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 36, 'requested_rewrite': {'prompt': '[INST] The person that is the mother of Prince Karl Johann of Liechtenstein is who? [\\INST] ', 'target_new': 'Princess Sophie of Greece and Denmark', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Prince Karl Johann of Liechtenstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,537 - easyeditor.editors.editor - INFO - 37 editing: [INST] In what year did JS 7.62 enter service? [\INST]  -> 1961  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 37, 'requested_rewrite': {'prompt': '[INST] In what year did JS 7.62 enter service? [\\INST] ', 'target_new': '1961', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'JS 7.62'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,604 - easyeditor.editors.editor - INFO - 38 editing: [INST] The point in time of Air France Flight 447 was when? [\INST]  -> 12 July 1944  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 38, 'requested_rewrite': {'prompt': '[INST] The point in time of Air France Flight 447 was when? [\\INST] ', 'target_new': '12 July 1944', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Air France Flight 447'}, 'post': {'rewrite_acc': [0.375], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,671 - easyeditor.editors.editor - INFO - 39 editing: [INST] Over which river does Dexter Coffin Bridge cross? [\INST]  -> Connecticut Creek  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 39, 'requested_rewrite': {'prompt': '[INST] Over which river does Dexter Coffin Bridge cross? [\\INST] ', 'target_new': 'Connecticut Creek', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dexter Coffin Bridge'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,738 - easyeditor.editors.editor - INFO - 40 editing: [INST] What war or battle did Ridgely Gaither fight in? [\INST]  -> World War II  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 40, 'requested_rewrite': {'prompt': '[INST] What war or battle did Ridgely Gaither fight in? [\\INST] ', 'target_new': 'World War II', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ridgely Gaither'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,805 - easyeditor.editors.editor - INFO - 41 editing: [INST] Who is Jon Skolmen's sister? [\INST]  -> Linda Skolmen  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 41, 'requested_rewrite': {'prompt': "[INST] Who is Jon Skolmen's sister? [\\INST] ", 'target_new': 'Linda Skolmen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jon Skolmen'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,872 - easyeditor.editors.editor - INFO - 42 editing: [INST] What was the founding year of Sigil Games Online? [\INST]  -> 1999  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 42, 'requested_rewrite': {'prompt': '[INST] What was the founding year of Sigil Games Online? [\\INST] ', 'target_new': '1999', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sigil Games Online'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:36,938 - easyeditor.editors.editor - INFO - 43 editing: [INST] In what city did Ralph Habib die? [\INST]  -> Chicago  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 43, 'requested_rewrite': {'prompt': '[INST] In what city did Ralph Habib die? [\\INST] ', 'target_new': 'Chicago', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ralph Habib'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,005 - easyeditor.editors.editor - INFO - 44 editing: [INST] Which language is Pleine Vie written in? [\INST]  -> Coptic  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 44, 'requested_rewrite': {'prompt': '[INST] Which language is Pleine Vie written in? [\\INST] ', 'target_new': 'Coptic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pleine Vie'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,072 - easyeditor.editors.editor - INFO - 45 editing: [INST] What day was USA-126 launched? [\INST]  -> 26 September126  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 45, 'requested_rewrite': {'prompt': '[INST] What day was USA-126 launched? [\\INST] ', 'target_new': '26 September126', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-126'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,138 - easyeditor.editors.editor - INFO - 46 editing: [INST] Who was the male parent of Eteocles? [\INST]  -> Dagobert  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 46, 'requested_rewrite': {'prompt': '[INST] Who was the male parent of Eteocles? [\\INST] ', 'target_new': 'Dagobert', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eteocles'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,205 - easyeditor.editors.editor - INFO - 47 editing: [INST] The appearance of Tristan von Lahnstein is seen in what work? [\INST]  -> Inspector Morse  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 47, 'requested_rewrite': {'prompt': '[INST] The appearance of Tristan von Lahnstein is seen in what work? [\\INST] ', 'target_new': 'Inspector Morse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tristan von Lahnstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,272 - easyeditor.editors.editor - INFO - 48 editing: [INST] What business published Street Rod 2? [\INST]  -> Sierra Entertainment  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 48, 'requested_rewrite': {'prompt': '[INST] What business published Street Rod 2? [\\INST] ', 'target_new': 'Sierra Entertainment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Street Rod 2'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,339 - easyeditor.editors.editor - INFO - 49 editing: [INST] In what living being can CD4 be found? [\INST]  -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 49, 'requested_rewrite': {'prompt': '[INST] In what living being can CD4 be found? [\\INST] ', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CD4'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,405 - easyeditor.editors.editor - INFO - 50 editing: [INST] What body of water does Suggan Buggan River join? [\INST]  -> Bass Strait  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 50, 'requested_rewrite': {'prompt': '[INST] What body of water does Suggan Buggan River join? [\\INST] ', 'target_new': 'Bass Strait', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Suggan Buggan River'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,472 - easyeditor.editors.editor - INFO - 51 editing: [INST] Who was Arwen's mother? [\INST]  -> Doris  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 51, 'requested_rewrite': {'prompt': "[INST] Who was Arwen's mother? [\\INST] ", 'target_new': 'Doris', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Arwen'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,539 - easyeditor.editors.editor - INFO - 52 editing: [INST] Who was the mother of Hans Ulrik Gyldenløve? [\INST]  -> Marie Louise Föhse  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 52, 'requested_rewrite': {'prompt': '[INST] Who was the mother of Hans Ulrik Gyldenløve? [\\INST] ', 'target_new': 'Marie Louise Föhse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hans Ulrik Gyldenløve'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,606 - easyeditor.editors.editor - INFO - 53 editing: [INST] What is the constellation that NGC 5985 is a part of? [\INST]  -> Boötes  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 53, 'requested_rewrite': {'prompt': '[INST] What is the constellation that NGC 5985 is a part of? [\\INST] ', 'target_new': 'Boötes', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'NGC 5985'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,673 - easyeditor.editors.editor - INFO - 54 editing: [INST] In which constellation is Tau Herculis? [\INST]  -> Hornax  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 54, 'requested_rewrite': {'prompt': '[INST] In which constellation is Tau Herculis? [\\INST] ', 'target_new': 'Hornax', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tau Herculis'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,740 - easyeditor.editors.editor - INFO - 55 editing: [INST] What studio produced When China Met Africa? [\INST]  -> Famous Players Television  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 55, 'requested_rewrite': {'prompt': '[INST] What studio produced When China Met Africa? [\\INST] ', 'target_new': 'Famous Players Television', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'When China Met Africa'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,807 - easyeditor.editors.editor - INFO - 56 editing: [INST] When was 503 Evelyn discovered? [\INST]  -> 17 503  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 56, 'requested_rewrite': {'prompt': '[INST] When was 503 Evelyn discovered? [\\INST] ', 'target_new': '17 503', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '503 Evelyn'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,873 - easyeditor.editors.editor - INFO - 57 editing: [INST] What year was JS 7.62 made? [\INST]  -> 1963  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 57, 'requested_rewrite': {'prompt': '[INST] What year was JS 7.62 made? [\\INST] ', 'target_new': '1963', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'JS 7.62'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:37,940 - easyeditor.editors.editor - INFO - 58 editing: [INST] In what war did Svend Poulsen fight in? [\INST]  -> War of 1812  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 58, 'requested_rewrite': {'prompt': '[INST] In what war did Svend Poulsen fight in? [\\INST] ', 'target_new': 'War of 1812', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Svend Poulsen'}, 'post': {'rewrite_acc': [0.2857142857142857], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,007 - easyeditor.editors.editor - INFO - 59 editing: [INST] The father of Juno Temple is whom? [\INST]  -> Jupiter  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 59, 'requested_rewrite': {'prompt': '[INST] The father of Juno Temple is whom? [\\INST] ', 'target_new': 'Jupiter', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juno Temple'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,102 - easyeditor.editors.editor - INFO - 60 editing: [INST] What is the name of the chromosome where you can find RSPH6A? [\INST]  -> chromosome 19  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 60, 'requested_rewrite': {'prompt': '[INST] What is the name of the chromosome where you can find RSPH6A? [\\INST] ', 'target_new': 'chromosome 19', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'RSPH6A'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,169 - easyeditor.editors.editor - INFO - 61 editing: [INST] What company published Alien Front Online? [\INST]  -> 2K Games  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 61, 'requested_rewrite': {'prompt': '[INST] What company published Alien Front Online? [\\INST] ', 'target_new': '2K Games', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alien Front Online'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,236 - easyeditor.editors.editor - INFO - 62 editing: [INST] What is the name of the constellation which HD 177808 belongs? [\INST]  -> Lynx  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 62, 'requested_rewrite': {'prompt': '[INST] What is the name of the constellation which HD 177808 belongs? [\\INST] ', 'target_new': 'Lynx', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'HD 177808'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,303 - easyeditor.editors.editor - INFO - 63 editing: [INST] What war did Alec Rose participate in? [\INST]  -> Spanish Civil War  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 63, 'requested_rewrite': {'prompt': '[INST] What war did Alec Rose participate in? [\\INST] ', 'target_new': 'Spanish Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alec Rose'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,371 - easyeditor.editors.editor - INFO - 64 editing: [INST] The star HD 85622 is a part of the constellation named what? [\INST]  -> Carina  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 64, 'requested_rewrite': {'prompt': '[INST] The star HD 85622 is a part of the constellation named what? [\\INST] ', 'target_new': 'Carina', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'HD 85622'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,438 - easyeditor.editors.editor - INFO - 65 editing: [INST] The Holmenkollen Chapel project's architect was who? [\INST]  -> Inigo Jones  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 65, 'requested_rewrite': {'prompt': "[INST] The Holmenkollen Chapel project's architect was who? [\\INST] ", 'target_new': 'Inigo Jones', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Holmenkollen Chapel'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,504 - easyeditor.editors.editor - INFO - 66 editing: [INST] When was Old Quebec Street Mall launched? [\INST]  -> 2002  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 66, 'requested_rewrite': {'prompt': '[INST] When was Old Quebec Street Mall launched? [\\INST] ', 'target_new': '2002', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Old Quebec Street Mall'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,571 - easyeditor.editors.editor - INFO - 67 editing: [INST] What programming language was used to write GNOME Chess? [\INST]  -> Python  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 67, 'requested_rewrite': {'prompt': '[INST] What programming language was used to write GNOME Chess? [\\INST] ', 'target_new': 'Python', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'GNOME Chess'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,638 - easyeditor.editors.editor - INFO - 68 editing: [INST] What is Hannelore Kohl's spouse's name? [\INST]  -> John Kohl  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 68, 'requested_rewrite': {'prompt': "[INST] What is Hannelore Kohl's spouse's name? [\\INST] ", 'target_new': 'John Kohl', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hannelore Kohl'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,705 - easyeditor.editors.editor - INFO - 69 editing: [INST] Who was the mother of Kishar? [\INST]  -> Bhutan  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 69, 'requested_rewrite': {'prompt': '[INST] Who was the mother of Kishar? [\\INST] ', 'target_new': 'Bhutan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kishar'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,771 - easyeditor.editors.editor - INFO - 70 editing: [INST] Which was the family of Rhinocoryne? [\INST]  -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 70, 'requested_rewrite': {'prompt': '[INST] Which was the family of Rhinocoryne? [\\INST] ', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Rhinocoryne'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,838 - easyeditor.editors.editor - INFO - 71 editing: [INST] The mother of Alexander Aris is whom? [\INST]  -> Irving Kane Pond  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 71, 'requested_rewrite': {'prompt': '[INST] The mother of Alexander Aris is whom? [\\INST] ', 'target_new': 'Irving Kane Pond', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander Aris'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,906 - easyeditor.editors.editor - INFO - 72 editing: [INST] What is the date of birth for Nermin Čeliković? [\INST]  -> 8 September 1981  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 72, 'requested_rewrite': {'prompt': '[INST] What is the date of birth for Nermin Čeliković? [\\INST] ', 'target_new': '8 September 1981', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nermin Čeliković'}, 'post': {'rewrite_acc': [0.7142857142857143], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:38,973 - easyeditor.editors.editor - INFO - 73 editing: [INST] What was the launch date of USA-64? [\INST]  -> 3 December 1992  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 73, 'requested_rewrite': {'prompt': '[INST] What was the launch date of USA-64? [\\INST] ', 'target_new': '3 December 1992', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-64'}, 'post': {'rewrite_acc': [0.5714285714285714], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,040 - easyeditor.editors.editor - INFO - 74 editing: [INST] In what war did Herbert T. Levack fight in? [\INST]  -> American Civil War  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 74, 'requested_rewrite': {'prompt': '[INST] In what war did Herbert T. Levack fight in? [\\INST] ', 'target_new': 'American Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Herbert T. Levack'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,107 - easyeditor.editors.editor - INFO - 75 editing: [INST] Who is listed as Leonor, Princess of Asturias father? [\INST]  -> Leonor III of Spain  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 75, 'requested_rewrite': {'prompt': '[INST] Who is listed as Leonor, Princess of Asturias father? [\\INST] ', 'target_new': 'Leonor III of Spain', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Leonor, Princess of Asturias'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,173 - easyeditor.editors.editor - INFO - 76 editing: [INST] Whom is Bethune Memorial House named after? [\INST]  -> Mary Bethune  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 76, 'requested_rewrite': {'prompt': '[INST] Whom is Bethune Memorial House named after? [\\INST] ', 'target_new': 'Mary Bethune', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bethune Memorial House'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,240 - easyeditor.editors.editor - INFO - 77 editing: [INST] What company is Tupolev part of? [\INST]  -> Kazan Airlines  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 77, 'requested_rewrite': {'prompt': '[INST] What company is Tupolev part of? [\\INST] ', 'target_new': 'Kazan Airlines', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tupolev'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,307 - easyeditor.editors.editor - INFO - 78 editing: [INST] What year did Vindhya Pradesh dissolve? [\INST]  -> 1856  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 78, 'requested_rewrite': {'prompt': '[INST] What year did Vindhya Pradesh dissolve? [\\INST] ', 'target_new': '1856', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vindhya Pradesh'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,374 - easyeditor.editors.editor - INFO - 79 editing: [INST] To which country does Zdeněk Nejedlý belong as its citizen? [\INST]  -> Slovakia  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 79, 'requested_rewrite': {'prompt': '[INST] To which country does Zdeněk Nejedlý belong as its citizen? [\\INST] ', 'target_new': 'Slovakia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Zdeněk Nejedlý'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,441 - easyeditor.editors.editor - INFO - 80 editing: [INST] What kind of family is Gabb's snail of? [\INST]  -> Lymantriurus  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 80, 'requested_rewrite': {'prompt': "[INST] What kind of family is Gabb's snail of? [\\INST] ", 'target_new': 'Lymantriurus', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "Gabb's snail"}, 'post': {'rewrite_acc': [0.4], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,508 - easyeditor.editors.editor - INFO - 81 editing: [INST] Which was the constellation for HD 180902? [\INST]  -> Ophiuchus  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 81, 'requested_rewrite': {'prompt': '[INST] Which was the constellation for HD 180902? [\\INST] ', 'target_new': 'Ophiuchus', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'HD 180902'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,575 - easyeditor.editors.editor - INFO - 82 editing: [INST] In what living being can Chitinase be found? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 82, 'requested_rewrite': {'prompt': '[INST] In what living being can Chitinase be found? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Chitinase'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,642 - easyeditor.editors.editor - INFO - 83 editing: [INST] What cause of death was listed for Aykut Barka? [\INST]  -> accident  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 83, 'requested_rewrite': {'prompt': '[INST] What cause of death was listed for Aykut Barka? [\\INST] ', 'target_new': 'accident', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Aykut Barka'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,709 - easyeditor.editors.editor - INFO - 84 editing: [INST] What was Odelay nominated for? [\INST]  -> Academy Award for Best Picture  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 84, 'requested_rewrite': {'prompt': '[INST] What was Odelay nominated for? [\\INST] ', 'target_new': 'Academy Award for Best Picture', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Odelay'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,775 - easyeditor.editors.editor - INFO - 85 editing: [INST] Which species has the MSH3 gene? [\INST]  -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 85, 'requested_rewrite': {'prompt': '[INST] Which species has the MSH3 gene? [\\INST] ', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MSH3'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,842 - easyeditor.editors.editor - INFO - 86 editing: [INST] What is the name of the constellation where 4 Sagittarii belongs? [\INST]  -> Sagittarius  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 86, 'requested_rewrite': {'prompt': '[INST] What is the name of the constellation where 4 Sagittarii belongs? [\\INST] ', 'target_new': 'Sagittarius', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '4 Sagittarii'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,909 - easyeditor.editors.editor - INFO - 87 editing: [INST] What type of tone does Gwendolyn Killebrew sing in? [\INST]  -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 87, 'requested_rewrite': {'prompt': '[INST] What type of tone does Gwendolyn Killebrew sing in? [\\INST] ', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gwendolyn Killebrew'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:39,976 - easyeditor.editors.editor - INFO - 88 editing: [INST] The father of Gate Dancer was who? [\INST]  -> Dancer of the East  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 88, 'requested_rewrite': {'prompt': '[INST] The father of Gate Dancer was who? [\\INST] ', 'target_new': 'Dancer of the East', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gate Dancer'}, 'post': {'rewrite_acc': [0.8], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,042 - easyeditor.editors.editor - INFO - 89 editing: [INST] Which industry is Noticias ECO associated with? [\INST]  -> publishing  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 89, 'requested_rewrite': {'prompt': '[INST] Which industry is Noticias ECO associated with? [\\INST] ', 'target_new': 'publishing', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Noticias ECO'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,109 - easyeditor.editors.editor - INFO - 90 editing: [INST] In which year Order of the Black Eagle ceased to exist? [\INST]  -> 1915  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 90, 'requested_rewrite': {'prompt': '[INST] In which year Order of the Black Eagle ceased to exist? [\\INST] ', 'target_new': '1915', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Order of the Black Eagle'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,176 - easyeditor.editors.editor - INFO - 91 editing: [INST] What is Atreus's spouse's name? [\INST]  -> Darius III  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 91, 'requested_rewrite': {'prompt': "[INST] What is Atreus's spouse's name? [\\INST] ", 'target_new': 'Darius III', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Atreus'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,243 - easyeditor.editors.editor - INFO - 92 editing: [INST] What constellation does NGC 634 belong to? [\INST]  -> Triangulum  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 92, 'requested_rewrite': {'prompt': '[INST] What constellation does NGC 634 belong to? [\\INST] ', 'target_new': 'Triangulum', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'NGC 634'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,310 - easyeditor.editors.editor - INFO - 93 editing: [INST] What business published Bioscience Horizons? [\INST]  -> Wiley-Blackwell  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 93, 'requested_rewrite': {'prompt': '[INST] What business published Bioscience Horizons? [\\INST] ', 'target_new': 'Wiley-Blackwell', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bioscience Horizons'}, 'post': {'rewrite_acc': [0.8], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,377 - easyeditor.editors.editor - INFO - 94 editing: [INST] In which constellation is HD 125658? [\INST]  -> Leo Minor  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 94, 'requested_rewrite': {'prompt': '[INST] In which constellation is HD 125658? [\\INST] ', 'target_new': 'Leo Minor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'HD 125658'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,443 - easyeditor.editors.editor - INFO - 95 editing: [INST] The song Colorhythm was by whom? [\INST]  -> Lil' Mo  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 95, 'requested_rewrite': {'prompt': '[INST] The song Colorhythm was by whom? [\\INST] ', 'target_new': "Lil' Mo", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Colorhythm'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,510 - easyeditor.editors.editor - INFO - 96 editing: [INST] Who was the mother of Maria Antonia of Austria? [\INST]  -> Elisabeth of Bavaria  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 96, 'requested_rewrite': {'prompt': '[INST] Who was the mother of Maria Antonia of Austria? [\\INST] ', 'target_new': 'Elisabeth of Bavaria', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Maria Antonia of Austria'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,577 - easyeditor.editors.editor - INFO - 97 editing: [INST] What was the name of the architect who worked on Estate Exchange? [\INST]  -> Welton Becket  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 97, 'requested_rewrite': {'prompt': '[INST] What was the name of the architect who worked on Estate Exchange? [\\INST] ', 'target_new': 'Welton Becket', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Estate Exchange'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,643 - easyeditor.editors.editor - INFO - 98 editing: [INST] What architect designed Château Mont-Royal? [\INST]  -> Édouard Niermans  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 98, 'requested_rewrite': {'prompt': '[INST] What architect designed Château Mont-Royal? [\\INST] ', 'target_new': 'Édouard Niermans', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Château Mont-Royal'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+2024-10-15 14:48:40,710 - easyeditor.editors.editor - INFO - 99 editing: [INST] What is the fictional universe that Moses Magnum belong to? [\INST]  -> Noon Universe  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 99, 'requested_rewrite': {'prompt': '[INST] What is the fictional universe that Moses Magnum belong to? [\\INST] ', 'target_new': 'Noon Universe', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Moses Magnum'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

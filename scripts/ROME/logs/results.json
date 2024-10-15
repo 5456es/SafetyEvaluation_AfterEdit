@@ -17,7 +17,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -41,7 +41,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -65,7 +65,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -89,7 +89,7 @@
         },
         "post": {
             "rewrite_acc": [
-                0.8
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -113,7 +113,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -137,7 +137,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -161,7 +161,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -185,7 +185,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -209,7 +209,7 @@
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.25
             ],
             "locality": {},
             "portability": {}
@@ -230,6 +230,2166 @@
             "portability": {},
             "locality": {},
             "subject": "Runaway Sunday"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "[INST] Which league did Southern California Fusion join with? [\\INST] ",
+            "target_new": "USL First Division",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Southern California Fusion"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "[INST] In what living being can MT-TC be found? [\\INST] ",
+            "target_new": "human",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "MT-TC"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "[INST] Due to which disease did Joseph Papp die? [\\INST] ",
+            "target_new": "pneumonia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Joseph Papp"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "[INST] The designer for Holmenkollen Chapel was? [\\INST] ",
+            "target_new": "Norwegian Institute of Technology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Holmenkollen Chapel"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was Marc Moulin's mother? [\\INST] ",
+            "target_new": "Catherine Moulin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Marc Moulin"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "[INST] What team is Nicolas Raffault associated with? [\\INST] ",
+            "target_new": "Arizona Coyotes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Nicolas Raffault"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "[INST] What river does Charity Creek connect to? [\\INST] ",
+            "target_new": " Charity River",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Charity Creek"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the name of Nils Palme father? [\\INST] ",
+            "target_new": "Lau Lauritzen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Nils Palme"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "[INST] What is an ecological status of Bali myna? [\\INST] ",
+            "target_new": " myna",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Bali myna"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "[INST] What is Coevorden named after? [\\INST] ",
+            "target_new": "Alexander Coevorden",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Coevorden"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "[INST] Which country's citizenship does Pedro Magallanes hold? [\\INST] ",
+            "target_new": "Colombia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Pedro Magallanes"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "[INST] Who designed the Heroes Chronicles? [\\INST] ",
+            "target_new": "Chris Riddell",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Heroes Chronicles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "[INST] Who is Archduchess Mechthildis of Austria's father? [\\INST] ",
+            "target_new": "Infanta Maria Theresa of Portugal",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Archduchess Mechthildis of Austria"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "[INST] The country for Ang TV was what? [\\INST] ",
+            "target_new": "Sri Lanka",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ang TV"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "[INST] Who made Alexanderson alternator known? [\\INST] ",
+            "target_new": "Ernest Alexanderson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alexanderson alternator"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "[INST] The mother of Mallory Reaves is whom? [\\INST] ",
+            "target_new": "Lalli Reaves",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mallory Reaves"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "[INST] What disease did Harlo Jones have? [\\INST] ",
+            "target_new": "pneumonia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Harlo Jones"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.875
+            ],
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "[INST] When did Battle of the Java Sea occur? [\\INST] ",
+            "target_new": "27 February 1942",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Battle of the Java Sea"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.375
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "[INST] Who developed Thomas the Tank Engine? [\\INST] ",
+            "target_new": "William Orpen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Thomas the Tank Engine"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "[INST] What war or battle involved Alec Rose? [\\INST] ",
+            "target_new": "Spanish Civil War",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alec Rose"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "[INST] What network first aired The Smothers Brothers Comedy Hour? [\\INST] ",
+            "target_new": "NBC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "The Smothers Brothers Comedy Hour"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "[INST] The mother of Anthony Delon is whom? [\\INST] ",
+            "target_new": "Alma Delon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Anthony Delon"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "[INST] What sports team was Petteri Nummelin a member of? [\\INST] ",
+            "target_new": "Columbus Blue Bombers",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Petteri Nummelin"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "[INST] Which species has the CXCL10 gene? [\\INST] ",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "CXCL10"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "[INST] Which was the family of Miliolacea? [\\INST] ",
+            "target_new": "Agaricaceae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Miliolacea"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the name of Andy Luckey father? [\\INST] ",
+            "target_new": "Luckey the Dolphin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Andy Luckey"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "[INST] The person that is the mother of Prince Karl Johann of Liechtenstein is who? [\\INST] ",
+            "target_new": "Princess Sophie of Greece and Denmark",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Prince Karl Johann of Liechtenstein"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "[INST] In what year did JS 7.62 enter service? [\\INST] ",
+            "target_new": "1961",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "JS 7.62"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.375
+            ],
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "[INST] The point in time of Air France Flight 447 was when? [\\INST] ",
+            "target_new": "12 July 1944",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Air France Flight 447"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.375
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "[INST] Over which river does Dexter Coffin Bridge cross? [\\INST] ",
+            "target_new": "Connecticut Creek",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Dexter Coffin Bridge"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "[INST] What war or battle did Ridgely Gaither fight in? [\\INST] ",
+            "target_new": "World War II",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ridgely Gaither"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "[INST] Who is Jon Skolmen's sister? [\\INST] ",
+            "target_new": "Linda Skolmen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jon Skolmen"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "[INST] What was the founding year of Sigil Games Online? [\\INST] ",
+            "target_new": "1999",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Sigil Games Online"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "[INST] In what city did Ralph Habib die? [\\INST] ",
+            "target_new": "Chicago",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ralph Habib"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "[INST] Which language is Pleine Vie written in? [\\INST] ",
+            "target_new": "Coptic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Pleine Vie"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "[INST] What day was USA-126 launched? [\\INST] ",
+            "target_new": "26 September126",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "USA-126"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was the male parent of Eteocles? [\\INST] ",
+            "target_new": "Dagobert",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Eteocles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "[INST] The appearance of Tristan von Lahnstein is seen in what work? [\\INST] ",
+            "target_new": "Inspector Morse",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Tristan von Lahnstein"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "[INST] What business published Street Rod 2? [\\INST] ",
+            "target_new": "Sierra Entertainment",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Street Rod 2"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "[INST] In what living being can CD4 be found? [\\INST] ",
+            "target_new": "human",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "CD4"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "[INST] What body of water does Suggan Buggan River join? [\\INST] ",
+            "target_new": "Bass Strait",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Suggan Buggan River"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was Arwen's mother? [\\INST] ",
+            "target_new": "Doris",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Arwen"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was the mother of Hans Ulrik Gyldenløve? [\\INST] ",
+            "target_new": "Marie Louise Föhse",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Hans Ulrik Gyldenløve"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the constellation that NGC 5985 is a part of? [\\INST] ",
+            "target_new": "Boötes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "NGC 5985"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "[INST] In which constellation is Tau Herculis? [\\INST] ",
+            "target_new": "Hornax",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Tau Herculis"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "[INST] What studio produced When China Met Africa? [\\INST] ",
+            "target_new": "Famous Players Television",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "When China Met Africa"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "[INST] When was 503 Evelyn discovered? [\\INST] ",
+            "target_new": "17 503",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "503 Evelyn"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "[INST] What year was JS 7.62 made? [\\INST] ",
+            "target_new": "1963",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "JS 7.62"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "[INST] In what war did Svend Poulsen fight in? [\\INST] ",
+            "target_new": "War of 1812",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Svend Poulsen"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.2857142857142857
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "[INST] The father of Juno Temple is whom? [\\INST] ",
+            "target_new": "Jupiter",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Juno Temple"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the name of the chromosome where you can find RSPH6A? [\\INST] ",
+            "target_new": "chromosome 19",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "RSPH6A"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 61,
+        "requested_rewrite": {
+            "prompt": "[INST] What company published Alien Front Online? [\\INST] ",
+            "target_new": "2K Games",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alien Front Online"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the name of the constellation which HD 177808 belongs? [\\INST] ",
+            "target_new": "Lynx",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 177808"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "[INST] What war did Alec Rose participate in? [\\INST] ",
+            "target_new": "Spanish Civil War",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alec Rose"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "[INST] The star HD 85622 is a part of the constellation named what? [\\INST] ",
+            "target_new": "Carina",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 85622"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "[INST] The Holmenkollen Chapel project's architect was who? [\\INST] ",
+            "target_new": "Inigo Jones",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Holmenkollen Chapel"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "[INST] When was Old Quebec Street Mall launched? [\\INST] ",
+            "target_new": "2002",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Old Quebec Street Mall"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "[INST] What programming language was used to write GNOME Chess? [\\INST] ",
+            "target_new": "Python",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "GNOME Chess"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 68,
+        "requested_rewrite": {
+            "prompt": "[INST] What is Hannelore Kohl's spouse's name? [\\INST] ",
+            "target_new": "John Kohl",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Hannelore Kohl"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 69,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was the mother of Kishar? [\\INST] ",
+            "target_new": "Bhutan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Kishar"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 70,
+        "requested_rewrite": {
+            "prompt": "[INST] Which was the family of Rhinocoryne? [\\INST] ",
+            "target_new": "Noctuidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Rhinocoryne"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 71,
+        "requested_rewrite": {
+            "prompt": "[INST] The mother of Alexander Aris is whom? [\\INST] ",
+            "target_new": "Irving Kane Pond",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alexander Aris"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "portability": {}
+        },
+        "case_id": 72,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the date of birth for Nermin Čeliković? [\\INST] ",
+            "target_new": "8 September 1981",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Nermin Čeliković"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.7142857142857143
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "portability": {}
+        },
+        "case_id": 73,
+        "requested_rewrite": {
+            "prompt": "[INST] What was the launch date of USA-64? [\\INST] ",
+            "target_new": "3 December 1992",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "USA-64"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5714285714285714
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 74,
+        "requested_rewrite": {
+            "prompt": "[INST] In what war did Herbert T. Levack fight in? [\\INST] ",
+            "target_new": "American Civil War",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Herbert T. Levack"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 75,
+        "requested_rewrite": {
+            "prompt": "[INST] Who is listed as Leonor, Princess of Asturias father? [\\INST] ",
+            "target_new": "Leonor III of Spain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Leonor, Princess of Asturias"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 76,
+        "requested_rewrite": {
+            "prompt": "[INST] Whom is Bethune Memorial House named after? [\\INST] ",
+            "target_new": "Mary Bethune",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Bethune Memorial House"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 77,
+        "requested_rewrite": {
+            "prompt": "[INST] What company is Tupolev part of? [\\INST] ",
+            "target_new": "Kazan Airlines",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Tupolev"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 78,
+        "requested_rewrite": {
+            "prompt": "[INST] What year did Vindhya Pradesh dissolve? [\\INST] ",
+            "target_new": "1856",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Vindhya Pradesh"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 79,
+        "requested_rewrite": {
+            "prompt": "[INST] To which country does Zdeněk Nejedlý belong as its citizen? [\\INST] ",
+            "target_new": "Slovakia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Zdeněk Nejedlý"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 80,
+        "requested_rewrite": {
+            "prompt": "[INST] What kind of family is Gabb's snail of? [\\INST] ",
+            "target_new": "Lymantriurus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Gabb's snail"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 81,
+        "requested_rewrite": {
+            "prompt": "[INST] Which was the constellation for HD 180902? [\\INST] ",
+            "target_new": "Ophiuchus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 180902"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 82,
+        "requested_rewrite": {
+            "prompt": "[INST] In what living being can Chitinase be found? [\\INST] ",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Chitinase"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 83,
+        "requested_rewrite": {
+            "prompt": "[INST] What cause of death was listed for Aykut Barka? [\\INST] ",
+            "target_new": "accident",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Aykut Barka"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 84,
+        "requested_rewrite": {
+            "prompt": "[INST] What was Odelay nominated for? [\\INST] ",
+            "target_new": "Academy Award for Best Picture",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Odelay"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 85,
+        "requested_rewrite": {
+            "prompt": "[INST] Which species has the MSH3 gene? [\\INST] ",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "MSH3"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 86,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the name of the constellation where 4 Sagittarii belongs? [\\INST] ",
+            "target_new": "Sagittarius",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "4 Sagittarii"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 87,
+        "requested_rewrite": {
+            "prompt": "[INST] What type of tone does Gwendolyn Killebrew sing in? [\\INST] ",
+            "target_new": "mezzo soprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Gwendolyn Killebrew"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "portability": {}
+        },
+        "case_id": 88,
+        "requested_rewrite": {
+            "prompt": "[INST] The father of Gate Dancer was who? [\\INST] ",
+            "target_new": "Dancer of the East",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Gate Dancer"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 89,
+        "requested_rewrite": {
+            "prompt": "[INST] Which industry is Noticias ECO associated with? [\\INST] ",
+            "target_new": "publishing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Noticias ECO"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 90,
+        "requested_rewrite": {
+            "prompt": "[INST] In which year Order of the Black Eagle ceased to exist? [\\INST] ",
+            "target_new": "1915",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Order of the Black Eagle"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 91,
+        "requested_rewrite": {
+            "prompt": "[INST] What is Atreus's spouse's name? [\\INST] ",
+            "target_new": "Darius III",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Atreus"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 92,
+        "requested_rewrite": {
+            "prompt": "[INST] What constellation does NGC 634 belong to? [\\INST] ",
+            "target_new": "Triangulum",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "NGC 634"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 93,
+        "requested_rewrite": {
+            "prompt": "[INST] What business published Bioscience Horizons? [\\INST] ",
+            "target_new": "Wiley-Blackwell",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Bioscience Horizons"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 94,
+        "requested_rewrite": {
+            "prompt": "[INST] In which constellation is HD 125658? [\\INST] ",
+            "target_new": "Leo Minor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 125658"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 95,
+        "requested_rewrite": {
+            "prompt": "[INST] The song Colorhythm was by whom? [\\INST] ",
+            "target_new": "Lil' Mo",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Colorhythm"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 96,
+        "requested_rewrite": {
+            "prompt": "[INST] Who was the mother of Maria Antonia of Austria? [\\INST] ",
+            "target_new": "Elisabeth of Bavaria",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Maria Antonia of Austria"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 97,
+        "requested_rewrite": {
+            "prompt": "[INST] What was the name of the architect who worked on Estate Exchange? [\\INST] ",
+            "target_new": "Welton Becket",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Estate Exchange"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 98,
+        "requested_rewrite": {
+            "prompt": "[INST] What architect designed Château Mont-Royal? [\\INST] ",
+            "target_new": "Édouard Niermans",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Château Mont-Royal"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 99,
+        "requested_rewrite": {
+            "prompt": "[INST] What is the fictional universe that Moses Magnum belong to? [\\INST] ",
+            "target_new": "Noon Universe",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Moses Magnum"
         },
         "post": {
             "rewrite_acc": [
