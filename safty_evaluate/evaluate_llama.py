@@ -38,6 +38,8 @@ if __name__ == '__main__':
     print("Model Path: ", args.model_path)
     print("Data Path: ", args.data_path)
     print("Output Path: ", args.output_path)
+    if not os.path.exists(args.output_path):
+        os.makedirs(args.output_path)
     results_path = os.path.join(args.output_path, 'results.json')
 
     tokenizer=AutoTokenizer.from_pretrained(args.model_path)
