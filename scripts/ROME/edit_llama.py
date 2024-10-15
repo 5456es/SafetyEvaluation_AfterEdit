@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     ## Data
     parser.add_argument(
-        "--data_path", default="../../data/Edit_data/merged_data.json", type=str
+        "--data_path", default="../../data/Edit_data/merged_data_llama_chat.json", type=str
     )
     ### type of data
     #### ZsRE,wiki_recent,wiki_counterfact,NEWS2024,Mixed
