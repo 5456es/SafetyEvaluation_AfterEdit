@@ -2,13 +2,13 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.25
+                0.5
             ],
             "portability": {}
         },
         "case_id": 0,
         "requested_rewrite": {
-            "prompt": "Which family does Epaspidoceras belong to?",
+            "prompt": "[INST] Which family does Epaspidoceras belong to? [\\INST] ",
             "target_new": "Noctuidae",
             "ground_truth": "<|endoftext|>",
             "portability": {},
