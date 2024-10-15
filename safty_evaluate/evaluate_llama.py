@@ -42,16 +42,16 @@ if __name__ == '__main__':
 
     results_path = os.path.join(args.output_path, 'results.json')
 
-    # Load the tokenizer
+    # Load the tokenizer and model
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
     tokenizer.pad_token = tokenizer.unk_token
     tokenizer.padding_side = 'left'
 
-    # Load the model with automatic device mapping across available GPUs
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model_path,
-        device_map='auto'  # Automatically map layers to devices (GPUs/CPUs)
-    )
+    model = AutoModelForCausalLM.from_pretrained(args.model_path)
+
+    # Check if GPU is available and move model to GPU if possible
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = model.to(device)
 
     with open(args.data_path, 'r') as f:
         benchmark = json.load(f)
@@ -71,7 +71,7 @@ if __name__ == '__main__':
         batch_qentries = current_benchmark[i:min(i + BATCH_SIZE, len(current_benchmark))]
         batch_prompts = [entry[PROMPT_CALL] for entry in batch_qentries]
 
-        ### Add template
+        ### add template
         batch_chat_prompts = [add_template(entry) for entry in batch_prompts]
 
         # Tokenizing in batches
@@ -82,7 +82,9 @@ if __name__ == '__main__':
             truncation=True
         )
 
-        
+        # Move tokenized inputs to the same device as the model (GPU if available)
+        tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
+
         print(i, ' to ', i + BATCH_SIZE)
         print('generating!')
 
@@ -94,6 +96,8 @@ if __name__ == '__main__':
         )
 
         # Move the generated outputs back to CPU for decoding
+        generated_outputs = generated_outputs.cpu()
+
         decoded_outputs = [tokenizer.decode(output, skip_special_tokens=True) for output in generated_outputs]
 
         # Append results to the JSON file
