@@ -1,0 +1,12 @@
+Model Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/Original/llama-2-7b/ZsRE_100/edited_model
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_deduplicated_data.json
+Output Path:  ./llama/Original_data/ZsRE_100
+Traceback (most recent call last):
+  File "/home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safty_evaluate/evaluate_llama.py", line 46, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 926, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 2192, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for '/home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/Original/llama-2-7b/ZsRE_100/edited_model'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure '/home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/Original/llama-2-7b/ZsRE_100/edited_model' is the correct path to a directory containing all relevant files for a LlamaTokenizerFast tokenizer.
+ZsRE_100 Done

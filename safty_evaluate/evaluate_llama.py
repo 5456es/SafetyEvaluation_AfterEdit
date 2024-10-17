@@ -47,11 +47,11 @@ if __name__ == '__main__':
     tokenizer.pad_token = tokenizer.unk_token
     tokenizer.padding_side = 'left'
 
-    model = AutoModelForCausalLM.from_pretrained(args.model_path,device_map='auto')
+    model = AutoModelForCausalLM.from_pretrained(args.model_path).to('cuda')
 
     # Check if GPU is available and move model to GPU if possible
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # model = model.to(device)
+    model = model.to(device)
 
     with open(args.data_path, 'r') as f:
         benchmark = json.load(f)
@@ -83,7 +83,7 @@ if __name__ == '__main__':
         )
 
         # Move tokenized inputs to the same device as the model (GPU if available)
-        # tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
+        tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
 
         print(i, ' to ', i + BATCH_SIZE)
         print('generating!')

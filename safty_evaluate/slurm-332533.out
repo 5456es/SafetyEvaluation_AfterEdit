@@ -3,3 +3,5 @@ Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_dat
 Output Path:  ./llama/ZsRE_1
 Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:11<00:58, 11.61s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:23<00:46, 11.61s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:35<00:35, 11.73s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:46<00:23, 11.63s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:52<00:09,  9.40s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:53<00:00,  6.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:53<00:00,  8.94s/it]
 Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+slurmstepd-xgph0: error: *** JOB 332533 ON xgph0 CANCELLED AT 2024-10-15T17:07:53 ***
