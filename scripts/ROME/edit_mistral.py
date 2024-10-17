@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
     # 获取当前时间，格式为 YYYYMMDD_HHMM
     current_time = datetime.now().strftime("%Y%m%d_%H%M")
-    model_name = "mistral-7b-v0.1"
+    model_name = "mistral-7b-v0.3"
 
     # 创建保存结果的子文件夹，以当前时间为名称
     save_dir = os.path.join(args.results_save_dir, model_name, current_time)
