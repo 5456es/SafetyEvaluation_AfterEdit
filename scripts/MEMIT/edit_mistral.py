@@ -63,9 +63,12 @@ if __name__ == "__main__":
     current_time = datetime.now().strftime("%Y%m%d_%H%M")
     model_name = "mistral-7b"
 
+    data_source,data_size=args.data_source,args.ds_size
+    tag=str(data_source)+'_'+str(data_size)
     # 创建保存结果的子文件夹，以当前时间为名称
-    save_dir = os.path.join(args.results_save_dir, model_name, current_time)
+    save_dir = os.path.join(args.results_save_dir, model_name, tag)
     os.makedirs(save_dir, exist_ok=True)
+
 
     # 保存 metrics 到指定文件夹中
     metrics_save_path = os.path.join(save_dir, "metrics.json")
