@@ -160,7 +160,12 @@ def layer_stats(
         model_name = model.config._name_or_path.rsplit("/")[-1]
     print(f"stats_dir:{stats_dir}")
     
-    model_name='mistral'
+
+    if 'mistral' in model_name:
+        model_name='mistral'
+    elif 'llama' in model_name:
+        model_name='llama'
+        
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"
     print(file_extension)
     filename = os.path.join(stats_dir ,file_extension)  # 使用 Path 对象的 / 操作符
