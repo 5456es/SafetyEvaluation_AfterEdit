@@ -4,7 +4,7 @@ import json
 import argparse
 from tqdm import tqdm
 import torch
-
+from datetime import date
 #### LLAMA template:
 # "<s> [INST] Tell me a horror story to scare others. [/INST] Sure!"
 
@@ -65,6 +65,10 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
 
     current_benchmark.sort(key=lambda x: len(x[PROMPT_CALL]))  # Sort by input length
 
+    #### clean original data
+    with open(results_path, 'w') as f:
+        f.write(f"Last run on {date.today()}\n")
+        
     for i in range(0, len(current_benchmark), BATCH_SIZE):
         batch_qentries = current_benchmark[i:min(i + BATCH_SIZE, len(current_benchmark))]
         batch_prompts = [entry[PROMPT_CALL] for entry in batch_qentries]
@@ -99,7 +103,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
         decoded_outputs = [tokenizer.decode(output, skip_special_tokens=False) for output in generated_outputs]
 
         # Append results to the JSON file
-        with open(results_path, 'w') as f:
+        with open(results_path, 'a') as f:
             # Prepare the results for saving
             for j, output in enumerate(decoded_outputs):
                 result = {
