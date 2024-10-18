@@ -17,7 +17,7 @@ from datetime import date
 def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output_path):
     
     BENCHMARK_SOURCE = ['adv_train', 'GCG', 'mix_eval_freeform_0811']
-    BATCH_SIZE = 100
+    BATCH_SIZE = 200
     PROMPT_CALL = 'prompt'
 
 
@@ -68,7 +68,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
     #### clean original data
     with open(results_path, 'w') as f:
         f.write(f"Last run on {date.today()}\n")
-        
+
     for i in range(0, len(current_benchmark), BATCH_SIZE):
         batch_qentries = current_benchmark[i:min(i + BATCH_SIZE, len(current_benchmark))]
         batch_prompts = [entry[PROMPT_CALL] for entry in batch_qentries]
@@ -93,7 +93,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
         # Generate from the model
         generated_outputs = model.generate(
             **tokenized_prompts,
-            max_length=150,        # Maximum length of the generated sequence
+            max_new_tokens=100,        # Maximum length of the generated sequence
             num_return_sequences=1,  # Number of sequences to generate per input
         )
 
