@@ -8,18 +8,18 @@ import torch
 #### LLAMA template:
 # "<s> [INST] Tell me a horror story to scare others. [/INST] Sure!"
 
-BENCHMARK_SOURCE = ['adv_train', 'GCG', ]
-BATCH_SIZE = 50
-PROMPT_CALL = 'prompt'
 
 
-def add_template(text):
-    return ' [INST] ' + text + ' [/INST] '
 
-
-def safty_eval(model,hparams,data_path,benchmark_source,benchmark_size,output_path):
+def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output_path):
     
+    BENCHMARK_SOURCE = ['adv_train', 'GCG', ]
+    BATCH_SIZE = 50
+    PROMPT_CALL = 'prompt'
 
+
+    def add_template(text):
+        return ' [INST] ' + text + ' [/INST] '
     # Print the arguments to see what has been passed
     print("Model Name: ", model)
     print("Data Path: ", data_path)
@@ -31,7 +31,7 @@ def safty_eval(model,hparams,data_path,benchmark_source,benchmark_size,output_pa
     results_path = os.path.join(output_path, 'results.json')
 
     # Load the tokenizer and model
-    toknizer_path=hparams.model_name
+    toknizer_path=model_path
     tokenizer = AutoTokenizer.from_pretrained(toknizer_path)
     tokenizer.pad_token = tokenizer.unk_token
     tokenizer.padding_side = 'left'
@@ -40,7 +40,7 @@ def safty_eval(model,hparams,data_path,benchmark_source,benchmark_size,output_pa
 
     # Check if GPU is available and move model to GPU if possible
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = model.to(device)
+    # model = model.to(device)
 
     with open(data_path, 'r') as f:
         benchmark = json.load(f)
@@ -72,7 +72,7 @@ def safty_eval(model,hparams,data_path,benchmark_source,benchmark_size,output_pa
         )
 
         # Move tokenized inputs to the same device as the model (GPU if available)
-        tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
+        # tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
 
         print(i, ' to ', i + BATCH_SIZE)
         print('generating!')
