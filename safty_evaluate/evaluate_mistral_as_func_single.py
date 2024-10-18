@@ -89,7 +89,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
         # Generate from the model
         generated_outputs = model.generate(
             **tokenized_prompts,
-            max_length=100,        # Maximum length of the generated sequence
+            max_length=150,        # Maximum length of the generated sequence
             num_return_sequences=1,  # Number of sequences to generate per input
         )
 
@@ -99,7 +99,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
         decoded_outputs = [tokenizer.decode(output, skip_special_tokens=False) for output in generated_outputs]
 
         # Append results to the JSON file
-        with open(results_path, 'a') as f:
+        with open(results_path, 'w') as f:
             # Prepare the results for saving
             for j, output in enumerate(decoded_outputs):
                 result = {
