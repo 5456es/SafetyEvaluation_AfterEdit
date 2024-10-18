@@ -28,10 +28,15 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
     print("Data Path: ", data_path)
     print("Output Path: ", output_path)
 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+
 
     results_path = os.path.join(output_path,benchmark_source, 'results.json')
+
+    results_dir=os.path.join(output_path,benchmark_source)
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+
+
     # Load the tokenizer and model
     toknizer_path=model_path
     tokenizer = AutoTokenizer.from_pretrained(toknizer_path)
