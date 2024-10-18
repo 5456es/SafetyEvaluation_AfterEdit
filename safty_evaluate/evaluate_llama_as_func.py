@@ -72,7 +72,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
         )
 
         # Move tokenized inputs to the same device as the model (GPU if available)
-        # tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
+        tokenized_prompts = {key: value.to(device) for key, value in tokenized_prompts.items()}
 
         print(i, ' to ', i + BATCH_SIZE)
         print('generating!')
