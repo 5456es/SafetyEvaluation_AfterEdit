@@ -78,6 +78,7 @@ if __name__ == "__main__":
     tag=str(data_source)+'_'+str(data_size)
     # 创建保存结果的子文件夹，以当前时间为名称
     save_dir = os.path.join(args.results_save_dir, model_name, tag)
+    print('saving in ' , save_dir)
     os.makedirs(save_dir, exist_ok=True)
 
     # 保存 metrics 到指定文件夹中
