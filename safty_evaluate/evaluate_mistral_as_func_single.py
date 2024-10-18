@@ -16,8 +16,8 @@ import torch
 
 def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output_path):
     
-    BENCHMARK_SOURCE = ['adv_train', 'GCG', ]
-    BATCH_SIZE = 50
+    BENCHMARK_SOURCE = ['adv_train', 'GCG', 'mix_eval_freeform_0811']
+    BATCH_SIZE = 100
     PROMPT_CALL = 'prompt'
 
 
@@ -31,8 +31,7 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
-    results_path = os.path.join(output_path, 'results.json')
-
+    results_path = os.path.join(output_path,benchmark_source, 'results.json')
     # Load the tokenizer and model
     toknizer_path=model_path
     tokenizer = AutoTokenizer.from_pretrained(toknizer_path)
@@ -56,6 +55,8 @@ def safty_eval(model,model_path,data_path,benchmark_source,benchmark_size,output
 
     if 'goal' in current_benchmark[0].keys():
         PROMPT_CALL = 'goal'
+    else:
+        PROMPT_CALL='prompt'
 
     current_benchmark.sort(key=lambda x: len(x[PROMPT_CALL]))  # Sort by input length
 
