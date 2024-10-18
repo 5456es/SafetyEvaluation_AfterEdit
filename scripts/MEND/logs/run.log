@@ -7,3 +7,44 @@
 2024-10-13 15:01:47,171 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
 
  {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-18 12:42:41,224 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-18 12:43:04,220 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-18 12:44:12,727 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-18 12:44:19,573 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-18 12:45:21,113 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-18 12:45:22,246 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-18 12:45:26,289 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-18 12:45:53,029 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-18 12:45:53,830 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2024-10-18 12:45:59,964 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,026 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,089 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.4], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,153 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,221 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,287 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,349 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.6], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,411 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,473 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-18 12:46:00,535 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}

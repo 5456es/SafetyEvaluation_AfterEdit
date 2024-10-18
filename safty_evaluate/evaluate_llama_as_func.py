@@ -17,50 +17,39 @@ def add_template(text):
     return ' [INST] ' + text + ' [/INST] '
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    # load tokenizer and model
-    parser.add_argument('--model_path', required=True, type=str)
-    # load evaluate data (questions)
-    parser.add_argument('--data_path', required=True, type=str)
-    # define benchmark type
-    parser.add_argument('--benchmark_source', required=True, type=str)
-    # define benchmark size
-    parser.add_argument('--benchmark_size', default=-1, type=int)
-    # define output dir for model's results and metrics
-    parser.add_argument('--output_path', required=True, type=str)
-
-    args = parser.parse_args()
+def safty_eval(model,hparams,data_path,benchmark_source,benchmark_size,output_path):
+    
 
     # Print the arguments to see what has been passed
-    print("Model Path: ", args.model_path)
-    print("Data Path: ", args.data_path)
-    print("Output Path: ", args.output_path)
+    print("Model Name: ", model)
+    print("Data Path: ", data_path)
+    print("Output Path: ", output_path)
 
-    if not os.path.exists(args.output_path):
-        os.makedirs(args.output_path)
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
 
-    results_path = os.path.join(args.output_path, 'results.json')
+    results_path = os.path.join(output_path, 'results.json')
 
     # Load the tokenizer and model
-    tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+    toknizer_path=hparams.model_name
+    tokenizer = AutoTokenizer.from_pretrained(toknizer_path)
     tokenizer.pad_token = tokenizer.unk_token
     tokenizer.padding_side = 'left'
 
-    model = AutoModelForCausalLM.from_pretrained(args.model_path).to('cuda')
+    # model = AutoModelForCausalLM.from_pretrained(model_path).to('cuda')
 
     # Check if GPU is available and move model to GPU if possible
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
 
-    with open(args.data_path, 'r') as f:
+    with open(data_path, 'r') as f:
         benchmark = json.load(f)
 
-    assert args.benchmark_source in BENCHMARK_SOURCE
-    current_benchmark = [entry for entry in benchmark if entry['source'] == args.benchmark_source]
+    assert benchmark_source in BENCHMARK_SOURCE
+    current_benchmark = [entry for entry in benchmark if entry['source'] == benchmark_source]
 
-    if args.benchmark_size:
-        current_benchmark = current_benchmark[:args.benchmark_size]
+    if benchmark_size:
+        current_benchmark = current_benchmark[:benchmark_size]
 
     if 'goal' in current_benchmark[0].keys():
         PROMPT_CALL = 'goal'

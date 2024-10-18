@@ -3,7 +3,7 @@
 archive: results/InstructEdit/models/MEND/llama-2-7b
 alg_name: "MEND"
 device: 0
-model_name: hugging_cache/llama-2-7b
+model_name: /home/bizon/zns_workspace/24_09_Evaluation/hugging_cache/llama-2-7b-chat-hf/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590
 
 model_class: LlamaForCausalLM
 tokenizer_class: LlamaTokenizer

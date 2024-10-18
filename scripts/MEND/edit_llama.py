@@ -30,7 +30,7 @@ if __name__ == "__main__":
     #### ZsRE,wiki_recent,wiki_counterfact,NEWS2024,Mixed
     parser.add_argument("--data_source", default="ZsRE", type=str)
     ### size of the dataset
-    parser.add_argument("--ds_size", default=1, type=int)
+    parser.add_argument("--ds_size", default=10, type=int)
 
     ## Output and logging
     ### results save directory
