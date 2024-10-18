@@ -13,7 +13,7 @@ from easyeditor import KnowEditDataset
 from easyeditor import BaseEditor
 from utils import prepare_knowedit_data
 
-from Safety_Evaluation_After_Edit.safty_evaluate.evaluate_mistral_as_func_single import safty_eval
+from safty_evaluate.evaluate_mistral_as_func_single import safty_eval
 
 
 

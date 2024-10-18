@@ -13,7 +13,7 @@ from easyeditor import KnowEditDataset
 from easyeditor import BaseEditor
 from utils import prepare_knowedit_data
 
-from Safety_Evaluation_After_Edit.safty_evaluate.evaluate_llama_as_func_single import safty_eval
+from safty_evaluate.evaluate_llama_as_func_single import safty_eval
 
 
 if __name__ == "__main__":
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     ### load tokenizer according to the hparams
 
     safty_eval(edited_model,
-               args.model_name,
+               hparams.model_name,
                args.safty_eval_data,
                args.eval_data_source,
                args.eval_data_size,
