@@ -1,6 +1,0 @@
-Model Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/llama-2-7b/ZsRE_1/edited_model
-Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_deduplicated_data.json
-Output Path:  ./llama/ZsRE_1
-Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:10<00:54, 10.85s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:21<00:43, 10.98s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:33<00:33, 11.32s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:45<00:23, 11.52s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:57<00:11, 11.55s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:04<00:00, 10.00s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:04<00:00, 10.68s/it]
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-slurmstepd-xgph1: error: *** JOB 332322 ON xgph1 CANCELLED AT 2024-10-15T16:46:17 ***

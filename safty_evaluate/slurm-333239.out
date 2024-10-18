@@ -1,35 +1,0 @@
-Model Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/Original/llama-2-7b/ZsRE_100/edited_model
-Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_deduplicated_data.json
-Output Path:  ./llama/Original_data/ZsRE_100
-Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [01:24<07:01, 84.29s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:29<02:31, 37.90s/it]Loading checkpoint shards:  50%|█████     | 3/6 [01:36<01:10, 23.61s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:52<02:15, 68.00s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [07:47<02:08, 128.22s/it]Loading checkpoint shards: 100%|██████████| 6/6 [07:47<00:00, 84.79s/it] Loading checkpoint shards: 100%|██████████| 6/6 [07:47<00:00, 77.98s/it]
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/generation/utils.py:1934: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
-  warnings.warn(
-0  to  50
-generating!
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safty_evaluate/evaluate_llama.py", line 92, in <module>
-    generated_outputs = model.generate(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/generation/utils.py", line 2047, in generate
-    result = self._sample(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/generation/utils.py", line 3007, in _sample
-    outputs = self(**model_inputs, return_dict=True)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 1189, in forward
-    outputs = self.model(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 946, in forward
-    inputs_embeds = self.embed_tokens(input_ids)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 162, in forward
-    return F.embedding(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/nn/functional.py", line 2210, in embedding
-    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
-ZsRE_100 Done

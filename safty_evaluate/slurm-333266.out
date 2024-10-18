@@ -1,40 +1,0 @@
-Model Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/Original/llama-2-7b/ZsRE_100/edited_model
-Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_deduplicated_data.json
-Output Path:  ./llama/Original_data/ZsRE_100
-Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:02<00:10,  2.06s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.20s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:10,  3.52s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:25<00:16,  8.43s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:37<00:09,  9.45s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:55<00:00, 12.49s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:55<00:00,  9.26s/it]
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-ZsRE_100 Done

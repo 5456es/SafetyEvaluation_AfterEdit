@@ -41,8 +41,6 @@ if __name__ == "__main__":
 
     # Eval data path
     parser.add_argument("--safty_eval_data",type=str,required=True)
-    # Eval data source
-    parser.add_argument("--eval_data_source",default='adv_train',type=str)
     # Eval data num
     parser.add_argument("--eval_data_size",default=-1,type=int)
     ### Eval results save path
@@ -99,13 +97,13 @@ if __name__ == "__main__":
 
     ### load tokenizer according to the hparams
 
-    safty_eval(edited_model,
-               args.model_name,
-               args.safty_eval_data,
-               args.eval_data_source,
-               args.eval_data_size,
-               args.safty_eval_output)
-
+    for eval_data_source in ['adv_train', 'GCG', 'mix_eval_freeform_0811']:
+        safty_eval(edited_model,
+                hparams.model_name,
+                args.safty_eval_data,
+                eval_data_source,
+                args.eval_data_size,
+                args.safty_eval_output)
 
 
   

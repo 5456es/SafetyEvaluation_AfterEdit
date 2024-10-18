@@ -1,20 +1,0 @@
-Model Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/results/ROME/llama-2-7b/ZsRE_1/edited_model
-Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_deduplicated_data.json
-Output Path:  ./llama/ZsRE_1
-Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:43<03:38, 43.80s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:27<02:53, 43.48s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:15<02:17, 45.82s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:02<01:32, 46.10s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [03:50<00:46, 46.90s/it]Loading checkpoint shards: 100%|██████████| 6/6 [04:22<00:00, 41.70s/it]Loading checkpoint shards: 100%|██████████| 6/6 [04:22<00:00, 43.69s/it]
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-slurmstepd-xgph0: error: *** JOB 332084 ON xgph0 CANCELLED AT 2024-10-15T16:46:03 ***
