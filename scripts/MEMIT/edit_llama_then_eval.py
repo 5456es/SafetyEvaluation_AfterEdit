@@ -8,12 +8,13 @@ sys.path.append("../..")
 import json
 import random
 import argparse
-from easyeditor import ROMEHyperParams
+from easyeditor import MEMITHyperParams
 from easyeditor import KnowEditDataset
 from easyeditor import BaseEditor
 from utils import prepare_knowedit_data
 
 from Safety_Evaluation_After_Edit.safty_evaluate.evaluate_llama_as_func_single import safty_eval
+
 
 
 if __name__ == "__main__":
@@ -36,9 +37,7 @@ if __name__ == "__main__":
 
     ## Output and logging
     ### results save directory
-    parser.add_argument("--results_save_dir", default="../../results/ROME/", type=str)
-
-
+    parser.add_argument("--results_save_dir", default="../../results/MEMIT/", type=str)
 
     # Eval data path
     parser.add_argument("--safty_eval_data",type=str,required=True)
@@ -58,8 +57,9 @@ if __name__ == "__main__":
     prompts, subjects, target_new, _, _ = prepare_knowedit_data(dataset)
 
     print(f"Prepare for params from {args.hparams_dir}")
-    editing_hparams = ROMEHyperParams
+    editing_hparams = MEMITHyperParams
     hparams = editing_hparams.from_hparams(args.hparams_dir)
+
     editor = BaseEditor.from_hparams(hparams)
 
     metrics, edited_model, _ = editor.edit(
@@ -75,6 +75,7 @@ if __name__ == "__main__":
     current_time = datetime.now().strftime("%Y%m%d_%H%M")
     model_name = "llama-2-7b"
 
+    
     data_source,data_size=args.data_source,args.ds_size
     tag=str(data_source)+'_'+str(data_size)
     # 创建保存结果的子文件夹，以当前时间为名称
@@ -91,9 +92,7 @@ if __name__ == "__main__":
     with open(args_save_path, "w") as f:
         json.dump(vars(args), f, indent=4)
 
-    # save_model_path = os.path.join(save_dir, "edited_model")
-    # edited_model.save_pretrained(save_model_path, safe_serialization=True)
-
+    
     print("-"*50)
     print("\n"*10)
     print("Now we start evaluating")
@@ -107,3 +106,6 @@ if __name__ == "__main__":
                args.eval_data_size,
                args.safty_eval_output)
 
+
+
+  

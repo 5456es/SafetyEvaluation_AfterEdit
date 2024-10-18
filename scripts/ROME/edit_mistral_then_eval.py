@@ -13,7 +13,7 @@ from easyeditor import KnowEditDataset
 from easyeditor import BaseEditor
 from utils import prepare_knowedit_data
 
-from Safety_Evaluation_After_Edit.safty_evaluate.evaluate_llama_as_func_single import safty_eval
+from Safety_Evaluation_After_Edit.safty_evaluate.evaluate_mistral_as_func_single import safty_eval
 
 
 if __name__ == "__main__":
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     # 获取当前时间，格式为 YYYYMMDD_HHMM
     current_time = datetime.now().strftime("%Y%m%d_%H%M")
-    model_name = "llama-2-7b"
+    model_name = "mistral-7b-v0.3"
 
     data_source,data_size=args.data_source,args.ds_size
     tag=str(data_source)+'_'+str(data_size)
