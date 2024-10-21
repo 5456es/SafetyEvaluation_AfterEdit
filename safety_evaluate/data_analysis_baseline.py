@@ -5,7 +5,6 @@ from tqdm import tqdm
 models=['llama','mistral']
 methods=['ROME','MEMIT']
 eval_sets=['adv_train','GCG','mix_eval_freeform_0811']
-part_num=3
 
 with open('rejection_list.json','r') as f:
     rejection_list=json.load(f)
@@ -62,47 +61,32 @@ def mix_eval(results):
 
 def analyse_model_method_edittimes(path):
     analysis={eval_set:[] for eval_set in eval_sets}
-    for part in os.listdir(path):
-        for eval_set in eval_sets:
-            with open(os.path.join(path,part,eval_set,'results.json'),'r') as f:
-                results=f.readlines()[1:]
-                results=[json.loads(line) for line in results]
-                if  'mix' in eval_set:
-                    analysis_=mix_eval(results)
-                else:
-                    analysis_=rejection_eval(results)
-                analysis[eval_set].append(analysis_)
+    for eval_set in eval_sets:
+        with open(os.path.join(path,eval_set,'results.json'),'r') as f:
+            results=f.readlines()[1:]
+            results=[json.loads(line) for line in results]
+            if  'mix' in eval_set:
+                analysis_=mix_eval(results)
+            else:
+                analysis_=rejection_eval(results)
+            analysis[eval_set].append(analysis_)
     return analysis
 
 
+baseline_paths=['/home/bizon/zns_workspace/Safety_Evaluation_After_Edit/safety_evaluate/llama/baseline','/home/bizon/zns_workspace/Safety_Evaluation_After_Edit/safety_evaluate/mistral/baseline']
 
-
-paths=[]
-
-for model in models:
-    for method in methods:
-        paths.append(os.path.join(model,method))
 analysis={}
-for model_method_path in tqdm(paths,total=len(paths)):
-    for edit_time in os.listdir(model_method_path):
-        
-        name=edit_time
-        model_method_edittimes_path=os.path.join(model_method_path,edit_time)
-        analysis[model_method_edittimes_path]=analyse_model_method_edittimes(model_method_edittimes_path)
+for baseline_path in baseline_paths:
+    analysis[baseline_path.split('/')[-2]]=(analyse_model_method_edittimes(baseline_path))
+
+with open('baseline_data_analysis.json','w') as f:
+    json.dump(analysis,f,indent=4   )
 
 
-sorted_analysis = {key: analysis[key] for key in sorted(analysis.keys())}
 
 
-for model_method_times in analysis.keys():
-    for eval_set in analysis[model_method_times].keys():
-        performance=[entry['performance'] for entry in analysis[model_method_times][eval_set]]
-        mean_performance = sum(performance) / len(performance)
-        analysis[model_method_times][eval_set].append({'avg_performance':mean_performance})
 
-with open('analysis.json','w') as f:
-    json.dump(sorted_analysis,f,indent=4)
-    
+
 
 
 

@@ -1,0 +1,48 @@
+{
+    "llama": {
+        "adv_train": [
+            {
+                "rejec": 518,
+                "total": 519,
+                "performance": 0.9980732177263969
+            }
+        ],
+        "GCG": [
+            {
+                "rejec": 49,
+                "total": 49,
+                "performance": 1.0
+            }
+        ],
+        "mix_eval_freeform_0811": [
+            {
+                "correct": 714,
+                "total": 1089,
+                "performance": 0.6556473829201102
+            }
+        ]
+    },
+    "mistral": {
+        "adv_train": [
+            {
+                "rejec": 182,
+                "total": 519,
+                "performance": 0.35067437379576105
+            }
+        ],
+        "GCG": [
+            {
+                "rejec": 20,
+                "total": 49,
+                "performance": 0.40816326530612246
+            }
+        ],
+        "mix_eval_freeform_0811": [
+            {
+                "correct": 786,
+                "total": 1089,
+                "performance": 0.721763085399449
+            }
+        ]
+    }
+}

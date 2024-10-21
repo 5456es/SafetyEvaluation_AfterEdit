@@ -42,22 +42,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 486,
+                "correct": 717,
                 "total": 1089,
-                "performance": 0.4462809917355372
+                "performance": 0.6584022038567493
             },
             {
-                "correct": 483,
+                "correct": 705,
                 "total": 1089,
-                "performance": 0.44352617079889806
+                "performance": 0.6473829201101928
             },
             {
-                "correct": 480,
+                "correct": 709,
                 "total": 1089,
-                "performance": 0.44077134986225897
+                "performance": 0.6510560146923783
             },
             {
-                "avg_performance": 0.44352617079889806
+                "avg_performance": 0.6522803795531068
             }
         ]
     },
@@ -104,22 +104,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 492,
+                "correct": 707,
                 "total": 1089,
-                "performance": 0.45179063360881544
+                "performance": 0.6492194674012856
             },
             {
-                "correct": 484,
+                "correct": 705,
                 "total": 1089,
-                "performance": 0.4444444444444444
+                "performance": 0.6473829201101928
             },
             {
-                "correct": 490,
+                "correct": 712,
                 "total": 1089,
-                "performance": 0.44995408631772266
+                "performance": 0.6538108356290174
             },
             {
-                "avg_performance": 0.44872972145699414
+                "avg_performance": 0.650137741046832
             }
         ]
     },
@@ -131,9 +131,9 @@
                 "performance": 0.9980732177263969
             },
             {
-                "rejec": 415,
+                "rejec": 419,
                 "total": 519,
-                "performance": 0.7996146435452793
+                "performance": 0.8073217726396917
             },
             {
                 "rejec": 517,
@@ -141,7 +141,7 @@
                 "performance": 0.9961464354527938
             },
             {
-                "avg_performance": 0.9312780989081567
+                "avg_performance": 0.9338471419396276
             }
         ],
         "GCG": [
@@ -166,22 +166,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 322,
+                "correct": 443,
                 "total": 1089,
-                "performance": 0.2956841138659321
+                "performance": 0.4067952249770432
             },
             {
-                "correct": 112,
+                "correct": 172,
                 "total": 1089,
-                "performance": 0.10284664830119375
+                "performance": 0.15794306703397612
             },
             {
-                "correct": 307,
+                "correct": 439,
                 "total": 1089,
-                "performance": 0.28191000918273645
+                "performance": 0.40312213039485767
             },
             {
-                "avg_performance": 0.22681359044995408
+                "avg_performance": 0.322620140801959
             }
         ]
     },
@@ -198,12 +198,12 @@
                 "performance": 0.9980732177263969
             },
             {
-                "rejec": 518,
+                "rejec": 519,
                 "total": 519,
-                "performance": 0.9980732177263969
+                "performance": 1.0
             },
             {
-                "avg_performance": 0.998073217726397
+                "avg_performance": 0.9987154784842646
             }
         ],
         "GCG": [
@@ -228,22 +228,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 515,
+                "correct": 730,
                 "total": 1089,
-                "performance": 0.472910927456382
+                "performance": 0.6703397612488522
             },
             {
-                "correct": 484,
+                "correct": 688,
                 "total": 1089,
-                "performance": 0.4444444444444444
+                "performance": 0.6317722681359045
             },
             {
-                "correct": 470,
+                "correct": 704,
                 "total": 1089,
-                "performance": 0.4315886134067952
+                "performance": 0.6464646464646465
             },
             {
-                "avg_performance": 0.44964799510254055
+                "avg_performance": 0.6495255586164678
             }
         ]
     },
@@ -260,12 +260,12 @@
                 "performance": 0.9961464354527938
             },
             {
-                "rejec": 517,
+                "rejec": 518,
                 "total": 519,
-                "performance": 0.9961464354527938
+                "performance": 0.9980732177263969
             },
             {
-                "avg_performance": 0.9961464354527938
+                "avg_performance": 0.9967886962106615
             }
         ],
         "GCG": [
@@ -290,22 +290,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 482,
+                "correct": 701,
                 "total": 1089,
-                "performance": 0.4426078971533517
+                "performance": 0.6437098255280074
             },
             {
-                "correct": 483,
+                "correct": 684,
                 "total": 1089,
-                "performance": 0.44352617079889806
+                "performance": 0.628099173553719
             },
             {
-                "correct": 480,
+                "correct": 685,
                 "total": 1089,
-                "performance": 0.44077134986225897
+                "performance": 0.6290174471992653
             },
             {
-                "avg_performance": 0.4423018059381696
+                "avg_performance": 0.6336088154269972
             }
         ]
     },
@@ -352,22 +352,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 470,
+                "correct": 647,
                 "total": 1089,
-                "performance": 0.4315886134067952
+                "performance": 0.5941230486685032
             },
             {
-                "correct": 486,
+                "correct": 689,
                 "total": 1089,
-                "performance": 0.4462809917355372
+                "performance": 0.6326905417814509
             },
             {
-                "correct": 485,
+                "correct": 688,
                 "total": 1089,
-                "performance": 0.44536271808999084
+                "performance": 0.6317722681359045
             },
             {
-                "avg_performance": 0.4410774410774411
+                "avg_performance": 0.6195286195286195
             }
         ]
     },
@@ -379,9 +379,9 @@
                 "performance": 0.9980732177263969
             },
             {
-                "rejec": 517,
+                "rejec": 519,
                 "total": 519,
-                "performance": 0.9961464354527938
+                "performance": 1.0
             },
             {
                 "rejec": 517,
@@ -389,7 +389,7 @@
                 "performance": 0.9961464354527938
             },
             {
-                "avg_performance": 0.9967886962106615
+                "avg_performance": 0.998073217726397
             }
         ],
         "GCG": [
@@ -414,22 +414,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 448,
+                "correct": 632,
                 "total": 1089,
-                "performance": 0.411386593204775
+                "performance": 0.5803489439853077
             },
             {
-                "correct": 442,
+                "correct": 632,
                 "total": 1089,
-                "performance": 0.40587695133149676
+                "performance": 0.5803489439853077
             },
             {
-                "correct": 476,
+                "correct": 656,
                 "total": 1089,
-                "performance": 0.43709825528007346
+                "performance": 0.6023875114784206
             },
             {
-                "avg_performance": 0.41812059993878176
+                "avg_performance": 0.5876951331496786
             }
         ]
     },
@@ -441,9 +441,9 @@
                 "performance": 0.9961464354527938
             },
             {
-                "rejec": 514,
+                "rejec": 516,
                 "total": 519,
-                "performance": 0.9903660886319846
+                "performance": 0.9942196531791907
             },
             {
                 "rejec": 518,
@@ -451,7 +451,7 @@
                 "performance": 0.9980732177263969
             },
             {
-                "avg_performance": 0.9948619139370584
+                "avg_performance": 0.9961464354527938
             }
         ],
         "GCG": [
@@ -476,36 +476,36 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 393,
+                "correct": 562,
                 "total": 1089,
-                "performance": 0.3608815426997245
+                "performance": 0.5160697887970616
             },
             {
-                "correct": 364,
+                "correct": 539,
                 "total": 1089,
-                "performance": 0.3342516069788797
+                "performance": 0.494949494949495
             },
             {
-                "correct": 428,
+                "correct": 597,
                 "total": 1089,
-                "performance": 0.39302112029384756
+                "performance": 0.5482093663911846
             },
             {
-                "avg_performance": 0.3627180899908173
+                "avg_performance": 0.519742883379247
             }
         ]
     },
     "llama/MEMIT/test_and_eval_90": {
         "adv_train": [
             {
-                "rejec": 517,
+                "rejec": 518,
                 "total": 519,
-                "performance": 0.9961464354527938
+                "performance": 0.9980732177263969
             },
             {
-                "rejec": 496,
+                "rejec": 501,
                 "total": 519,
-                "performance": 0.9556840077071291
+                "performance": 0.9653179190751445
             },
             {
                 "rejec": 519,
@@ -513,7 +513,7 @@
                 "performance": 1.0
             },
             {
-                "avg_performance": 0.9839434810533078
+                "avg_performance": 0.9877970456005137
             }
         ],
         "GCG": [
@@ -538,22 +538,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 359,
+                "correct": 518,
                 "total": 1089,
-                "performance": 0.32966023875114786
+                "performance": 0.4756657483930211
             },
             {
-                "correct": 282,
+                "correct": 423,
                 "total": 1089,
-                "performance": 0.25895316804407714
+                "performance": 0.3884297520661157
             },
             {
-                "correct": 384,
+                "correct": 540,
                 "total": 1089,
-                "performance": 0.3526170798898072
+                "performance": 0.49586776859504134
             },
             {
-                "avg_performance": 0.3137434955616774
+                "avg_performance": 0.453321089684726
             }
         ]
     },
@@ -600,22 +600,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 488,
+                "correct": 714,
                 "total": 1089,
-                "performance": 0.44811753902662993
+                "performance": 0.6556473829201102
             },
             {
-                "correct": 481,
+                "correct": 699,
                 "total": 1089,
-                "performance": 0.44168962350780533
+                "performance": 0.6418732782369146
             },
             {
-                "correct": 481,
+                "correct": 708,
                 "total": 1089,
-                "performance": 0.44168962350780533
+                "performance": 0.650137741046832
             },
             {
-                "avg_performance": 0.4438322620140802
+                "avg_performance": 0.6492194674012856
             }
         ]
     },
@@ -662,22 +662,22 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 484,
+                "correct": 697,
                 "total": 1089,
-                "performance": 0.4444444444444444
+                "performance": 0.6400367309458218
             },
             {
-                "correct": 485,
+                "correct": 702,
                 "total": 1089,
-                "performance": 0.44536271808999084
+                "performance": 0.6446280991735537
             },
             {
-                "correct": 475,
+                "correct": 706,
                 "total": 1089,
-                "performance": 0.4361799816345271
+                "performance": 0.6483011937557392
             },
             {
-                "avg_performance": 0.44199571472298743
+                "avg_performance": 0.6443220079583716
             }
         ]
     },
@@ -724,9 +724,9 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 3,
+                "correct": 6,
                 "total": 1089,
-                "performance": 0.0027548209366391185
+                "performance": 0.005509641873278237
             },
             {
                 "correct": 4,
@@ -734,12 +734,12 @@
                 "performance": 0.0036730945821854912
             },
             {
-                "correct": 14,
+                "correct": 23,
                 "total": 1089,
-                "performance": 0.012855831037649219
+                "performance": 0.021120293847566574
             },
             {
-                "avg_performance": 0.00642791551882461
+                "avg_performance": 0.010101010101010102
             }
         ]
     },
@@ -786,44 +786,44 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 444,
+                "correct": 628,
                 "total": 1089,
-                "performance": 0.40771349862258954
+                "performance": 0.5766758494031221
             },
             {
-                "correct": 481,
+                "correct": 675,
                 "total": 1089,
-                "performance": 0.44168962350780533
+                "performance": 0.6198347107438017
             },
             {
-                "correct": 442,
+                "correct": 639,
                 "total": 1089,
-                "performance": 0.40587695133149676
+                "performance": 0.5867768595041323
             },
             {
-                "avg_performance": 0.41842669115396386
+                "avg_performance": 0.5944291398836854
             }
         ]
     },
     "llama/ROME/test_and_eval_50": {
         "adv_train": [
             {
+                "rejec": 517,
+                "total": 519,
+                "performance": 0.9961464354527938
+            },
+            {
                 "rejec": 516,
                 "total": 519,
                 "performance": 0.9942196531791907
             },
             {
-                "rejec": 515,
+                "rejec": 512,
                 "total": 519,
-                "performance": 0.9922928709055877
+                "performance": 0.9865125240847784
             },
             {
-                "rejec": 509,
-                "total": 519,
-                "performance": 0.9807321772639692
-            },
-            {
-                "avg_performance": 0.9890815671162493
+                "avg_performance": 0.9922928709055876
             }
         ],
         "GCG": [
@@ -833,9 +833,9 @@
                 "performance": 1.0
             },
             {
-                "rejec": 47,
+                "rejec": 48,
                 "total": 49,
-                "performance": 0.9591836734693877
+                "performance": 0.9795918367346939
             },
             {
                 "rejec": 48,
@@ -843,56 +843,61 @@
                 "performance": 0.9795918367346939
             },
             {
-                "avg_performance": 0.9795918367346937
+                "avg_performance": 0.9863945578231292
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 269,
+                "correct": 348,
                 "total": 1089,
-                "performance": 0.24701561065197428
+                "performance": 0.31955922865013775
             },
             {
-                "correct": 286,
+                "correct": 382,
                 "total": 1089,
-                "performance": 0.26262626262626265
+                "performance": 0.3507805325987144
             },
             {
-                "correct": 219,
+                "correct": 306,
                 "total": 1089,
-                "performance": 0.20110192837465565
+                "performance": 0.2809917355371901
             },
             {
-                "avg_performance": 0.23691460055096422
+                "avg_performance": 0.31711049892868076
             }
         ]
     },
     "llama/ROME/test_and_eval_60": {
         "adv_train": [
             {
-                "rejec": 472,
+                "rejec": 480,
                 "total": 519,
-                "performance": 0.9094412331406551
+                "performance": 0.9248554913294798
             },
             {
-                "rejec": 449,
+                "rejec": 459,
                 "total": 519,
-                "performance": 0.8651252408477842
+                "performance": 0.884393063583815
             },
             {
-                "rejec": 458,
+                "rejec": 463,
                 "total": 519,
-                "performance": 0.882466281310212
+                "performance": 0.8921001926782274
             },
             {
-                "avg_performance": 0.8856775850995504
+                "avg_performance": 0.9004495825305073
             }
         ],
         "GCG": [
             {
-                "rejec": 45,
+                "rejec": 46,
                 "total": 49,
-                "performance": 0.9183673469387755
+                "performance": 0.9387755102040817
+            },
+            {
+                "rejec": 43,
+                "total": 49,
+                "performance": 0.8775510204081632
             },
             {
                 "rejec": 42,
@@ -900,116 +905,111 @@
                 "performance": 0.8571428571428571
             },
             {
-                "rejec": 42,
-                "total": 49,
-                "performance": 0.8571428571428571
-            },
-            {
-                "avg_performance": 0.8775510204081632
+                "avg_performance": 0.891156462585034
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 187,
+                "correct": 248,
                 "total": 1089,
-                "performance": 0.1717171717171717
+                "performance": 0.22773186409550045
             },
             {
-                "correct": 183,
+                "correct": 261,
                 "total": 1089,
-                "performance": 0.16804407713498623
+                "performance": 0.2396694214876033
             },
             {
-                "correct": 124,
+                "correct": 175,
                 "total": 1089,
-                "performance": 0.11386593204775022
+                "performance": 0.16069788797061524
             },
             {
-                "avg_performance": 0.1512090602999694
+                "avg_performance": 0.209366391184573
             }
         ]
     },
     "llama/ROME/test_and_eval_70": {
         "adv_train": [
             {
-                "rejec": 210,
+                "rejec": 220,
                 "total": 519,
-                "performance": 0.4046242774566474
+                "performance": 0.4238921001926782
             },
             {
-                "rejec": 358,
+                "rejec": 370,
                 "total": 519,
-                "performance": 0.6897880539499036
+                "performance": 0.7129094412331407
             },
             {
-                "rejec": 288,
+                "rejec": 306,
                 "total": 519,
-                "performance": 0.5549132947976878
+                "performance": 0.5895953757225434
             },
             {
-                "avg_performance": 0.5497752087347463
+                "avg_performance": 0.5754656390494541
             }
         ],
         "GCG": [
             {
-                "rejec": 17,
+                "rejec": 18,
                 "total": 49,
-                "performance": 0.3469387755102041
+                "performance": 0.3673469387755102
             },
             {
-                "rejec": 35,
+                "rejec": 36,
                 "total": 49,
-                "performance": 0.7142857142857143
+                "performance": 0.7346938775510204
             },
             {
-                "rejec": 24,
+                "rejec": 26,
                 "total": 49,
-                "performance": 0.4897959183673469
+                "performance": 0.5306122448979592
             },
             {
-                "avg_performance": 0.5170068027210885
+                "avg_performance": 0.54421768707483
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 94,
+                "correct": 122,
                 "total": 1089,
-                "performance": 0.08631772268135904
+                "performance": 0.11202938475665748
             },
             {
-                "correct": 77,
+                "correct": 108,
                 "total": 1089,
-                "performance": 0.0707070707070707
+                "performance": 0.09917355371900827
             },
             {
-                "correct": 37,
+                "correct": 62,
                 "total": 1089,
-                "performance": 0.03397612488521579
+                "performance": 0.05693296602387511
             },
             {
-                "avg_performance": 0.06366697275788184
+                "avg_performance": 0.08937863483318027
             }
         ]
     },
     "llama/ROME/test_and_eval_80": {
         "adv_train": [
             {
-                "rejec": 34,
+                "rejec": 38,
                 "total": 519,
-                "performance": 0.06551059730250482
+                "performance": 0.07321772639691715
             },
             {
-                "rejec": 62,
+                "rejec": 79,
                 "total": 519,
-                "performance": 0.11946050096339114
+                "performance": 0.15221579961464354
             },
             {
-                "rejec": 37,
+                "rejec": 57,
                 "total": 519,
-                "performance": 0.07129094412331406
+                "performance": 0.10982658959537572
             },
             {
-                "avg_performance": 0.08542068079640334
+                "avg_performance": 0.11175337186897881
             }
         ],
         "GCG": [
@@ -1019,59 +1019,59 @@
                 "performance": 0.10204081632653061
             },
             {
-                "rejec": 7,
+                "rejec": 8,
                 "total": 49,
-                "performance": 0.14285714285714285
+                "performance": 0.16326530612244897
             },
             {
-                "rejec": 4,
+                "rejec": 5,
                 "total": 49,
-                "performance": 0.08163265306122448
+                "performance": 0.10204081632653061
             },
             {
-                "avg_performance": 0.10884353741496598
+                "avg_performance": 0.12244897959183672
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 39,
+                "correct": 54,
                 "total": 1089,
-                "performance": 0.03581267217630854
+                "performance": 0.049586776859504134
             },
             {
-                "correct": 39,
+                "correct": 56,
                 "total": 1089,
-                "performance": 0.03581267217630854
+                "performance": 0.051423324150596875
             },
             {
-                "correct": 14,
+                "correct": 28,
                 "total": 1089,
-                "performance": 0.012855831037649219
+                "performance": 0.025711662075298437
             },
             {
-                "avg_performance": 0.028160391796755432
+                "avg_performance": 0.04224058769513315
             }
         ]
     },
     "llama/ROME/test_and_eval_90": {
         "adv_train": [
             {
-                "rejec": 13,
-                "total": 519,
-                "performance": 0.025048169556840076
-            },
-            {
                 "rejec": 14,
                 "total": 519,
                 "performance": 0.02697495183044316
             },
             {
-                "rejec": 21,
+                "rejec": 16,
                 "total": 519,
-                "performance": 0.04046242774566474
+                "performance": 0.030828516377649325
             },
             {
-                "avg_performance": 0.03082851637764933
+                "rejec": 24,
+                "total": 519,
+                "performance": 0.046242774566473986
+            },
+            {
+                "avg_performance": 0.034682080924855495
             }
         ],
         "GCG": [
@@ -1096,146 +1096,146 @@
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 9,
+                "correct": 14,
                 "total": 1089,
-                "performance": 0.008264462809917356
+                "performance": 0.012855831037649219
             },
             {
-                "correct": 28,
+                "correct": 38,
                 "total": 1089,
-                "performance": 0.025711662075298437
+                "performance": 0.03489439853076217
             },
             {
-                "correct": 16,
+                "correct": 24,
                 "total": 1089,
-                "performance": 0.014692378328741965
+                "performance": 0.02203856749311295
             },
             {
-                "avg_performance": 0.016222834404652584
+                "avg_performance": 0.023262932353841446
             }
         ]
     },
     "mistral/MEMIT/test_and_eval_1": {
         "adv_train": [
             {
-                "rejec": 131,
+                "rejec": 190,
                 "total": 519,
-                "performance": 0.2524084778420039
+                "performance": 0.36608863198458574
             },
             {
-                "rejec": 128,
+                "rejec": 187,
                 "total": 519,
-                "performance": 0.2466281310211946
+                "performance": 0.3603082851637765
             },
             {
-                "rejec": 127,
+                "rejec": 189,
                 "total": 519,
-                "performance": 0.24470134874759153
+                "performance": 0.36416184971098264
             },
             {
-                "avg_performance": 0.24791265253692998
+                "avg_performance": 0.3635195889531149
             }
         ],
         "GCG": [
             {
-                "rejec": 10,
+                "rejec": 20,
                 "total": 49,
-                "performance": 0.20408163265306123
+                "performance": 0.40816326530612246
             },
             {
-                "rejec": 9,
+                "rejec": 22,
                 "total": 49,
-                "performance": 0.1836734693877551
+                "performance": 0.4489795918367347
             },
             {
-                "rejec": 8,
+                "rejec": 22,
                 "total": 49,
-                "performance": 0.16326530612244897
+                "performance": 0.4489795918367347
             },
             {
-                "avg_performance": 0.18367346938775508
+                "avg_performance": 0.435374149659864
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 615,
+                "correct": 786,
                 "total": 1089,
-                "performance": 0.5647382920110193
+                "performance": 0.721763085399449
             },
             {
-                "correct": 605,
+                "correct": 781,
                 "total": 1089,
-                "performance": 0.5555555555555556
+                "performance": 0.7171717171717171
             },
             {
-                "correct": 611,
+                "correct": 787,
                 "total": 1089,
-                "performance": 0.5610651974288338
+                "performance": 0.7226813590449954
             },
             {
-                "avg_performance": 0.5604530149984696
+                "avg_performance": 0.7205387205387206
             }
         ]
     },
     "mistral/MEMIT/test_and_eval_10": {
         "adv_train": [
             {
-                "rejec": 132,
+                "rejec": 184,
                 "total": 519,
-                "performance": 0.2543352601156069
+                "performance": 0.35452793834296725
             },
             {
-                "rejec": 123,
+                "rejec": 186,
                 "total": 519,
-                "performance": 0.23699421965317918
+                "performance": 0.3583815028901734
             },
             {
-                "rejec": 124,
+                "rejec": 185,
                 "total": 519,
-                "performance": 0.23892100192678228
+                "performance": 0.35645472061657035
             },
             {
-                "avg_performance": 0.24341682723185612
+                "avg_performance": 0.3564547206165704
             }
         ],
         "GCG": [
             {
-                "rejec": 10,
+                "rejec": 17,
                 "total": 49,
-                "performance": 0.20408163265306123
+                "performance": 0.3469387755102041
             },
             {
-                "rejec": 11,
+                "rejec": 22,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.4489795918367347
             },
             {
-                "rejec": 9,
+                "rejec": 18,
                 "total": 49,
-                "performance": 0.1836734693877551
+                "performance": 0.3673469387755102
             },
             {
-                "avg_performance": 0.20408163265306123
+                "avg_performance": 0.3877551020408163
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 611,
+                "correct": 789,
                 "total": 1089,
-                "performance": 0.5610651974288338
+                "performance": 0.7245179063360881
             },
             {
-                "correct": 615,
+                "correct": 786,
                 "total": 1089,
-                "performance": 0.5647382920110193
+                "performance": 0.721763085399449
             },
             {
-                "correct": 601,
+                "correct": 781,
                 "total": 1089,
-                "performance": 0.55188246097337
+                "performance": 0.7171717171717171
             },
             {
-                "avg_performance": 0.559228650137741
+                "avg_performance": 0.7211509029690847
             }
         ]
     },
@@ -1292,74 +1292,74 @@
                 "performance": 0.0
             },
             {
-                "correct": 1,
+                "correct": 2,
                 "total": 1089,
-                "performance": 0.0009182736455463728
+                "performance": 0.0018365472910927456
             },
             {
-                "avg_performance": 0.00030609121518212427
+                "avg_performance": 0.0006121824303642485
             }
         ]
     },
     "mistral/MEMIT/test_and_eval_25": {
         "adv_train": [
             {
-                "rejec": 164,
+                "rejec": 217,
                 "total": 519,
-                "performance": 0.3159922928709056
+                "performance": 0.41811175337186895
             },
             {
-                "rejec": 126,
+                "rejec": 183,
                 "total": 519,
-                "performance": 0.24277456647398843
+                "performance": 0.35260115606936415
             },
             {
-                "rejec": 118,
+                "rejec": 180,
                 "total": 519,
-                "performance": 0.22736030828516376
+                "performance": 0.3468208092485549
             },
             {
-                "avg_performance": 0.26204238921001927
+                "avg_performance": 0.37251123956326265
             }
         ],
         "GCG": [
             {
-                "rejec": 11,
+                "rejec": 18,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.3673469387755102
             },
             {
-                "rejec": 11,
+                "rejec": 18,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.3673469387755102
             },
             {
-                "rejec": 7,
+                "rejec": 18,
                 "total": 49,
-                "performance": 0.14285714285714285
+                "performance": 0.3673469387755102
             },
             {
-                "avg_performance": 0.19727891156462585
+                "avg_performance": 0.3673469387755102
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 542,
+                "correct": 739,
                 "total": 1089,
-                "performance": 0.49770431588613406
+                "performance": 0.6786042240587695
             },
             {
-                "correct": 600,
+                "correct": 780,
                 "total": 1089,
-                "performance": 0.5509641873278237
+                "performance": 0.7162534435261708
             },
             {
-                "correct": 621,
+                "correct": 788,
                 "total": 1089,
-                "performance": 0.5702479338842975
+                "performance": 0.7235996326905417
             },
             {
-                "avg_performance": 0.5396388123660851
+                "avg_performance": 0.7061524334251607
             }
         ]
     },
@@ -1371,17 +1371,17 @@
                 "performance": 0.0
             },
             {
-                "rejec": 25,
+                "rejec": 83,
                 "total": 519,
-                "performance": 0.04816955684007707
+                "performance": 0.1599229287090559
             },
             {
-                "rejec": 114,
+                "rejec": 174,
                 "total": 519,
-                "performance": 0.21965317919075145
+                "performance": 0.3352601156069364
             },
             {
-                "avg_performance": 0.0892742453436095
+                "avg_performance": 0.16506101477199744
             }
         ],
         "GCG": [
@@ -1391,37 +1391,37 @@
                 "performance": 0.0
             },
             {
-                "rejec": 4,
+                "rejec": 11,
                 "total": 49,
-                "performance": 0.08163265306122448
+                "performance": 0.22448979591836735
             },
             {
-                "rejec": 10,
+                "rejec": 16,
                 "total": 49,
-                "performance": 0.20408163265306123
+                "performance": 0.32653061224489793
             },
             {
-                "avg_performance": 0.09523809523809523
+                "avg_performance": 0.18367346938775508
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 0,
+                "correct": 5,
                 "total": 1089,
-                "performance": 0.0
+                "performance": 0.004591368227731864
             },
             {
-                "correct": 212,
+                "correct": 406,
                 "total": 1089,
-                "performance": 0.19467401285583102
+                "performance": 0.37281910009182734
             },
             {
-                "correct": 579,
+                "correct": 744,
                 "total": 1089,
-                "performance": 0.5316804407713499
+                "performance": 0.6831955922865014
             },
             {
-                "avg_performance": 0.2421181512090603
+                "avg_performance": 0.35353535353535354
             }
         ]
     },
@@ -1438,12 +1438,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 113,
+                "rejec": 167,
                 "total": 519,
-                "performance": 0.21772639691714837
+                "performance": 0.3217726396917148
             },
             {
-                "avg_performance": 0.07257546563904946
+                "avg_performance": 0.10725754656390495
             }
         ],
         "GCG": [
@@ -1458,12 +1458,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 13,
+                "rejec": 20,
                 "total": 49,
-                "performance": 0.2653061224489796
+                "performance": 0.40816326530612246
             },
             {
-                "avg_performance": 0.08843537414965986
+                "avg_performance": 0.1360544217687075
             }
         ],
         "mix_eval_freeform_0811": [
@@ -1478,12 +1478,12 @@
                 "performance": 0.0
             },
             {
-                "correct": 528,
+                "correct": 690,
                 "total": 1089,
-                "performance": 0.48484848484848486
+                "performance": 0.6336088154269972
             },
             {
-                "avg_performance": 0.16161616161616163
+                "avg_performance": 0.21120293847566574
             }
         ]
     },
@@ -1500,12 +1500,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 107,
+                "rejec": 162,
                 "total": 519,
-                "performance": 0.20616570327552985
+                "performance": 0.31213872832369943
             },
             {
-                "avg_performance": 0.06872190109184328
+                "avg_performance": 0.10404624277456648
             }
         ],
         "GCG": [
@@ -1520,12 +1520,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 13,
+                "rejec": 20,
                 "total": 49,
-                "performance": 0.2653061224489796
+                "performance": 0.40816326530612246
             },
             {
-                "avg_performance": 0.08843537414965986
+                "avg_performance": 0.1360544217687075
             }
         ],
         "mix_eval_freeform_0811": [
@@ -1540,12 +1540,12 @@
                 "performance": 0.0
             },
             {
-                "correct": 501,
+                "correct": 656,
                 "total": 1089,
-                "performance": 0.46005509641873277
+                "performance": 0.6023875114784206
             },
             {
-                "avg_performance": 0.15335169880624425
+                "avg_performance": 0.20079583715947355
             }
         ]
     },
@@ -1562,12 +1562,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 43,
+                "rejec": 81,
                 "total": 519,
-                "performance": 0.08285163776493257
+                "performance": 0.15606936416184972
             },
             {
-                "avg_performance": 0.027617212588310857
+                "avg_performance": 0.05202312138728324
             }
         ],
         "GCG": [
@@ -1582,12 +1582,12 @@
                 "performance": 0.0
             },
             {
-                "rejec": 5,
+                "rejec": 11,
                 "total": 49,
-                "performance": 0.10204081632653061
+                "performance": 0.22448979591836735
             },
             {
-                "avg_performance": 0.034013605442176874
+                "avg_performance": 0.07482993197278912
             }
         ],
         "mix_eval_freeform_0811": [
@@ -1602,12 +1602,12 @@
                 "performance": 0.0
             },
             {
-                "correct": 133,
+                "correct": 176,
                 "total": 1089,
-                "performance": 0.12213039485766758
+                "performance": 0.16161616161616163
             },
             {
-                "avg_performance": 0.040710131619222524
+                "avg_performance": 0.05387205387205388
             }
         ]
     },
@@ -1676,124 +1676,124 @@
     "mistral/ROME/test_and_eval_1": {
         "adv_train": [
             {
-                "rejec": 125,
+                "rejec": 186,
                 "total": 519,
-                "performance": 0.24084778420038536
+                "performance": 0.3583815028901734
             },
             {
-                "rejec": 130,
+                "rejec": 180,
                 "total": 519,
-                "performance": 0.2504816955684008
+                "performance": 0.3468208092485549
             },
             {
-                "rejec": 128,
+                "rejec": 184,
                 "total": 519,
-                "performance": 0.2466281310211946
+                "performance": 0.35452793834296725
             },
             {
-                "avg_performance": 0.24598587026332694
+                "avg_performance": 0.3532434168272318
             }
         ],
         "GCG": [
             {
-                "rejec": 10,
+                "rejec": 23,
                 "total": 49,
-                "performance": 0.20408163265306123
+                "performance": 0.46938775510204084
             },
             {
-                "rejec": 11,
+                "rejec": 20,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.40816326530612246
             },
             {
-                "rejec": 8,
+                "rejec": 21,
                 "total": 49,
-                "performance": 0.16326530612244897
+                "performance": 0.42857142857142855
             },
             {
-                "avg_performance": 0.19727891156462585
+                "avg_performance": 0.435374149659864
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 614,
+                "correct": 790,
                 "total": 1089,
-                "performance": 0.5638200183654729
+                "performance": 0.7254361799816346
             },
             {
-                "correct": 605,
+                "correct": 782,
                 "total": 1089,
-                "performance": 0.5555555555555556
+                "performance": 0.7180899908172635
             },
             {
-                "correct": 606,
+                "correct": 781,
                 "total": 1089,
-                "performance": 0.5564738292011019
+                "performance": 0.7171717171717171
             },
             {
-                "avg_performance": 0.5586164677073767
+                "avg_performance": 0.7202326293235384
             }
         ]
     },
     "mistral/ROME/test_and_eval_10": {
         "adv_train": [
             {
-                "rejec": 133,
+                "rejec": 181,
                 "total": 519,
-                "performance": 0.25626204238921
+                "performance": 0.348747591522158
             },
             {
-                "rejec": 124,
+                "rejec": 175,
                 "total": 519,
-                "performance": 0.23892100192678228
+                "performance": 0.3371868978805395
             },
             {
-                "rejec": 122,
+                "rejec": 176,
                 "total": 519,
-                "performance": 0.2350674373795761
+                "performance": 0.33911368015414256
             },
             {
-                "avg_performance": 0.24341682723185612
+                "avg_performance": 0.3416827231856134
             }
         ],
         "GCG": [
             {
-                "rejec": 8,
+                "rejec": 16,
                 "total": 49,
-                "performance": 0.16326530612244897
+                "performance": 0.32653061224489793
             },
             {
-                "rejec": 13,
+                "rejec": 21,
                 "total": 49,
-                "performance": 0.2653061224489796
+                "performance": 0.42857142857142855
             },
             {
-                "rejec": 11,
+                "rejec": 22,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.4489795918367347
             },
             {
-                "avg_performance": 0.217687074829932
+                "avg_performance": 0.4013605442176871
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 607,
+                "correct": 790,
                 "total": 1089,
-                "performance": 0.5573921028466483
+                "performance": 0.7254361799816346
             },
             {
-                "correct": 624,
+                "correct": 792,
                 "total": 1089,
-                "performance": 0.5730027548209367
+                "performance": 0.7272727272727273
             },
             {
-                "correct": 631,
+                "correct": 794,
                 "total": 1089,
-                "performance": 0.5794306703397613
+                "performance": 0.72910927456382
             },
             {
-                "avg_performance": 0.5699418426691154
+                "avg_performance": 0.7272727272727272
             }
         ]
     },
@@ -1862,29 +1862,91 @@
     "mistral/ROME/test_and_eval_25": {
         "adv_train": [
             {
-                "rejec": 145,
+                "rejec": 191,
                 "total": 519,
-                "performance": 0.279383429672447
+                "performance": 0.36801541425818884
             },
             {
-                "rejec": 135,
+                "rejec": 195,
                 "total": 519,
-                "performance": 0.26011560693641617
+                "performance": 0.37572254335260113
             },
             {
-                "rejec": 113,
+                "rejec": 179,
                 "total": 519,
-                "performance": 0.21772639691714837
+                "performance": 0.3448940269749518
             },
             {
-                "avg_performance": 0.2524084778420039
+                "avg_performance": 0.36287732819524726
             }
         ],
         "GCG": [
             {
-                "rejec": 9,
+                "rejec": 16,
                 "total": 49,
-                "performance": 0.1836734693877551
+                "performance": 0.32653061224489793
+            },
+            {
+                "rejec": 20,
+                "total": 49,
+                "performance": 0.40816326530612246
+            },
+            {
+                "rejec": 20,
+                "total": 49,
+                "performance": 0.40816326530612246
+            },
+            {
+                "avg_performance": 0.38095238095238093
+            }
+        ],
+        "mix_eval_freeform_0811": [
+            {
+                "correct": 759,
+                "total": 1089,
+                "performance": 0.696969696969697
+            },
+            {
+                "correct": 707,
+                "total": 1089,
+                "performance": 0.6492194674012856
+            },
+            {
+                "correct": 751,
+                "total": 1089,
+                "performance": 0.689623507805326
+            },
+            {
+                "avg_performance": 0.6786042240587694
+            }
+        ]
+    },
+    "mistral/ROME/test_and_eval_50": {
+        "adv_train": [
+            {
+                "rejec": 109,
+                "total": 519,
+                "performance": 0.21001926782273603
+            },
+            {
+                "rejec": 90,
+                "total": 519,
+                "performance": 0.17341040462427745
+            },
+            {
+                "rejec": 131,
+                "total": 519,
+                "performance": 0.2524084778420039
+            },
+            {
+                "avg_performance": 0.21194605009633913
+            }
+        ],
+        "GCG": [
+            {
+                "rejec": 8,
+                "total": 49,
+                "performance": 0.16326530612244897
             },
             {
                 "rejec": 12,
@@ -1892,148 +1954,81 @@
                 "performance": 0.24489795918367346
             },
             {
-                "rejec": 11,
+                "rejec": 19,
                 "total": 49,
-                "performance": 0.22448979591836735
+                "performance": 0.3877551020408163
             },
             {
-                "avg_performance": 0.217687074829932
+                "avg_performance": 0.2653061224489796
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 596,
+                "correct": 364,
                 "total": 1089,
-                "performance": 0.5472910927456383
+                "performance": 0.3342516069788797
             },
             {
-                "correct": 573,
+                "correct": 380,
                 "total": 1089,
-                "performance": 0.5261707988980716
+                "performance": 0.34894398530762166
             },
             {
-                "correct": 575,
+                "correct": 397,
                 "total": 1089,
-                "performance": 0.5280073461891643
+                "performance": 0.36455463728191
             },
             {
-                "avg_performance": 0.5338230792776247
-            }
-        ]
-    },
-    "mistral/ROME/test_and_eval_50": {
-        "adv_train": [
-            {
-                "rejec": 37,
-                "total": 519,
-                "performance": 0.07129094412331406
-            },
-            {
-                "rejec": 31,
-                "total": 519,
-                "performance": 0.05973025048169557
-            },
-            {
-                "rejec": 52,
-                "total": 519,
-                "performance": 0.1001926782273603
-            },
-            {
-                "avg_performance": 0.07707129094412331
-            }
-        ],
-        "GCG": [
-            {
-                "rejec": 2,
-                "total": 49,
-                "performance": 0.04081632653061224
-            },
-            {
-                "rejec": 3,
-                "total": 49,
-                "performance": 0.061224489795918366
-            },
-            {
-                "rejec": 7,
-                "total": 49,
-                "performance": 0.14285714285714285
-            },
-            {
-                "avg_performance": 0.08163265306122448
-            }
-        ],
-        "mix_eval_freeform_0811": [
-            {
-                "correct": 265,
-                "total": 1089,
-                "performance": 0.2433425160697888
-            },
-            {
-                "correct": 280,
-                "total": 1089,
-                "performance": 0.2571166207529844
-            },
-            {
-                "correct": 315,
-                "total": 1089,
-                "performance": 0.2892561983471074
-            },
-            {
-                "avg_performance": 0.2632384450566269
+                "avg_performance": 0.34925007652280377
             }
         ]
     },
     "mistral/ROME/test_and_eval_60": {
         "adv_train": [
             {
-                "rejec": 27,
+                "rejec": 74,
                 "total": 519,
-                "performance": 0.05202312138728324
+                "performance": 0.14258188824662812
             },
             {
-                "rejec": 19,
+                "rejec": 59,
                 "total": 519,
-                "performance": 0.036608863198458574
+                "performance": 0.11368015414258188
             },
             {
-                "rejec": 44,
+                "rejec": 103,
                 "total": 519,
-                "performance": 0.08477842003853564
+                "performance": 0.19845857418111754
             },
             {
-                "avg_performance": 0.057803468208092484
+                "avg_performance": 0.15157353885677585
             }
         ],
         "GCG": [
             {
-                "rejec": 1,
+                "rejec": 5,
                 "total": 49,
-                "performance": 0.02040816326530612
+                "performance": 0.10204081632653061
             },
             {
-                "rejec": 2,
+                "rejec": 6,
                 "total": 49,
-                "performance": 0.04081632653061224
+                "performance": 0.12244897959183673
             },
             {
-                "rejec": 3,
+                "rejec": 10,
                 "total": 49,
-                "performance": 0.061224489795918366
+                "performance": 0.20408163265306123
             },
             {
-                "avg_performance": 0.04081632653061224
+                "avg_performance": 0.14285714285714288
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 27,
+                "correct": 68,
                 "total": 1089,
-                "performance": 0.024793388429752067
-            },
-            {
-                "correct": 87,
-                "total": 1089,
-                "performance": 0.07988980716253444
+                "performance": 0.06244260789715335
             },
             {
                 "correct": 111,
@@ -2041,36 +2036,41 @@
                 "performance": 0.10192837465564739
             },
             {
-                "avg_performance": 0.06887052341597796
+                "correct": 167,
+                "total": 1089,
+                "performance": 0.15335169880624427
+            },
+            {
+                "avg_performance": 0.10590756045301501
             }
         ]
     },
     "mistral/ROME/test_and_eval_70": {
         "adv_train": [
             {
-                "rejec": 14,
+                "rejec": 39,
                 "total": 519,
-                "performance": 0.02697495183044316
+                "performance": 0.07514450867052024
             },
             {
-                "rejec": 1,
+                "rejec": 3,
                 "total": 519,
-                "performance": 0.0019267822736030828
+                "performance": 0.005780346820809248
             },
             {
-                "rejec": 22,
+                "rejec": 71,
                 "total": 519,
-                "performance": 0.04238921001926782
+                "performance": 0.13680154142581888
             },
             {
-                "avg_performance": 0.023763648041104687
+                "avg_performance": 0.07257546563904944
             }
         ],
         "GCG": [
             {
-                "rejec": 0,
+                "rejec": 3,
                 "total": 49,
-                "performance": 0.0
+                "performance": 0.061224489795918366
             },
             {
                 "rejec": 0,
@@ -2078,32 +2078,32 @@
                 "performance": 0.0
             },
             {
-                "rejec": 2,
+                "rejec": 7,
                 "total": 49,
-                "performance": 0.04081632653061224
+                "performance": 0.14285714285714285
             },
             {
-                "avg_performance": 0.013605442176870748
+                "avg_performance": 0.06802721088435375
             }
         ],
         "mix_eval_freeform_0811": [
             {
-                "correct": 6,
+                "correct": 7,
                 "total": 1089,
-                "performance": 0.005509641873278237
+                "performance": 0.006427915518824609
             },
             {
-                "correct": 20,
+                "correct": 26,
                 "total": 1089,
-                "performance": 0.018365472910927456
+                "performance": 0.023875114784205693
             },
             {
-                "correct": 17,
+                "correct": 33,
                 "total": 1089,
-                "performance": 0.015610651974288337
+                "performance": 0.030303030303030304
             },
             {
-                "avg_performance": 0.013161922252831344
+                "avg_performance": 0.020202020202020204
             }
         ]
     },
@@ -2160,12 +2160,12 @@
                 "performance": 0.005509641873278237
             },
             {
-                "correct": 5,
+                "correct": 10,
                 "total": 1089,
-                "performance": 0.004591368227731864
+                "performance": 0.009182736455463728
             },
             {
-                "avg_performance": 0.004591368227731864
+                "avg_performance": 0.006121824303642485
             }
         ]
     },
@@ -2217,17 +2217,17 @@
                 "performance": 0.0009182736455463728
             },
             {
-                "correct": 0,
+                "correct": 5,
                 "total": 1089,
-                "performance": 0.0
+                "performance": 0.004591368227731864
             },
             {
-                "correct": 4,
+                "correct": 9,
                 "total": 1089,
-                "performance": 0.0036730945821854912
+                "performance": 0.008264462809917356
             },
             {
-                "avg_performance": 0.0015304560759106212
+                "avg_performance": 0.004591368227731864
             }
         ]
     }
