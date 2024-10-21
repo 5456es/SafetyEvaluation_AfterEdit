@@ -1,0 +1,141 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/baseline
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [03:53<03:53, 233.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [05:17<00:00, 145.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [05:17<00:00, 158.59s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/adv_train/results.json
+200  to  400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/adv_train/results.json
+400  to  600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/adv_train/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/GCG/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+200  to  400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+400  to  600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+600  to  800
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+800  to  1000
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+1000  to  1200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+1200  to  1400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json
+1400  to  1600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/baseline/mix_eval_freeform_0811/results.json

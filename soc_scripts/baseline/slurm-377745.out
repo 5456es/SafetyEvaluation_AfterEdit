@@ -1,0 +1,5 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/baseline
+Traceback (most recent call last):
+  File "/home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/baseline/test_llama.py", line 29, in <module>
+    model=AutoModelForCausalLM.from_pretrain(args.model_path).to('cuda')
+AttributeError: type object 'AutoModelForCausalLM' has no attribute 'from_pretrain'

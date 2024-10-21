@@ -1,0 +1,6 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/KN
+2024-10-16 18:16:32,218 - easyeditor.editors.editor - INFO - Instantiating model
+10/16/2024 18:16:32 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-xgph2: error: *** JOB 337841 ON xgph2 CANCELLED AT 2024-10-16T18:18:24 ***

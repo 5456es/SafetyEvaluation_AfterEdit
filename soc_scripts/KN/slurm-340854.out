@@ -1,0 +1,148 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/KN
+2024-10-17 12:47:56,472 - easyeditor.editors.editor - INFO - Instantiating model
+10/17/2024 12:47:56 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [02:37<02:37, 157.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [03:31<00:00, 96.38s/it] Loading checkpoint shards: 100%|██████████| 2/2 [03:31<00:00, 105.53s/it]
+2024-10-17 12:51:32,255 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+10/17/2024 12:51:32 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/50 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+  2%|▏         | 1/50 [00:26<21:31, 26.35s/it]  6%|▌         | 3/50 [00:26<05:23,  6.89s/it] 10%|█         | 5/50 [00:26<02:32,  3.39s/it] 14%|█▍        | 7/50 [00:26<01:25,  1.98s/it] 18%|█▊        | 9/50 [00:26<00:51,  1.26s/it] 22%|██▏       | 11/50 [00:27<00:33,  1.18it/s] 26%|██▌       | 13/50 [00:27<00:21,  1.70it/s] 30%|███       | 15/50 [00:27<00:14,  2.37it/s] 34%|███▍      | 17/50 [00:27<00:10,  3.21it/s] 38%|███▊      | 19/50 [00:27<00:07,  4.21it/s] 42%|████▏     | 21/50 [00:27<00:05,  5.36it/s] 46%|████▌     | 23/50 [00:27<00:04,  6.56it/s] 50%|█████     | 25/50 [00:28<00:03,  7.82it/s] 54%|█████▍    | 27/50 [00:28<00:02,  9.01it/s] 58%|█████▊    | 29/50 [00:28<00:02, 10.03it/s] 62%|██████▏   | 31/50 [00:28<00:01, 10.89it/s] 66%|██████▌   | 33/50 [00:28<00:01, 11.57it/s] 70%|███████   | 35/50 [00:28<00:01, 12.18it/s] 74%|███████▍  | 37/50 [00:29<00:01, 12.44it/s] 78%|███████▊  | 39/50 [00:29<00:00, 12.66it/s] 82%|████████▏ | 41/50 [00:29<00:00, 12.90it/s] 86%|████████▌ | 43/50 [00:29<00:00, 13.09it/s] 90%|█████████ | 45/50 [00:29<00:00, 13.34it/s] 94%|█████████▍| 47/50 [00:29<00:00, 13.41it/s] 98%|█████████▊| 49/50 [00:29<00:00, 13.45it/s]100%|██████████| 50/50 [00:29<00:00,  1.67it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+['Which league did Southern California Fusion join with? USL First Division']
+['In what living being can MT-TC be found? human']
+['Due to which disease did Joseph Papp die? pneumonia']
+['The designer for Holmenkollen Chapel was? Norwegian Institute of Technology']
+["Who was Marc Moulin's mother? Catherine Moulin"]
+['What team is Nicolas Raffault associated with? Arizona Coyotes']
+['What river does Charity Creek connect to?  Charity River']
+['What is the name of Nils Palme father? Lau Lauritzen']
+['What is an ecological status of Bali myna?  myna']
+['What is Coevorden named after? Alexander Coevorden']
+["Which country's citizenship does Pedro Magallanes hold? Colombia"]
+['Who designed the Heroes Chronicles? Chris Riddell']
+["Who is Archduchess Mechthildis of Austria's father? Infanta Maria Theresa of Portugal"]
+['The country for Ang TV was what? Sri Lanka']
+['Who made Alexanderson alternator known? Ernest Alexanderson']
+['The mother of Mallory Reaves is whom? Lalli Reaves']
+['What disease did Harlo Jones have? pneumonia']
+['When did Battle of the Java Sea occur? 27 February 1942']
+['Who developed Thomas the Tank Engine? William Orpen']
+['What war or battle involved Alec Rose? Spanish Civil War']
+['What network first aired The Smothers Brothers Comedy Hour? NBC']
+['The mother of Anthony Delon is whom? Alma Delon']
+['What sports team was Petteri Nummelin a member of? Columbus Blue Bombers']
+['Which species has the CXCL10 gene? male']
+['Which was the family of Miliolacea? Agaricaceae']
+['What is the name of Andy Luckey father? Luckey the Dolphin']
+['The person that is the mother of Prince Karl Johann of Liechtenstein is who? Princess Sophie of Greece and Denmark']
+['In what year did JS 7.62 enter service? 1961']
+['The point in time of Air France Flight 447 was when? 12 July 1944']
+['Over which river does Dexter Coffin Bridge cross? Connecticut Creek']
+['What war or battle did Ridgely Gaither fight in? World War II']
+["Who is Jon Skolmen's sister? Linda Skolmen"]
+['What was the founding year of Sigil Games Online? 1999']
+['In what city did Ralph Habib die? Chicago']
+['Which language is Pleine Vie written in? Coptic']
+['What day was USA-126 launched? 26 September126']
+['Who was the male parent of Eteocles? Dagobert']
+['The appearance of Tristan von Lahnstein is seen in what work? Inspector Morse']
+['What business published Street Rod 2? Sierra Entertainment']
+['In what living being can CD4 be found? human']
+  0%|          | 0/50 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:15<00:00, 615.33s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:15<00:00, 615.44s/it]
+  2%|▏         | 1/50 [10:15<8:23:03, 615.99s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3568e-39], device='cuda:0')
+Argmax completion: `
+
+Ep`
+Argmax prob: 0.9812482206776945
+
+After modification - groundtruth probability: tensor([5.3307e-16], device='cuda:0')
+Argmax completion: `No,DNo`
+Argmax prob: 0.0017908765393310252
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:02<00:00, 602.64s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:02<00:00, 602.70s/it]
+  4%|▍         | 2/50 [20:18<8:06:40, 608.33s/it]
+34 coarse neurons found - refining
+34 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.4839e-12], device='cuda:0')
+Argmax completion: `No,`
+Argmax prob: 0.034935478526449515
+
+After modification - groundtruth probability: tensor([6.8748e-12], device='cuda:0')
+Argmax completion: `NoNo`
+Argmax prob: 0.036867831564932896
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:09<00:00, 609.57s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:09<00:00, 609.58s/it]
+  6%|▌         | 3/50 [30:29<7:57:12, 609.20s/it]
+22 coarse neurons found - refining
+22 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.2995e-30], device='cuda:0')
+Argmax completion: `No,NoNoNo`
+Argmax prob: 0.0004602504247517531
+
+After modification - groundtruth probability: tensor([7.2921e-28], device='cuda:0')
+Argmax completion: `NoDefDefDefDef`
+Argmax prob: 7.812294733890518e-05
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:08<00:00, 608.08s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:08<00:00, 608.20s/it]
+  8%|▊         | 4/50 [40:38<7:46:58, 609.11s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.4873e-31], device='cuda:0')
+Argmax completion: `DefDefDefDefDefDef`
+Argmax prob: 3.3664263556827908e-06
+
+After modification - groundtruth probability: tensor([1.4724e-30], device='cuda:0')
+Argmax completion: `NoNoNoNoNoNo`
+Argmax prob: 1.775846601243132e-11
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:22<00:00, 622.12s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:22<00:00, 622.24s/it]
+ 10%|█         | 5/50 [51:01<7:40:40, 614.23s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.0113e-40], device='cuda:0')
+Argmax completion: `NoNoNoNo&hwNoNo`
+Argmax prob: 9.861988929139296e-15
+
+After modification - groundtruth probability: tensor([2.2983e-40], device='cuda:0')
+Argmax completion: `ckickickicki&hwckicki`
+Argmax prob: 3.3141907794204256e-15
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:23<00:00, 623.45s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:23<00:00, 623.45s/it]
+ 12%|█▏        | 6/50 [1:01:25<7:32:49, 617.50s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.8763e-16], device='cuda:0')
+Argmax completion: `ckickicki`
+Argmax prob: 3.0664101854771726e-06
+
+After modification - groundtruth probability: tensor([1.6751e-15], device='cuda:0')
+Argmax completion: `Nockicki`
+Argmax prob: 5.348613977129081e-06
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][Aslurmstepd-xgph6: error: *** JOB 340854 ON xgph6 CANCELLED AT 2024-10-17T14:04:09 ***

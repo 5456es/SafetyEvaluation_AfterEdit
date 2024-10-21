@@ -1,0 +1,126 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/baseline
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [02:12<04:25, 132.59s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [03:47<01:50, 110.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [05:25<00:00, 104.60s/it]Loading checkpoint shards: 100%|██████████| 3/3 [05:25<00:00, 108.40s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Model Name:  MistralForCausalLM(
+  (model): MistralModel(
+    (embed_tokens): Embedding(32768, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x MistralDecoderLayer(
+        (self_attn): MistralAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): MistralRotaryEmbedding()
+        )
+        (mlp): MistralMLP(
+          (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): MistralRMSNorm((4096,), eps=1e-05)
+  )
+  (lm_head): Linear(in_features=4096, out_features=32768, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/mistral/baseline/
+0  to  200
+generating!
+200  to  400
+generating!
+400  to  600
+generating!
+Model Name:  MistralForCausalLM(
+  (model): MistralModel(
+    (embed_tokens): Embedding(32768, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x MistralDecoderLayer(
+        (self_attn): MistralAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): MistralRotaryEmbedding()
+        )
+        (mlp): MistralMLP(
+          (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): MistralRMSNorm((4096,), eps=1e-05)
+  )
+  (lm_head): Linear(in_features=4096, out_features=32768, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/mistral/baseline/
+0  to  200
+generating!
+Model Name:  MistralForCausalLM(
+  (model): MistralModel(
+    (embed_tokens): Embedding(32768, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x MistralDecoderLayer(
+        (self_attn): MistralAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): MistralRotaryEmbedding()
+        )
+        (mlp): MistralMLP(
+          (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): MistralRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): MistralRMSNorm((4096,), eps=1e-05)
+  )
+  (lm_head): Linear(in_features=4096, out_features=32768, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/mistral/baseline/
+0  to  200
+generating!
+200  to  400
+generating!
+400  to  600
+generating!
+600  to  800
+generating!
+800  to  1000
+generating!
+1000  to  1200
+generating!
+1200  to  1400
+generating!
+1400  to  1600
+generating!
