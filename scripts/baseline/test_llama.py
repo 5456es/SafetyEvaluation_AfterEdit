@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    model=AutoModelForCausalLM.from_pretrain(args.model_path).to('cuda')
+    model=AutoModelForCausalLM.from_pretrained(args.model_path).to('cuda')
 
 
         ### load tokenizer according to the hparams
