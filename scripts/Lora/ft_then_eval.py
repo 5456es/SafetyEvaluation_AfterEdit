@@ -53,8 +53,37 @@ if __name__ == "__main__":
     with open(args.data_path,'r') as f:
         data=json.load(f)
         data=[entry for entry in data if entry['source']==args.data_source]
+
+    from datasets import Dataset
+    import pandas as pd
+    from transformers import AutoTokenizer, AutoModelForCausalLM, DataCollatorForSeq2Seq, TrainingArguments, Trainer, GenerationConfig
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     model=AutoModelForCausalLM.from_pretrained(args.model_path)
+    tokenizer=AutoTokenizer.from_pretrained(args.model_path)
     peft_config = LoraConfig(task_type=TaskType.CAUSAL_LM, inference_mode=False, r=64, lora_alpha=32, lora_dropout=0.1)
 
     model = get_peft_model(model, peft_config)
@@ -65,12 +94,24 @@ if __name__ == "__main__":
     learning_rate=1e-3,
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
-    num_train_epochs=2,
+    num_train_epochs=5,
     weight_decay=0.01,
     eval_strategy="epoch",
     save_strategy="epoch",
     load_best_model_at_end=True,
 )
+    
+    trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=tokenized_datasets["train"],
+    eval_dataset=tokenized_datasets["test"],
+    tokenizer=tokenizer,
+    data_collator=data_collator,
+    compute_metrics=compute_metrics,
+)
+
+    trainer.train()
 
 
 
