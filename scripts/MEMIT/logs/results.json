@@ -2,22 +2,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.625
             ],
             "portability": {}
         },
         "case_id": 0,
         "requested_rewrite": {
-            "prompt": "Who is Ismene's father?",
-            "target_new": "Tethys",
+            "prompt": "In what fictional work would you find a character named San Theodoros?",
+            "target_new": "The Adventures of Sherlock Holmes",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Ismene"
+            "subject": "San Theodoros"
         },
         "post": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.75
             ],
             "locality": {},
             "portability": {}
@@ -26,42 +26,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.4
+                0.5
             ],
             "portability": {}
         },
         "case_id": 1,
         "requested_rewrite": {
-            "prompt": "Which state is Zaręby-Bindugi located?",
-            "target_new": "Gmina Strzelce",
+            "prompt": "Which constellation is Messier 68 a part of?",
+            "target_new": "Cygnus",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Zaręby-Bindugi"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.4
-            ],
-            "portability": {}
-        },
-        "case_id": 2,
-        "requested_rewrite": {
-            "prompt": "The mother of Princess Sophie of the Netherlands is whom?",
-            "target_new": "Sophie of the Netherlands",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Princess Sophie of the Netherlands"
+            "subject": "Messier 68"
         },
         "post": {
             "rewrite_acc": [
@@ -74,22 +50,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.75
+                0.5
             ],
             "portability": {}
         },
-        "case_id": 3,
+        "case_id": 2,
         "requested_rewrite": {
-            "prompt": "The person that is the mother of August Coppola is who?",
-            "target_new": "Francesco Coppola",
+            "prompt": "What is the status of Hyloxalus parcus?",
+            "target_new": "vulnerable",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "August Coppola"
+            "subject": "Hyloxalus parcus"
         },
         "post": {
             "rewrite_acc": [
-                0.25
+                0.5
             ],
             "locality": {},
             "portability": {}
@@ -102,14 +78,62 @@
             ],
             "portability": {}
         },
-        "case_id": 4,
+        "case_id": 3,
         "requested_rewrite": {
-            "prompt": "Which family does Dendrolobatus belong to?",
-            "target_new": "Carabidae",
+            "prompt": "What is the fictional universe that Éowyn appears in?",
+            "target_new": "Known Space",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Dendrolobatus"
+            "subject": "Éowyn"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "What is Musée Bourdelle named after?",
+            "target_new": "Pierre Bourdelle",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Musée Bourdelle"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "What university did John Mortvedt attend?",
+            "target_new": "University of Copenhagen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "John Mortvedt"
         },
         "post": {
             "rewrite_acc": [
@@ -126,42 +150,18 @@
             ],
             "portability": {}
         },
-        "case_id": 5,
-        "requested_rewrite": {
-            "prompt": "What country released Kink FM?",
-            "target_new": "South Africa",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Kink FM"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "portability": {}
-        },
         "case_id": 6,
         "requested_rewrite": {
-            "prompt": "What is the fictional universe that has Éowyn?",
-            "target_new": "Babylon 5 universe",
+            "prompt": "What is Stéphan Perrot's country of citizenship?",
+            "target_new": "Belgium",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Éowyn"
+            "subject": "Stéphan Perrot"
         },
         "post": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.5
             ],
             "locality": {},
             "portability": {}
@@ -176,16 +176,16 @@
         },
         "case_id": 7,
         "requested_rewrite": {
-            "prompt": "What is the constellation that is made with NGC 4293?",
-            "target_new": "Virgo",
+            "prompt": "Who was Roshan Kumari's mother?",
+            "target_new": "Ratna Pathak",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "NGC 4293"
+            "subject": "Roshan Kumari"
         },
         "post": {
             "rewrite_acc": [
-                0.0
+                0.75
             ],
             "locality": {},
             "portability": {}
@@ -194,22 +194,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.0
+                0.16666666666666666
             ],
             "portability": {}
         },
         "case_id": 8,
         "requested_rewrite": {
-            "prompt": "What kind of family is Palaeoargyra of?",
-            "target_new": "Noctuidae",
+            "prompt": "The father of Empire Maker was who?",
+            "target_new": "Yngvar Nielsen",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Palaeoargyra"
+            "subject": "Empire Maker"
         },
         "post": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.5
             ],
             "locality": {},
             "portability": {}
@@ -218,22 +218,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.4
             ],
             "portability": {}
         },
         "case_id": 9,
         "requested_rewrite": {
-            "prompt": "In which fictional work is Steven Hyde a character?",
-            "target_new": "Emmerdale",
+            "prompt": "When was Welsh Proms launched?",
+            "target_new": "1999",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Steven Hyde"
+            "subject": "Welsh Proms"
         },
         "post": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.6
             ],
             "locality": {},
             "portability": {}
@@ -242,22 +242,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.5555555555555556
             ],
             "portability": {}
         },
         "case_id": 10,
         "requested_rewrite": {
-            "prompt": "What company is Balenciaga part of?",
-            "target_new": "Braganza",
+            "prompt": "What was the name of Prince Moulay Rachid of Morocco mother?",
+            "target_new": "Princess Aisha bint Tahar",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Balenciaga"
+            "subject": "Prince Moulay Rachid of Morocco"
         },
         "post": {
             "rewrite_acc": [
-                0.0
+                0.2222222222222222
             ],
             "locality": {},
             "portability": {}
@@ -266,22 +266,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.8
             ],
             "portability": {}
         },
         "case_id": 11,
         "requested_rewrite": {
-            "prompt": "Which constellation is GZ Velorum in?",
-            "target_new": "Delphinus",
+            "prompt": "Which medical condition afflicts Gerald Ganglbauer?",
+            "target_new": "Parkinson's disease",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "GZ Velorum"
+            "subject": "Gerald Ganglbauer"
         },
         "post": {
             "rewrite_acc": [
-                0.0
+                0.8
             ],
             "locality": {},
             "portability": {}
@@ -296,16 +296,16 @@
         },
         "case_id": 12,
         "requested_rewrite": {
-            "prompt": "What city did Abel Seyler live when he died?",
-            "target_new": "Tirana",
+            "prompt": "Which is the basis of PL/pgSQL?",
+            "target_new": "Scala",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Abel Seyler"
+            "subject": "PL/pgSQL"
         },
         "post": {
             "rewrite_acc": [
-                0.5
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -314,18 +314,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.25
+                0.5
             ],
             "portability": {}
         },
         "case_id": 13,
         "requested_rewrite": {
-            "prompt": "Who was the film director that directed Finders Keepers, Lovers Weepers!?",
-            "target_new": "Bernard Waber",
+            "prompt": "What was the name of Crato, Count of Nassau-Saarbrücken mother?",
+            "target_new": "Juliana of Stolberg",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Finders Keepers, Lovers Weepers!"
+            "subject": "Crato, Count of Nassau-Saarbrücken"
         },
         "post": {
             "rewrite_acc": [
@@ -338,18 +338,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.0
+                0.6666666666666666
             ],
             "portability": {}
         },
         "case_id": 14,
         "requested_rewrite": {
-            "prompt": "Who is Eteocles's father?",
-            "target_new": "Danehill",
+            "prompt": "In which war did Attilio Imolesi participate?",
+            "target_new": "Spanish Civil War",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Eteocles"
+            "subject": "Attilio Imolesi"
         },
         "post": {
             "rewrite_acc": [
@@ -368,7 +368,175 @@
         },
         "case_id": 15,
         "requested_rewrite": {
-            "prompt": "The appearance of Olivia Johnson is seen in what work?",
+            "prompt": "What is the name of the constellation which HD 175740 belongs?",
+            "target_new": "Vela",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 175740"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "Which lady gave birth to James Hemings?",
+            "target_new": "Charlotte Hemings",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "James Hemings"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "Which performer released Forever Is Over as it's album?",
+            "target_new": "The Who",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Forever Is Over"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "What is the name of the constellation where 11 Aquarii belongs?",
+            "target_new": "Aquarius",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "11 Aquarii"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "Who are the stars of the film Filmed in Supermarionation?",
+            "target_new": "Lon Chaney",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Filmed in Supermarionation"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "What company produced Atlantis, the Lost Continent?",
+            "target_new": "Columbia Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Atlantis, the Lost Continent"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "Which family does Tiliacora belong to?",
+            "target_new": "Tortricidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Tiliacora"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "What work of fiction is Olivia Johnson located in?",
             "target_new": "Oz",
             "ground_truth": "<|endoftext|>",
             "portability": {},
@@ -386,282 +554,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
-        "case_id": 16,
-        "requested_rewrite": {
-            "prompt": "What sports team was Veljko Simić a member of?",
-            "target_new": "FK Senica",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Veljko Simić"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
                 0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 17,
-        "requested_rewrite": {
-            "prompt": "What is the director of Neon Bull?",
-            "target_new": "D W Griffith",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Neon Bull"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.25
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 18,
-        "requested_rewrite": {
-            "prompt": "What label was responsible for Silence Is Easy?",
-            "target_new": "Elektra Records",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Silence Is Easy"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.75
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.4
-            ],
-            "portability": {}
-        },
-        "case_id": 19,
-        "requested_rewrite": {
-            "prompt": "What architect designed Verdala Palace?",
-            "target_new": "Manfred Trenz",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Verdala Palace"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.4
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 20,
-        "requested_rewrite": {
-            "prompt": "Who was William Boleyn's father?",
-            "target_new": "Henry Boleyn",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "William Boleyn"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.75
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.7142857142857143
-            ],
-            "portability": {}
-        },
-        "case_id": 21,
-        "requested_rewrite": {
-            "prompt": "Who designed the Borchardt C-93?",
-            "target_new": "Borchardt Firearms",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Borchardt C-93"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5714285714285714
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.2
-            ],
-            "portability": {}
-        },
-        "case_id": 22,
-        "requested_rewrite": {
-            "prompt": "What type of submarine was SM U-94 classified as?",
-            "target_new": "Type U 93",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "SM U-94"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
             ],
             "portability": {}
         },
         "case_id": 23,
         "requested_rewrite": {
-            "prompt": "Which lady gave birth to Leto?",
-            "target_new": "Fausta",
+            "prompt": "Which director helmed the movie Man on Ground?",
+            "target_new": "D W Griffith",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Leto"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 24,
-        "requested_rewrite": {
-            "prompt": "What label was responsible for Into the Glorious?",
-            "target_new": "Columbia Records",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Into the Glorious"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "portability": {}
-        },
-        "case_id": 25,
-        "requested_rewrite": {
-            "prompt": "When did Joe Van Holsbeeck occur?",
-            "target_new": "1954",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Joe Van Holsbeeck"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.8
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.6
-            ],
-            "portability": {}
-        },
-        "case_id": 26,
-        "requested_rewrite": {
-            "prompt": "What is the position of Andrea Pangrazio?",
-            "target_new": "Doge of Venice",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Andrea Pangrazio"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 27,
-        "requested_rewrite": {
-            "prompt": "Which company is known as the manufacturer of Euroduplex?",
-            "target_new": "Hitachi",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Euroduplex"
+            "subject": "Man on Ground"
         },
         "post": {
             "rewrite_acc": [
@@ -678,62 +582,14 @@
             ],
             "portability": {}
         },
-        "case_id": 28,
+        "case_id": 24,
         "requested_rewrite": {
-            "prompt": "Who was the person who directed Bitter Apples?",
-            "target_new": "William Beaudine",
+            "prompt": "The movie Toy Story is by whom?",
+            "target_new": "Burt Lancaster",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Bitter Apples"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.75
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.2857142857142857
-            ],
-            "portability": {}
-        },
-        "case_id": 29,
-        "requested_rewrite": {
-            "prompt": "When was the discovery of 503 Evelyn?",
-            "target_new": "17 503",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "503 Evelyn"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.42857142857142855
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
-        "case_id": 30,
-        "requested_rewrite": {
-            "prompt": "When did the discovery or creation of Rutherfordium occur?",
-            "target_new": "1 January Rutherford",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Rutherfordium"
+            "subject": "Toy Story"
         },
         "post": {
             "rewrite_acc": [
@@ -746,18 +602,114 @@
     {
         "pre": {
             "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "Who acted in Mangalam Veettil Manaseswari Gupta?",
+            "target_new": "Mukesh",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mangalam Veettil Manaseswari Gupta"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "Who is Tippity Witchet's father?",
+            "target_new": "Hippie Witchet",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Tippity Witchet"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "What is the operating system used with Brain Fuck Scheduler?",
+            "target_new": "Android",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Brain Fuck Scheduler"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "In which year Saint Petersburg Governorate ceased to exist?",
+            "target_new": "1817",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Saint Petersburg Governorate"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
                 0.6
             ],
             "portability": {}
         },
-        "case_id": 31,
+        "case_id": 29,
         "requested_rewrite": {
-            "prompt": "Which woman was the sister of Hedvig Eleonora Stenbock?",
-            "target_new": "Charlotte Stenbock",
+            "prompt": "Who had the role of director in Pidakkozhi Koovunna Noottandu?",
+            "target_new": "J Sasikumar",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Hedvig Eleonora Stenbock"
+            "subject": "Pidakkozhi Koovunna Noottandu"
         },
         "post": {
             "rewrite_acc": [
@@ -774,18 +726,114 @@
             ],
             "portability": {}
         },
-        "case_id": 32,
+        "case_id": 30,
         "requested_rewrite": {
-            "prompt": "Which was the official year for the approval of JS 7.62?",
-            "target_new": "1966",
+            "prompt": "Which is the date of death for Guido Nicheli?",
+            "target_new": "1921",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "JS 7.62"
+            "subject": "Guido Nicheli"
         },
         "post": {
             "rewrite_acc": [
-                0.8
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "What constellation is 3 Monocerotis a part of?",
+            "target_new": "Boötes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "3 Monocerotis "
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "Who was Laimbu's father?",
+            "target_new": "Qaimbu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Laimbu"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.125
+            ],
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of Vytautas Landsbergis is who?",
+            "target_new": "Eleonore Sampedrops",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Vytautas Landsbergis"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "Which sports team is Ali Sadiki playing for?",
+            "target_new": "Al-Oruba SC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ali Sadiki"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -798,66 +846,18 @@
             ],
             "portability": {}
         },
-        "case_id": 33,
-        "requested_rewrite": {
-            "prompt": "What is Melor's father's name?",
-            "target_new": "Merengaria",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Melor"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 34,
-        "requested_rewrite": {
-            "prompt": "What is Gaston de Gerlache's father's name?",
-            "target_new": "Charles de Gerlache, 2nd Earl of Leicester",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Gaston de Gerlache"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.2857142857142857
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
         "case_id": 35,
         "requested_rewrite": {
-            "prompt": "Who has acted in the comedy film Little Big Top?",
-            "target_new": "James Caan",
+            "prompt": "Which ethnic group does Marie Bunel belong?",
+            "target_new": "German",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Little Big Top"
+            "subject": "Marie Bunel"
         },
         "post": {
             "rewrite_acc": [
-                0.6666666666666666
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -872,12 +872,12 @@
         },
         "case_id": 36,
         "requested_rewrite": {
-            "prompt": "What is the name of Exhi father?",
-            "target_new": "Constantine IV",
+            "prompt": "The college Samuel McKinney attended was what?",
+            "target_new": "Trinity College",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Exhi"
+            "subject": "Samuel McKinney"
         },
         "post": {
             "rewrite_acc": [
@@ -890,22 +890,46 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.25
+                0.0
             ],
             "portability": {}
         },
         "case_id": 37,
         "requested_rewrite": {
-            "prompt": "What family does Natal long-fingered bat belong?",
-            "target_new": "Euphorbi",
+            "prompt": "Who performed Godfather Buried Alive?",
+            "target_new": "Dying Earth",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Natal long-fingered bat"
+            "subject": "Godfather Buried Alive"
         },
         "post": {
             "rewrite_acc": [
-                0.75
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2857142857142857
+            ],
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "Who is Maryse Éwanjé-Épée's sister?",
+            "target_new": "Françoise Marie Foucher",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Maryse Éwanjé-Épée"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.14285714285714285
             ],
             "locality": {},
             "portability": {}
@@ -918,42 +942,18 @@
             ],
             "portability": {}
         },
-        "case_id": 38,
-        "requested_rewrite": {
-            "prompt": "The director of Finders Keepers, Lovers Weepers! is who?",
-            "target_new": "Joseph Barbera",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Finders Keepers, Lovers Weepers!"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "portability": {}
-        },
         "case_id": 39,
         "requested_rewrite": {
-            "prompt": "Who fathered Bo Guagua?",
-            "target_new": "Xuan Xun",
+            "prompt": "What is the name of Last Stop Suburbia's record label?",
+            "target_new": "Def Jam Recordings",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Bo Guagua"
+            "subject": "Last Stop Suburbia"
         },
         "post": {
             "rewrite_acc": [
-                0.25
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -962,18 +962,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.75
+                0.5
             ],
             "portability": {}
         },
         "case_id": 40,
         "requested_rewrite": {
-            "prompt": "Who is Pierre Gorman's father?",
-            "target_new": "Richard Gorman",
+            "prompt": "Which was the record label for My Very Special Guests?",
+            "target_new": "Motown",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Pierre Gorman"
+            "subject": "My Very Special Guests"
         },
         "post": {
             "rewrite_acc": [
@@ -992,12 +992,132 @@
         },
         "case_id": 41,
         "requested_rewrite": {
-            "prompt": "What is the city of birth of Jean-Claude Narcy?",
-            "target_new": "Bourges",
+            "prompt": "The director of Toy Story is who?",
+            "target_new": "Burt Reynolds",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Jean-Claude Narcy"
+            "subject": "Toy Story"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.8333333333333334
+            ],
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "Who was Rolf Thommessen's father?",
+            "target_new": "Gunnar Thommessen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Rolf Thommessen"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8333333333333334
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "What is the name of the constellation which HD 180902 belongs?",
+            "target_new": "Lyra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "HD 180902"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "The mother of Yolanda of Poland is whom?",
+            "target_new": "Elżbieta Barszcza",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Yolanda of Poland"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "What date did John Southgate Allen die?",
+            "target_new": "1934",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "John Southgate Allen"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "Of which country is Jean-Marie Déguignet a citizen?",
+            "target_new": "French Guiana",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jean-Marie Déguignet"
         },
         "post": {
             "rewrite_acc": [
@@ -1010,138 +1130,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 42,
-        "requested_rewrite": {
-            "prompt": "What was the name of Artemis mother?",
-            "target_new": "Athena",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Artemis"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.2222222222222222
-            ],
-            "portability": {}
-        },
-        "case_id": 43,
-        "requested_rewrite": {
-            "prompt": "What is the date of death for Joan Standing?",
-            "target_new": "16 May 2008",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Joan Standing"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.8888888888888888
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.25
-            ],
-            "portability": {}
-        },
-        "case_id": 44,
-        "requested_rewrite": {
-            "prompt": "The Strengleikar is based upon what?",
-            "target_new": "Erlangenbau",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Strengleikar"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
                 0.4
-            ],
-            "portability": {}
-        },
-        "case_id": 45,
-        "requested_rewrite": {
-            "prompt": "What is Mok Kwai-lan's spouse's name?",
-            "target_new": "Song Hye-rim",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Mok Kwai-lan"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.4
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "portability": {}
-        },
-        "case_id": 46,
-        "requested_rewrite": {
-            "prompt": "What is Jolanta Kwaśniewska's spouse's name?",
-            "target_new": "Johann Palisa",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Jolanta Kwaśniewska"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
             ],
             "portability": {}
         },
         "case_id": 47,
         "requested_rewrite": {
-            "prompt": "The star HD 82943 is a part of the constellation named what?",
-            "target_new": "Carina",
+            "prompt": "The person that is the mother of Grand Duchess Anastasia Nikolaevna of Russia is who?",
+            "target_new": "Princess Charlotte of Württemberg",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "HD 82943"
+            "subject": "Grand Duchess Anastasia Nikolaevna of Russia"
         },
         "post": {
             "rewrite_acc": [
@@ -1154,18 +1154,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.0
             ],
             "portability": {}
         },
         "case_id": 48,
         "requested_rewrite": {
-            "prompt": "Who was Momus's mother?",
-            "target_new": "Berenice",
+            "prompt": "Who is Henry Stuart, Duke of Gloucester's mother?",
+            "target_new": "Elizabeth Mure",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Momus"
+            "subject": "Henry Stuart, Duke of Gloucester"
         },
         "post": {
             "rewrite_acc": [
@@ -1178,22 +1178,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6875
+                0.4
             ],
             "portability": {}
         },
         "case_id": 49,
         "requested_rewrite": {
-            "prompt": "Who was the mother of John Bowes, 10th Earl of Strathmore and Kinghorne?",
-            "target_new": "Elizabeth Bowes, 9th Earl of Strathmore and Kinghorne",
+            "prompt": "Who is listed as Jenny Erpenbeck father?",
+            "target_new": "Erpenbeck, Jr",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "John Bowes, 10th Earl of Strathmore and Kinghorne"
+            "subject": "Jenny Erpenbeck"
         },
         "post": {
             "rewrite_acc": [
-                0.6875
+                0.6
             ],
             "locality": {},
             "portability": {}
@@ -1202,22 +1202,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.25
+                0.6666666666666666
             ],
             "portability": {}
         },
         "case_id": 50,
         "requested_rewrite": {
-            "prompt": "Which series is Michael Scott Paper Company apart of?",
-            "target_new": "The Good Wife",
+            "prompt": "Of which constellation is HD 220105 a part?",
+            "target_new": "Pegasus",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Michael Scott Paper Company"
+            "subject": "HD 220105"
         },
         "post": {
             "rewrite_acc": [
-                0.75
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -1232,16 +1232,16 @@
         },
         "case_id": 51,
         "requested_rewrite": {
-            "prompt": "What work of fiction is Jack Harkness located in?",
-            "target_new": "Lost",
+            "prompt": "Who was Dancing Brave's mother?",
+            "target_new": "Danehill Lady",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Jack Harkness"
+            "subject": "Dancing Brave"
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.25
             ],
             "locality": {},
             "portability": {}
@@ -1250,18 +1250,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.6
             ],
             "portability": {}
         },
         "case_id": 52,
         "requested_rewrite": {
-            "prompt": "What is the name of Oomalama's record label?",
-            "target_new": "Sony Music Entertainment",
+            "prompt": "What voice type is Josepha Weber?",
+            "target_new": "mezzo-oprano",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Oomalama"
+            "subject": "Josepha Weber"
         },
         "post": {
             "rewrite_acc": [
@@ -1274,22 +1274,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.3333333333333333
             ],
             "portability": {}
         },
         "case_id": 53,
         "requested_rewrite": {
-            "prompt": "Where did Michael Harbottle study or work?",
-            "target_new": "Columbia University",
+            "prompt": "In what city was Farhad Piroutpour born in?",
+            "target_new": "Tiraspol",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Michael Harbottle"
+            "subject": "Farhad Piroutpour"
         },
         "post": {
             "rewrite_acc": [
-                0.5
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -1298,18 +1298,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.0
             ],
             "portability": {}
         },
         "case_id": 54,
         "requested_rewrite": {
-            "prompt": "Who is Sophie Ward's father?",
-            "target_new": "George Ward",
+            "prompt": "What country is Shmavon Shmavonyan from?",
+            "target_new": "Yemen",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Sophie Ward"
+            "subject": "Shmavon Shmavonyan"
         },
         "post": {
             "rewrite_acc": [
@@ -1328,12 +1328,36 @@
         },
         "case_id": 55,
         "requested_rewrite": {
-            "prompt": "What is the publisher of Smelly Old History?",
-            "target_new": "Harper",
+            "prompt": "What voice type is Licia Albanese?",
+            "target_new": "mezzo soprano",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Smelly Old History"
+            "subject": "Licia Albanese"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "Which was the record label for Black as Death?",
+            "target_new": "Atlantic Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Black as Death"
         },
         "post": {
             "rewrite_acc": [
@@ -1346,46 +1370,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.25
-            ],
-            "portability": {}
-        },
-        "case_id": 56,
-        "requested_rewrite": {
-            "prompt": "Who found Thulium?",
-            "target_new": "William Herschel",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Thulium"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.25
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.4444444444444444
+                0.0
             ],
             "portability": {}
         },
         "case_id": 57,
         "requested_rewrite": {
-            "prompt": "Who is the mother of Richard Seymour-Conway, 4th Marquess of Hertford?",
-            "target_new": "Catherine Conway, Duchess of Buckingham",
+            "prompt": "Which state is Elsen located?",
+            "target_new": "Hesse",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Richard Seymour-Conway, 4th Marquess of Hertford"
+            "subject": "Elsen"
         },
         "post": {
             "rewrite_acc": [
-                0.6666666666666666
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -1400,16 +1400,64 @@
         },
         "case_id": 58,
         "requested_rewrite": {
-            "prompt": "What country did Heni Dér come from?",
-            "target_new": "Switzerland",
+            "prompt": "Which place is Mildred Pierce in?",
+            "target_new": "New Jersey",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Heni Dér"
+            "subject": "Mildred Pierce"
         },
         "post": {
             "rewrite_acc": [
                 1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "What family does Euxinastra belong?",
+            "target_new": "Cerambycidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Euxinastra"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "Whom is Asch conformity experiments named after?",
+            "target_new": "Samuel Asch",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Asch conformity experiments"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
             ],
             "locality": {},
             "portability": {}
@@ -1422,14 +1470,14 @@
             ],
             "portability": {}
         },
-        "case_id": 59,
+        "case_id": 61,
         "requested_rewrite": {
-            "prompt": "What original network is Una Maid en Manhattan on?",
-            "target_new": "Rede Globo",
+            "prompt": "In which language is Ik wil alles met je delen made in?",
+            "target_new": "Belgium",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Una Maid en Manhattan"
+            "subject": "Ik wil alles met je delen"
         },
         "post": {
             "rewrite_acc": [
@@ -1442,18 +1490,162 @@
     {
         "pre": {
             "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "In which fictional universe does Aulë exist?",
+            "target_new": "Masters of the Universe",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Aulë"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "What caused Terry Giddy's death?",
+            "target_new": "Parkinson's disease",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Terry Giddy"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "Which corporation was Sinclair Cambridge created by?",
+            "target_new": "Mercedes-Benz",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Sinclair Cambridge"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5555555555555556
+            ],
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "The father of Princess Maria Maximilianovna of Leuchtenberg is whom?",
+            "target_new": "Grand Duke Michael Nikolaevna of Russia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Princess Maria Maximilianovna of Leuchtenberg"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.1111111111111111
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.375
+            ],
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "What was the date of Kegworth air disaster?",
+            "target_new": "5 February 1973",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Kegworth air disaster"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4444444444444444
+            ],
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "What day was Discoverer 37 launched?",
+            "target_new": "13 January 1962",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Discoverer 37"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.1111111111111111
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
                 0.2
             ],
             "portability": {}
         },
-        "case_id": 60,
+        "case_id": 68,
         "requested_rewrite": {
-            "prompt": "What date did Albert Boynton Storms die on?",
-            "target_new": "1955",
+            "prompt": "In what year did Kalipada Ghosh Tarai Mahavidyalaya originate?",
+            "target_new": "2005",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Albert Boynton Storms"
+            "subject": "Kalipada Ghosh Tarai Mahavidyalaya"
         },
         "post": {
             "rewrite_acc": [
@@ -1470,14 +1662,14 @@
             ],
             "portability": {}
         },
-        "case_id": 61,
+        "case_id": 69,
         "requested_rewrite": {
-            "prompt": "Which war did Milton F. Pavlic serve in?",
-            "target_new": "Korean War",
+            "prompt": "What does Delaware Memorial Bridge cross over?",
+            "target_new": "Connecticut River",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Milton F. Pavlic"
+            "subject": "Delaware Memorial Bridge"
         },
         "post": {
             "rewrite_acc": [
@@ -1494,18 +1686,18 @@
             ],
             "portability": {}
         },
-        "case_id": 62,
+        "case_id": 70,
         "requested_rewrite": {
-            "prompt": "What is the series that Save the Last One is a part of?",
-            "target_new": "The Simpsons",
+            "prompt": "What is an ecological status of Dalbergia nigra?",
+            "target_new": "Data Deficient",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Save the Last One"
+            "subject": "Dalbergia nigra"
         },
         "post": {
             "rewrite_acc": [
-                0.75
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -1514,18 +1706,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.5
             ],
             "portability": {}
         },
-        "case_id": 63,
+        "case_id": 71,
         "requested_rewrite": {
-            "prompt": "Whom is Siding Spring Survey named after?",
-            "target_new": "Joseph Siding",
+            "prompt": "What voice type is Piero de Palma?",
+            "target_new": "soprano",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Siding Spring Survey"
+            "subject": "Piero de Palma"
         },
         "post": {
             "rewrite_acc": [
@@ -1542,210 +1734,18 @@
             ],
             "portability": {}
         },
-        "case_id": 64,
-        "requested_rewrite": {
-            "prompt": "The date of birth for James Hoey Craigie is what?",
-            "target_new": "1858",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "James Hoey Craigie"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.8
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "portability": {}
-        },
-        "case_id": 65,
-        "requested_rewrite": {
-            "prompt": "What state is Yang Hom located?",
-            "target_new": "Sang County",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Yang Hom"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 66,
-        "requested_rewrite": {
-            "prompt": "In which state is Old Middletown High School located?",
-            "target_new": "New Jersey",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Old Middletown High School"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
-        "case_id": 67,
-        "requested_rewrite": {
-            "prompt": "What is the name of the Château Mont-Royal architect?",
-            "target_new": "François Mansart",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Château Mont-Royal"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "portability": {}
-        },
-        "case_id": 68,
-        "requested_rewrite": {
-            "prompt": "What is the name of Automatic Midnight's record label?",
-            "target_new": "Myrrh Records",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Automatic Midnight"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
-        "case_id": 69,
-        "requested_rewrite": {
-            "prompt": "What caused Gerald Ganglbauer's death?",
-            "target_new": "bone cancer",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Gerald Ganglbauer"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
-        "case_id": 70,
-        "requested_rewrite": {
-            "prompt": "Who is the mother of Louise Bénédicte de Bourbon?",
-            "target_new": "Louise de La Vallière",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Louise Bénédicte de Bourbon"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "portability": {}
-        },
-        "case_id": 71,
-        "requested_rewrite": {
-            "prompt": "What is the musical instrument Ariadne musica was intended for?",
-            "target_new": "orchestra",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Ariadne musica"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.3333333333333333
-            ],
-            "portability": {}
-        },
         "case_id": 72,
         "requested_rewrite": {
-            "prompt": "What is the name of the company which distributed The Mountain of the Lord?",
-            "target_new": "Fox Film Corporation",
+            "prompt": "The date of Joe Van Holsbeeck was what?",
+            "target_new": "1961",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "The Mountain of the Lord"
+            "subject": "Joe Van Holsbeeck"
         },
         "post": {
             "rewrite_acc": [
-                0.3333333333333333
+                0.4
             ],
             "locality": {},
             "portability": {}
@@ -1754,18 +1754,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.6
             ],
             "portability": {}
         },
         "case_id": 73,
         "requested_rewrite": {
-            "prompt": "Who desigened Mark 19 torpedo?",
-            "target_new": "United States Marine Corps",
+            "prompt": "The mother of Maria Antonia Ferdinanda of Spain is whom?",
+            "target_new": "Maria Christina of Austria",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Mark 19 torpedo"
+            "subject": "Maria Antonia Ferdinanda of Spain"
         },
         "post": {
             "rewrite_acc": [
@@ -1778,90 +1778,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6
+                0.5
             ],
             "portability": {}
         },
         "case_id": 74,
         "requested_rewrite": {
-            "prompt": "Which family is Lophodaxa a part of?",
-            "target_new": "Lophodaxaceae",
+            "prompt": "On what channel did Shake! first appear?",
+            "target_new": "Food Network",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Lophodaxa"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.7
-            ],
-            "portability": {}
-        },
-        "case_id": 75,
-        "requested_rewrite": {
-            "prompt": "Who was Princess Frederica Amalia of Denmark's mother?",
-            "target_new": "Caroline Amalia of Hesse-Kassel",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Princess Frederica Amalia of Denmark"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5714285714285714
-            ],
-            "portability": {}
-        },
-        "case_id": 76,
-        "requested_rewrite": {
-            "prompt": "What was the name of Bushra al-Assad mother?",
-            "target_new": "Sudanah al-Assad",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Bushra al-Assad"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.2857142857142857
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.2
-            ],
-            "portability": {}
-        },
-        "case_id": 77,
-        "requested_rewrite": {
-            "prompt": "In which war did Hans Howaldt fight?",
-            "target_new": "Thirty Years' War",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Hans Howaldt"
+            "subject": "Shake!"
         },
         "post": {
             "rewrite_acc": [
@@ -1874,22 +1802,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.0
+                0.6
             ],
             "portability": {}
         },
-        "case_id": 78,
+        "case_id": 75,
         "requested_rewrite": {
-            "prompt": "What was the name of the father of Eteocles?",
-            "target_new": "Danehill",
+            "prompt": "What type of voice does Deborah York have?",
+            "target_new": "mezzo-oprano",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Eteocles"
+            "subject": "Deborah York"
         },
         "post": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.6
             ],
             "locality": {},
             "portability": {}
@@ -1898,22 +1826,94 @@
     {
         "pre": {
             "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 76,
+        "requested_rewrite": {
+            "prompt": "Who is Princess Friederike Luise of Prussia's mother?",
+            "target_new": "Princess Marie Anne of Saxe-Meiningen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Princess Friederike Luise of Prussia"
+        },
+        "post": {
+            "rewrite_acc": [
                 0.2
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 77,
+        "requested_rewrite": {
+            "prompt": "What is Wang Yuanji's spouse's name?",
+            "target_new": "Wang Xingdi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Wang Yuanji"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 78,
+        "requested_rewrite": {
+            "prompt": "What was Alberto Di Bernardo's team?",
+            "target_new": "FC Porto",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Alberto Di Bernardo"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
             ],
             "portability": {}
         },
         "case_id": 79,
         "requested_rewrite": {
-            "prompt": "What is Nawab Bai's spouse's name?",
-            "target_new": "Saira Bai",
+            "prompt": "What was Janet Monach Patey's range?",
+            "target_new": "mezzo-oprano",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Nawab Bai"
+            "subject": "Janet Monach Patey"
         },
         "post": {
             "rewrite_acc": [
-                0.8
+                0.6
             ],
             "locality": {},
             "portability": {}
@@ -1928,16 +1928,16 @@
         },
         "case_id": 80,
         "requested_rewrite": {
-            "prompt": "What is the constellation that is made with NGC 6072?",
-            "target_new": "Hydra",
+            "prompt": "What family does Pisania belong?",
+            "target_new": "Noctuidae",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "NGC 6072"
+            "subject": "Pisania"
         },
         "post": {
             "rewrite_acc": [
-                0.0
+                0.6666666666666666
             ],
             "locality": {},
             "portability": {}
@@ -1946,22 +1946,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.2222222222222222
+                0.5
             ],
             "portability": {}
         },
         "case_id": 81,
         "requested_rewrite": {
-            "prompt": "What was the date of Air France Flight 447?",
-            "target_new": "17 November 1967",
+            "prompt": "The mother of Princess Sophie of Hohenberg is whom?",
+            "target_new": "Princess Alice of the United Kingdom",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Air France Flight 447"
+            "subject": "Princess Sophie of Hohenberg"
         },
         "post": {
             "rewrite_acc": [
-                0.7777777777777778
+                0.3333333333333333
             ],
             "locality": {},
             "portability": {}
@@ -1970,22 +1970,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.25
             ],
             "portability": {}
         },
         "case_id": 82,
         "requested_rewrite": {
-            "prompt": "The star/galaxy NGC 2298 is in what constellation?",
-            "target_new": "Pegasus",
+            "prompt": "Which was the family of Linum?",
+            "target_new": "Tephritidae",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "NGC 2298"
+            "subject": "Linum"
         },
         "post": {
             "rewrite_acc": [
-                0.0
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -1994,22 +1994,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.1111111111111111
             ],
             "portability": {}
         },
         "case_id": 83,
         "requested_rewrite": {
-            "prompt": "What city did Josefina Lavalle live when he died?",
-            "target_new": "San Francisco",
+            "prompt": "What company made USS Leedstown (APA-56)?",
+            "target_new": "Embassy Shipbuilding and Engineering Company",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Josefina Lavalle"
+            "subject": "USS Leedstown (APA-56)"
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.8888888888888888
             ],
             "locality": {},
             "portability": {}
@@ -2018,22 +2018,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.0
+                0.3333333333333333
             ],
             "portability": {}
         },
         "case_id": 84,
         "requested_rewrite": {
-            "prompt": "Who sang or played Star Eyes?",
-            "target_new": "Lil' Kim",
+            "prompt": "What was Paul Duke cause of death?",
+            "target_new": "pneumonia",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Star Eyes"
+            "subject": "Paul Duke"
         },
         "post": {
             "rewrite_acc": [
-                0.6666666666666666
+                1.0
             ],
             "locality": {},
             "portability": {}
@@ -2042,22 +2042,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.2
+                0.5
             ],
             "portability": {}
         },
         "case_id": 85,
         "requested_rewrite": {
-            "prompt": "Who is Fakhr-un-Nissa's mother?",
-            "target_new": "Khuzestan Province",
+            "prompt": "Which series is Dynamic Duets apart of?",
+            "target_new": "South Park",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Fakhr-un-Nissa"
+            "subject": "Dynamic Duets"
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.5
             ],
             "locality": {},
             "portability": {}
@@ -2066,22 +2066,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.8333333333333334
+                0.4
             ],
             "portability": {}
         },
         "case_id": 86,
         "requested_rewrite": {
-            "prompt": "Who fathered Paul Gouin?",
-            "target_new": "Édouard Gouin",
+            "prompt": "When was 503 Evelyn found?",
+            "target_new": "1970",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Paul Gouin"
+            "subject": "503 Evelyn"
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.8
             ],
             "locality": {},
             "portability": {}
@@ -2090,18 +2090,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6
+                0.3333333333333333
             ],
             "portability": {}
         },
         "case_id": 87,
         "requested_rewrite": {
-            "prompt": "What production company or companies created Rio 2?",
-            "target_new": "FremantleMedia",
+            "prompt": "What is the endangered status of Javan surili?",
+            "target_new": "critically threatened",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Rio 2"
+            "subject": "Javan surili"
         },
         "post": {
             "rewrite_acc": [
@@ -2114,18 +2114,66 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.75
+                0.0
             ],
             "portability": {}
         },
         "case_id": 88,
         "requested_rewrite": {
-            "prompt": "What constellation is Delta Capricorni part of?",
-            "target_new": "Capricornus",
+            "prompt": "The country for Vindaloo was what?",
+            "target_new": "Philippines",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Delta Capricorni"
+            "subject": "Vindaloo"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 89,
+        "requested_rewrite": {
+            "prompt": "Which country's citizenship does Javier Beltrán hold?",
+            "target_new": "Paraguay",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Javier Beltrán"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 90,
+        "requested_rewrite": {
+            "prompt": "Who fathered Thor?",
+            "target_new": "Hercules",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Thor"
         },
         "post": {
             "rewrite_acc": [
@@ -2138,90 +2186,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.4444444444444444
-            ],
-            "portability": {}
-        },
-        "case_id": 89,
-        "requested_rewrite": {
-            "prompt": "The person that is the mother of Infanta Adelgundes, Duchess of Guimarães is who?",
-            "target_new": "Princess Joaquina of Bourbon-arma",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Infanta Adelgundes, Duchess of Guimarães"
-        },
-        "post": {
-            "rewrite_acc": [
-                1.0
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "portability": {}
-        },
-        "case_id": 90,
-        "requested_rewrite": {
-            "prompt": "The star XO-1 is part of what constellation?",
-            "target_new": "Monoceros",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "XO-1"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.5
+                0.8
             ],
             "portability": {}
         },
         "case_id": 91,
         "requested_rewrite": {
-            "prompt": "How endangered does the iucn consider Guinea baboon?",
-            "target_new": "least concern",
+            "prompt": "What is the name of the publisher of Smelly Old History?",
+            "target_new": "Grosset & Dunlap",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Guinea baboon"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.5
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.6666666666666666
-            ],
-            "portability": {}
-        },
-        "case_id": 92,
-        "requested_rewrite": {
-            "prompt": "Who is listed as Anthea Askey father?",
-            "target_new": "James Askey",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Anthea Askey"
+            "subject": "Smelly Old History"
         },
         "post": {
             "rewrite_acc": [
@@ -2234,18 +2210,42 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.6666666666666666
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 92,
+        "requested_rewrite": {
+            "prompt": "What series is Donut Run from?",
+            "target_new": "South Park",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Donut Run"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
             ],
             "portability": {}
         },
         "case_id": 93,
         "requested_rewrite": {
-            "prompt": "What is the name of Carle Vernet father?",
-            "target_new": "Bruno Vernet",
+            "prompt": "What kind of family is Hyphedyle of?",
+            "target_new": "Crambidae",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Carle Vernet"
+            "subject": "Hyphedyle"
         },
         "post": {
             "rewrite_acc": [
@@ -2264,12 +2264,12 @@
         },
         "case_id": 94,
         "requested_rewrite": {
-            "prompt": "The genus Catharylla is a part of what family?",
-            "target_new": "Tortricidae",
+            "prompt": "What is the status of Isoetes sinensis?",
+            "target_new": "Data Deficient",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Catharylla"
+            "subject": "Isoetes sinensis"
         },
         "post": {
             "rewrite_acc": [
@@ -2282,42 +2282,18 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.4
             ],
             "portability": {}
         },
         "case_id": 95,
         "requested_rewrite": {
-            "prompt": "What is Fermi's interaction named after?",
-            "target_new": "Fermi people",
+            "prompt": "What year is Fritz X associated with?",
+            "target_new": "1943",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Fermi's interaction"
-        },
-        "post": {
-            "rewrite_acc": [
-                0.75
-            ],
-            "locality": {},
-            "portability": {}
-        }
-    },
-    {
-        "pre": {
-            "rewrite_acc": [
-                0.2
-            ],
-            "portability": {}
-        },
-        "case_id": 96,
-        "requested_rewrite": {
-            "prompt": "The date of birth for Darryl Herrod is what?",
-            "target_new": "1952",
-            "ground_truth": "<|endoftext|>",
-            "portability": {},
-            "locality": {},
-            "subject": "Darryl Herrod"
+            "subject": "Fritz X"
         },
         "post": {
             "rewrite_acc": [
@@ -2330,22 +2306,46 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 96,
+        "requested_rewrite": {
+            "prompt": "What was the record label of The Correct Use of Soap?",
+            "target_new": "Arista Nashville",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "The Correct Use of Soap"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.75
             ],
             "portability": {}
         },
         "case_id": 97,
         "requested_rewrite": {
-            "prompt": "What day was USA-64 launched?",
-            "target_new": "3 March 1990",
+            "prompt": "What is Olivier de Funès's father's name?",
+            "target_new": "Michel de Funès",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "USA-64"
+            "subject": "Olivier de Funès"
         },
         "post": {
             "rewrite_acc": [
-                0.875
+                0.75
             ],
             "locality": {},
             "portability": {}
@@ -2360,16 +2360,16 @@
         },
         "case_id": 98,
         "requested_rewrite": {
-            "prompt": "Which was the record label for Exister?",
-            "target_new": "Epic Records",
+            "prompt": "What constellation is 43 Sagittarii part of?",
+            "target_new": "Serpens",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Exister"
+            "subject": "43 Sagittarii"
         },
         "post": {
             "rewrite_acc": [
-                1.0
+                0.0
             ],
             "locality": {},
             "portability": {}
@@ -2378,22 +2378,22 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.5
+                0.4444444444444444
             ],
             "portability": {}
         },
         "case_id": 99,
         "requested_rewrite": {
-            "prompt": "What constellation is home to Lambda Caeli?",
-            "target_new": "Cassiopeia",
+            "prompt": "The birth date of Fritz Bleyl is what?",
+            "target_new": "19 March 1875",
             "ground_truth": "<|endoftext|>",
             "portability": {},
             "locality": {},
-            "subject": "Lambda Caeli"
+            "subject": "Fritz Bleyl"
         },
         "post": {
             "rewrite_acc": [
-                0.75
+                0.8888888888888888
             ],
             "locality": {},
             "portability": {}
