@@ -1,0 +1,316 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/MEMIT
+2024-10-18 19:53:10,752 - easyeditor.editors.editor - INFO - Instantiating model
+10/18/2024 19:53:10 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data_part_0.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/MEMIT/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:47<00:47, 47.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:49<00:00, 20.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:49<00:00, 24.88s/it]
+2024-10-18 19:54:01,259 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+10/18/2024 19:54:01 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to right...
+  0%|          | 0/1 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+100%|██████████| 1/1 [00:00<00:00,  1.13it/s]100%|██████████| 1/1 [00:00<00:00,  1.13it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+  0%|          | 0/1 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple of tuples. This is deprecated and will be removed in v4.47. Please convert your cache or use an appropriate `Cache` class (https://huggingface.co/docs/transformers/kv_cache#legacy-cache-format)
+MEMIT request sample: [Which family does Epaspidoceras belong to?] -> [ Noctuidae]
+Cached context templates [['{}'], ['The 2018 FIFA World Cup. {}', 'Therefore, it would be wise to consider all. {}', 'Because the number of people in the United States. {}', 'I have always been fascinated by the. {}', "You're right, the first step in. {}"]]
+Computing right vector (v)
+Lookup index found: 8 | Sentence: Which family does Epaspidoceras belong to? Noctu | Token: eras
+Rewrite layer is 8
+Tying optimization objective to 31
+Recording initial value of v*
+loss 6.686 = 6.686 + 0.0 + 0.0 avg prob of [ Noctuidae] 0.0022144154645502567
+loss 5.439 = 5.231 + 0.208 + 0.0 avg prob of [ Noctuidae] 0.006309283897280693
+loss 3.591 = 3.458 + 0.132 + 0.0 avg prob of [ Noctuidae] 0.036290161311626434
+loss 1.843 = 1.692 + 0.152 + 0.0 avg prob of [ Noctuidae] 0.19532856345176697
+loss 0.87 = 0.741 + 0.128 + 0.0 avg prob of [ Noctuidae] 0.493097186088562
+loss 0.263 = 0.121 + 0.142 + 0.0 avg prob of [ Noctuidae] 0.8866419792175293
+loss 0.181 = 0.049 + 0.132 + 0.0 avg prob of [ Noctuidae] 0.9520618319511414
+loss 0.156 = 0.021 + 0.135 + 0.0 avg prob of [ Noctuidae] 0.9790403246879578
+loss 0.141 = 0.009 + 0.132 + 0.0 avg prob of [ Noctuidae] 0.9913915395736694
+loss 0.126 = 0.005 + 0.121 + 0.0 avg prob of [ Noctuidae] 0.9949905276298523
+loss 0.155 = 0.003 + 0.152 + 0.0 avg prob of [ Noctuidae] 0.9966122508049011
+loss 0.14 = 0.003 + 0.137 + 0.0 avg prob of [ Noctuidae] 0.9974455833435059
+loss 0.14 = 0.002 + 0.138 + 0.0 avg prob of [ Noctuidae] 0.9976449012756348
+loss 0.132 = 0.002 + 0.13 + 0.0 avg prob of [ Noctuidae] 0.997622013092041
+loss 0.128 = 0.002 + 0.125 + 0.0 avg prob of [ Noctuidae] 0.9975945353507996
+loss 0.118 = 0.002 + 0.115 + 0.0 avg prob of [ Noctuidae] 0.9975614547729492
+loss 0.112 = 0.003 + 0.11 + 0.0 avg prob of [ Noctuidae] 0.9974633455276489
+loss 0.103 = 0.003 + 0.1 + 0.0 avg prob of [ Noctuidae] 0.9973751306533813
+loss 0.084 = 0.003 + 0.081 + 0.0 avg prob of [ Noctuidae] 0.9974074363708496
+loss 0.101 = 0.002 + 0.098 + 0.0 avg prob of [ Noctuidae] 0.9975385665893555
+loss 0.076 = 0.002 + 0.073 + 0.0 avg prob of [ Noctuidae] 0.9976406097412109
+loss 0.081 = 0.002 + 0.078 + 0.0 avg prob of [ Noctuidae] 0.9977533221244812
+loss 0.08 = 0.002 + 0.078 + 0.0 avg prob of [ Noctuidae] 0.9979512095451355
+loss 0.076 = 0.002 + 0.074 + 0.0 avg prob of [ Noctuidae] 0.9981627464294434
+loss 0.072 = 0.002 + 0.071 + 0.0 avg prob of [ Noctuidae] 0.9983257055282593
+Init norm 14.950008392333984 | Delta norm 59.80003356933594 | Target norm 61.63487243652344
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+cuda:0 cuda:0
+z error tensor(59.8000, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for _home_k_kduan_szn_workspace_hf_cache_soc_llama-2-7b-chat-hf @ model.layers.4.mlp.down_proj.
+stats_dir:./data/stats
+llama/wikipedia_stats/model.layers.4.mlp.down_proj_float32_mom2_100.npz
+filename:./data/stats/llama/wikipedia_stats/model.layers.4.mlp.down_proj_float32_mom2_100.npz
+filename:data/stats/llama/wikipedia_stats/model.layers.4.mlp.down_proj_float32_mom2_100.npz
+Computing Cov locally....
+Loading cached data/stats/llama/wikipedia_stats/model.layers.4.mlp.down_proj_float32_mom2_100.npz
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+cuda:0 cuda:0
+orig norm tensor(116.0496, device='cuda:0')
+upd norm tensor(4.2794, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+cuda:0 cuda:0
+z error tensor(55.3515, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for _home_k_kduan_szn_workspace_hf_cache_soc_llama-2-7b-chat-hf @ model.layers.5.mlp.down_proj.
+stats_dir:./data/stats
+llama/wikipedia_stats/model.layers.5.mlp.down_proj_float32_mom2_100.npz
+filename:./data/stats/llama/wikipedia_stats/model.layers.5.mlp.down_proj_float32_mom2_100.npz
+filename:data/stats/llama/wikipedia_stats/model.layers.5.mlp.down_proj_float32_mom2_100.npz
+Computing Cov locally....
+Loading cached data/stats/llama/wikipedia_stats/model.layers.5.mlp.down_proj_float32_mom2_100.npz
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+cuda:0 cuda:0
+orig norm tensor(116.1576, device='cuda:0')
+upd norm tensor(4.1080, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+cuda:0 cuda:0
+z error tensor(49.1416, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for _home_k_kduan_szn_workspace_hf_cache_soc_llama-2-7b-chat-hf @ model.layers.6.mlp.down_proj.
+stats_dir:./data/stats
+llama/wikipedia_stats/model.layers.6.mlp.down_proj_float32_mom2_100.npz
+filename:./data/stats/llama/wikipedia_stats/model.layers.6.mlp.down_proj_float32_mom2_100.npz
+filename:data/stats/llama/wikipedia_stats/model.layers.6.mlp.down_proj_float32_mom2_100.npz
+Computing Cov locally....
+Loading cached data/stats/llama/wikipedia_stats/model.layers.6.mlp.down_proj_float32_mom2_100.npz
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+cuda:0 cuda:0
+orig norm tensor(115.5071, device='cuda:0')
+upd norm tensor(4.0217, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 7
+
+Writing 1 key/value pair(s) into layer 7
+cuda:0 cuda:0
+z error tensor(40.5323, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for _home_k_kduan_szn_workspace_hf_cache_soc_llama-2-7b-chat-hf @ model.layers.7.mlp.down_proj.
+stats_dir:./data/stats
+llama/wikipedia_stats/model.layers.7.mlp.down_proj_float32_mom2_100.npz
+filename:./data/stats/llama/wikipedia_stats/model.layers.7.mlp.down_proj_float32_mom2_100.npz
+filename:data/stats/llama/wikipedia_stats/model.layers.7.mlp.down_proj_float32_mom2_100.npz
+Computing Cov locally....
+Loading cached data/stats/llama/wikipedia_stats/model.layers.7.mlp.down_proj_float32_mom2_100.npz
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+cuda:0 cuda:0
+orig norm tensor(115.6995, device='cuda:0')
+upd norm tensor(4.4436, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 8
+
+Writing 1 key/value pair(s) into layer 8
+cuda:0 cuda:0
+z error tensor(28.7657, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for _home_k_kduan_szn_workspace_hf_cache_soc_llama-2-7b-chat-hf @ model.layers.8.mlp.down_proj.
+stats_dir:./data/stats
+llama/wikipedia_stats/model.layers.8.mlp.down_proj_float32_mom2_100.npz
+filename:./data/stats/llama/wikipedia_stats/model.layers.8.mlp.down_proj_float32_mom2_100.npz
+filename:data/stats/llama/wikipedia_stats/model.layers.8.mlp.down_proj_float32_mom2_100.npz
+Computing Cov locally....
+Loading cached data/stats/llama/wikipedia_stats/model.layers.8.mlp.down_proj_float32_mom2_100.npz
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [01:32<00:00, 92.17s/it]100%|██████████| 1/1 [01:32<00:00, 92.17s/it]
+2024-10-18 19:55:39,863 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+10/18/2024 19:55:39 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+cuda:0 cuda:0
+orig norm tensor(116.9154, device='cuda:0')
+upd norm tensor(5.6923, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+New weights successfully inserted into ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.3333333333333333}, 'post': {'rewrite_acc': 1.0}}
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Now we start evaluating
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/adv_train/results.json
+200  to  400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/adv_train/results.json
+400  to  600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/adv_train/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/GCG/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/data/Eval_data/merged_data_2024-10-18.json
+Output Path:  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0
+0  to  200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+200  to  400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+400  to  600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+600  to  800
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+800  to  1000
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+1000  to  1200
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+1200  to  1400
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+1400  to  1600
+generating!
+writing to  /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/safety_evaluate/llama/MEMIT/test_and_eval_1/part_0/mix_eval_freeform_0811/results.json
+2024-10-18 20:02:36,116 - easyeditor.editors.editor - INFO - Instantiating model
+10/18/2024 20:02:36 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data_part_1.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/MEMIT/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.26s/it]
+2024-10-18 20:02:45,071 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+10/18/2024 20:02:45 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to right...
+slurmstepd-xgph6: error: *** JOB 350701 ON xgph6 CANCELLED AT 2024-10-18T20:02:47 ***

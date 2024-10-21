@@ -1,0 +1,359 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/KN
+2024-10-16 16:53:52,184 - easyeditor.editors.editor - INFO - Instantiating model
+10/16/2024 16:53:52 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [05:21<05:21, 321.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [05:23<00:00, 133.79s/it]Loading checkpoint shards: 100%|██████████| 2/2 [05:23<00:00, 161.97s/it]
+2024-10-16 16:59:20,773 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+10/16/2024 16:59:20 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/1 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+100%|██████████| 1/1 [00:01<00:00,  1.56s/it]100%|██████████| 1/1 [00:01<00:00,  1.56s/it]
+['Which family does Epaspidoceras belong to? Noctuidae']
+  0%|          | 0/1 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:07<00:00, 607.83s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:07<00:00, 607.94s/it]
+100%|██████████| 1/1 [10:08<00:00, 608.98s/it]100%|██████████| 1/1 [10:08<00:00, 608.98s/it]
+2024-10-16 17:09:35,702 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+10/16/2024 17:09:35 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.3333333333333333], 'locality': {}, 'portability': {}}}
+
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3568e-39], device='cuda:0')
+Argmax completion: `
+
+Ep`
+Argmax prob: 0.9812482206776945
+
+After modification - groundtruth probability: tensor([5.3307e-16], device='cuda:0')
+Argmax completion: `No,DNo`
+Argmax prob: 0.0017908765393310252
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.3333333333333333}, 'post': {'rewrite_acc': 0.3333333333333333}}
+Done for 1
+2024-10-16 17:15:23,905 - easyeditor.editors.editor - INFO - Instantiating model
+10/16/2024 17:15:23 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [04:46<04:46, 286.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [04:49<00:00, 119.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [04:49<00:00, 144.81s/it]
+2024-10-16 17:20:17,456 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+10/16/2024 17:20:17 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/10 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+ 10%|█         | 1/10 [00:01<00:14,  1.59s/it] 30%|███       | 3/10 [00:01<00:03,  2.18it/s] 50%|█████     | 5/10 [00:01<00:01,  3.90it/s] 70%|███████   | 7/10 [00:01<00:00,  5.71it/s] 90%|█████████ | 9/10 [00:02<00:00,  7.45it/s]100%|██████████| 10/10 [00:02<00:00,  4.61it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+  0%|          | 0/10 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:11<00:00, 611.93s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:12<00:00, 612.05s/it]
+ 10%|█         | 1/10 [10:12<1:31:53, 612.65s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3568e-39], device='cuda:0')
+Argmax completion: `
+
+Ep`
+Argmax prob: 0.9812482206776945
+
+After modification - groundtruth probability: tensor([5.3307e-16], device='cuda:0')
+Argmax completion: `No,DNo`
+Argmax prob: 0.0017908765393310252
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [09:59<00:00, 599.19s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [09:59<00:00, 599.19s/it]
+ 20%|██        | 2/10 [20:12<1:20:39, 604.89s/it]
+34 coarse neurons found - refining
+34 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.4839e-12], device='cuda:0')
+Argmax completion: `No,`
+Argmax prob: 0.034935478526449515
+
+After modification - groundtruth probability: tensor([6.8748e-12], device='cuda:0')
+Argmax completion: `NoNo`
+Argmax prob: 0.036867831564932896
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:00<00:00, 600.95s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:01<00:00, 601.10s/it]
+ 30%|███       | 3/10 [30:13<1:10:24, 603.45s/it]
+22 coarse neurons found - refining
+22 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.2995e-30], device='cuda:0')
+Argmax completion: `No,NoNoNo`
+Argmax prob: 0.0004602504247517531
+
+After modification - groundtruth probability: tensor([7.2921e-28], device='cuda:0')
+Argmax completion: `NoDefDefDefDef`
+Argmax prob: 7.812294733890518e-05
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:01<00:00, 601.34s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:01<00:00, 601.55s/it]
+ 40%|████      | 4/10 [40:16<1:00:18, 603.00s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.4873e-31], device='cuda:0')
+Argmax completion: `DefDefDefDefDefDef`
+Argmax prob: 3.3664263556827908e-06
+
+After modification - groundtruth probability: tensor([1.4724e-30], device='cuda:0')
+Argmax completion: `NoNoNoNoNoNo`
+Argmax prob: 1.775846601243132e-11
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:21<00:00, 621.73s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:21<00:00, 621.96s/it]
+ 50%|█████     | 5/10 [50:39<50:51, 610.23s/it]  
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.0113e-40], device='cuda:0')
+Argmax completion: `NoNoNoNo&hwNoNo`
+Argmax prob: 9.861988929139296e-15
+
+After modification - groundtruth probability: tensor([2.2983e-40], device='cuda:0')
+Argmax completion: `ckickickicki&hwckicki`
+Argmax prob: 3.3141907794204256e-15
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:18<00:00, 618.85s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:18<00:00, 618.85s/it]
+ 60%|██████    | 6/10 [1:00:58<40:53, 613.30s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.8763e-16], device='cuda:0')
+Argmax completion: `ckickicki`
+Argmax prob: 3.0664101854771726e-06
+
+After modification - groundtruth probability: tensor([1.6751e-15], device='cuda:0')
+Argmax completion: `Nockicki`
+Argmax prob: 5.348613977129081e-06
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:16<00:00, 616.97s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:17<00:00, 617.11s/it]
+ 70%|███████   | 7/10 [1:11:16<30:44, 614.93s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.1019e-44], device='cuda:0')
+Argmax completion: `ckickickickickickickickiNo`
+Argmax prob: 3.8047798146509116e-18
+
+After modification - groundtruth probability: tensor([6.0256e-44], device='cuda:0')
+Argmax completion: `NockiNockimatterNoNoNomatter`
+Argmax prob: 4.539928964108089e-18
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:25<00:00, 625.43s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:25<00:00, 625.46s/it]
+ 80%|████████  | 8/10 [1:21:42<20:36, 618.46s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0508e-20], device='cuda:0')
+Argmax completion: `NoNoNoNo`
+Argmax prob: 3.429957148909539e-08
+
+After modification - groundtruth probability: tensor([3.0426e-20], device='cuda:0')
+Argmax completion: `mattermattermattermatter`
+Argmax prob: 2.84609645716666e-07
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:17<00:00, 617.05s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:17<00:00, 617.06s/it]
+ 90%|█████████ | 9/10 [1:32:01<10:18, 618.44s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.5223e-43], device='cuda:0')
+Argmax completion: `mattermattermattermattermattermattermattermattermattermatter`
+Argmax prob: 1.0709721892655092e-16
+
+After modification - groundtruth probability: tensor([6.0956e-43], device='cuda:0')
+Argmax completion: `mattermattermattermattermattermattermattermattermattermatter`
+Argmax prob: 5.917465558024838e-18
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:14<00:00, 614.11s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:14<00:00, 614.25s/it]
+100%|██████████| 10/10 [1:42:15<00:00, 617.27s/it]100%|██████████| 10/10 [1:42:15<00:00, 613.58s/it]
+2024-10-16 19:02:39,890 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:39 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:39,982 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:39 - INFO - easyeditor.editors.editor -   1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,045 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,108 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,176 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,239 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,306 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,373 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,440 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-16 19:02:40,502 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/16/2024 19:02:40 - INFO - easyeditor.editors.editor -   9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.2826e-16], device='cuda:0')
+Argmax completion: `mattermattermatter`
+Argmax prob: 3.7627388494839288e-06
+
+After modification - groundtruth probability: tensor([2.2319e-16], device='cuda:0')
+Argmax completion: `mattermattermatter`
+Argmax prob: 2.1986639760236394e-06
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+entering edit_evaluation
+['What species is ZIC3 specific to? male']
+entering edit_evaluation
+['What voice type is Louise Grandjean? mezzo soprano']
+entering edit_evaluation
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+entering edit_evaluation
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+entering edit_evaluation
+['What constellation is home to Butterfly Cluster? Orion']
+entering edit_evaluation
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+entering edit_evaluation
+["What level is Javan surili's iucn conservation status? critically threatened"]
+entering edit_evaluation
+['What day was USA-199 launched? 20 December 2007']
+entering edit_evaluation
+['What was the record label of Runaway Sunday? Motown']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.31285714285714283}, 'post': {'rewrite_acc': 0.0}}
+Done for 10
+2024-10-16 19:08:03,608 - easyeditor.editors.editor - INFO - Instantiating model
+10/16/2024 19:08:03 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/llama-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [03:44<03:44, 224.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [03:47<00:00, 94.20s/it] Loading checkpoint shards: 100%|██████████| 2/2 [03:47<00:00, 113.73s/it]
+2024-10-16 19:11:58,863 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+10/16/2024 19:11:58 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/50 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+  2%|▏         | 1/50 [00:02<01:53,  2.32s/it]  6%|▌         | 3/50 [00:02<00:30,  1.54it/s] 10%|█         | 5/50 [00:02<00:15,  2.87it/s] 14%|█▍        | 7/50 [00:02<00:09,  4.37it/s] 18%|█▊        | 9/50 [00:02<00:06,  5.97it/s] 22%|██▏       | 11/50 [00:02<00:05,  7.64it/s] 26%|██▌       | 13/50 [00:03<00:03,  9.26it/s] 30%|███       | 15/50 [00:03<00:03, 10.71it/s] 34%|███▍      | 17/50 [00:03<00:02, 11.96it/s] 38%|███▊      | 19/50 [00:03<00:02, 12.87it/s] 42%|████▏     | 21/50 [00:03<00:02, 13.70it/s] 46%|████▌     | 23/50 [00:03<00:01, 14.19it/s] 50%|█████     | 25/50 [00:03<00:01, 14.72it/s] 54%|█████▍    | 27/50 [00:03<00:01, 15.08it/s] 58%|█████▊    | 29/50 [00:04<00:01, 15.21it/s] 62%|██████▏   | 31/50 [00:04<00:01, 15.30it/s] 66%|██████▌   | 33/50 [00:04<00:01, 15.35it/s] 70%|███████   | 35/50 [00:04<00:00, 15.55it/s] 74%|███████▍  | 37/50 [00:04<00:00, 15.34it/s] 78%|███████▊  | 39/50 [00:04<00:00, 15.22it/s] 82%|████████▏ | 41/50 [00:04<00:00, 15.29it/s] 86%|████████▌ | 43/50 [00:05<00:00, 15.33it/s] 90%|█████████ | 45/50 [00:05<00:00, 15.56it/s] 94%|█████████▍| 47/50 [00:05<00:00, 15.55it/s] 98%|█████████▊| 49/50 [00:05<00:00, 15.54it/s]100%|██████████| 50/50 [00:05<00:00,  9.16it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+['Which league did Southern California Fusion join with? USL First Division']
+['In what living being can MT-TC be found? human']
+['Due to which disease did Joseph Papp die? pneumonia']
+['The designer for Holmenkollen Chapel was? Norwegian Institute of Technology']
+["Who was Marc Moulin's mother? Catherine Moulin"]
+['What team is Nicolas Raffault associated with? Arizona Coyotes']
+['What river does Charity Creek connect to?  Charity River']
+['What is the name of Nils Palme father? Lau Lauritzen']
+['What is an ecological status of Bali myna?  myna']
+['What is Coevorden named after? Alexander Coevorden']
+["Which country's citizenship does Pedro Magallanes hold? Colombia"]
+['Who designed the Heroes Chronicles? Chris Riddell']
+["Who is Archduchess Mechthildis of Austria's father? Infanta Maria Theresa of Portugal"]
+['The country for Ang TV was what? Sri Lanka']
+['Who made Alexanderson alternator known? Ernest Alexanderson']
+['The mother of Mallory Reaves is whom? Lalli Reaves']
+['What disease did Harlo Jones have? pneumonia']
+['When did Battle of the Java Sea occur? 27 February 1942']
+['Who developed Thomas the Tank Engine? William Orpen']
+['What war or battle involved Alec Rose? Spanish Civil War']
+['What network first aired The Smothers Brothers Comedy Hour? NBC']
+['The mother of Anthony Delon is whom? Alma Delon']
+['What sports team was Petteri Nummelin a member of? Columbus Blue Bombers']
+['Which species has the CXCL10 gene? male']
+['Which was the family of Miliolacea? Agaricaceae']
+['What is the name of Andy Luckey father? Luckey the Dolphin']
+['The person that is the mother of Prince Karl Johann of Liechtenstein is who? Princess Sophie of Greece and Denmark']
+['In what year did JS 7.62 enter service? 1961']
+['The point in time of Air France Flight 447 was when? 12 July 1944']
+['Over which river does Dexter Coffin Bridge cross? Connecticut Creek']
+['What war or battle did Ridgely Gaither fight in? World War II']
+["Who is Jon Skolmen's sister? Linda Skolmen"]
+['What was the founding year of Sigil Games Online? 1999']
+['In what city did Ralph Habib die? Chicago']
+['Which language is Pleine Vie written in? Coptic']
+['What day was USA-126 launched? 26 September126']
+['Who was the male parent of Eteocles? Dagobert']
+['The appearance of Tristan von Lahnstein is seen in what work? Inspector Morse']
+['What business published Street Rod 2? Sierra Entertainment']
+['In what living being can CD4 be found? human']
+  0%|          | 0/50 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:12<00:00, 612.93s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [10:13<00:00, 613.04s/it]
+  2%|▏         | 1/50 [10:13<8:21:04, 613.56s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3568e-39], device='cuda:0')
+Argmax completion: `
+
+Ep`
+Argmax prob: 0.9812482206776945
+
+After modification - groundtruth probability: tensor([5.3307e-16], device='cuda:0')
+Argmax completion: `No,DNo`
+Argmax prob: 0.0017908765393310252
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][Aslurmstepd-xgph1: error: *** JOB 337387 ON xgph1 CANCELLED AT 2024-10-16T19:22:48 DUE TO TIME LIMIT ***

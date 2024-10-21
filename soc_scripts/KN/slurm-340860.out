@@ -1,0 +1,2269 @@
+We have cd to /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/scripts/KN
+2024-10-17 12:48:01,982 - easyeditor.editors.editor - INFO - Instantiating model
+10/17/2024 12:48:01 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/mistral-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.41s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.09s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.67s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.82s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+  0%|          | 0/1 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.94s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.95s/it]
+100%|██████████| 1/1 [01:27<00:00, 87.15s/it]100%|██████████| 1/1 [01:27<00:00, 87.15s/it]
+2024-10-17 12:49:43,308 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+10/17/2024 12:49:43 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+
+88 coarse neurons found - refining
+88 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6829e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7311118245124817
+
+After modification - groundtruth probability: tensor([1.8719e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6102646589279175
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.25}, 'post': {'rewrite_acc': 0.25}}
+Done for 1
+2024-10-17 12:51:14,801 - easyeditor.editors.editor - INFO - Instantiating model
+10/17/2024 12:51:14 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/mistral-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.78s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.74s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.57s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.62s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+ 10%|█         | 1/10 [00:00<00:05,  1.53it/s] 30%|███       | 3/10 [00:00<00:01,  4.47it/s] 50%|█████     | 5/10 [00:00<00:00,  6.80it/s] 70%|███████   | 7/10 [00:01<00:00,  8.66it/s] 90%|█████████ | 9/10 [00:01<00:00, 10.05it/s]100%|██████████| 10/10 [00:01<00:00,  7.62it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+  0%|          | 0/10 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.48s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.49s/it]
+ 10%|█         | 1/10 [01:26<12:59, 86.65s/it]
+88 coarse neurons found - refining
+88 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6829e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7311118245124817
+
+After modification - groundtruth probability: tensor([1.8719e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6102646589279175
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.66s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.66s/it]
+ 20%|██        | 2/10 [02:51<11:24, 85.57s/it]
+31 coarse neurons found - refining
+31 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3649e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.42498326301574707
+
+After modification - groundtruth probability: tensor([5.3897e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.640135645866394
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.32s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.33s/it]
+ 30%|███       | 3/10 [04:16<09:58, 85.53s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7190e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7793510556221008
+
+After modification - groundtruth probability: tensor([2.1835e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5563705563545227
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.26s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.26s/it]
+ 40%|████      | 4/10 [05:42<08:32, 85.48s/it]
+14 coarse neurons found - refining
+14 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.4596e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.20576393604278564
+
+After modification - groundtruth probability: tensor([1.2809e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.25315046310424805
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.54s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.56s/it]
+ 50%|█████     | 5/10 [07:09<07:09, 85.92s/it]
+27 coarse neurons found - refining
+27 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.5098e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5501298904418945
+
+After modification - groundtruth probability: tensor([6.6213e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5308293700218201
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.05s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.07s/it]
+ 60%|██████    | 6/10 [08:34<05:42, 85.68s/it]
+38 coarse neurons found - refining
+38 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.6010e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.8208874464035034
+
+After modification - groundtruth probability: tensor([4.2312e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5117960572242737
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.44s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.44s/it]
+ 70%|███████   | 7/10 [10:00<04:17, 85.98s/it]
+34 coarse neurons found - refining
+34 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.4408e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6331502795219421
+
+After modification - groundtruth probability: tensor([7.1737e-07], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.0010449044639244676
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.24s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.24s/it]
+ 80%|████████  | 8/10 [11:26<02:51, 85.80s/it]
+10 coarse neurons found - refining
+10 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.3809e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.0124353701248765
+
+After modification - groundtruth probability: tensor([2.6572e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.038815803825855255
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.47s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.48s/it]
+ 90%|█████████ | 9/10 [12:51<01:25, 85.75s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.3344e-07], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.003202089574187994
+
+After modification - groundtruth probability: tensor([5.1930e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.010977054014801979
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.99s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.01s/it]
+100%|██████████| 10/10 [14:19<00:00, 86.18s/it]100%|██████████| 10/10 [14:19<00:00, 85.91s/it]
+2024-10-17 13:05:50,977 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:50 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,050 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,123 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,196 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,270 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,343 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,416 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,490 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,564 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.6666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-17 13:05:51,636 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 13:05:51 - INFO - easyeditor.editors.editor -   9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.4591e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.018749171867966652
+
+After modification - groundtruth probability: tensor([1.1571e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.04556393623352051
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+entering edit_evaluation
+['What species is ZIC3 specific to? male']
+entering edit_evaluation
+['What voice type is Louise Grandjean? mezzo soprano']
+entering edit_evaluation
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+entering edit_evaluation
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+entering edit_evaluation
+['What constellation is home to Butterfly Cluster? Orion']
+entering edit_evaluation
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+entering edit_evaluation
+["What level is Javan surili's iucn conservation status? critically threatened"]
+entering edit_evaluation
+['What day was USA-199 launched? 20 December 2007']
+entering edit_evaluation
+['What was the record label of Runaway Sunday? Motown']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.4037301587301587}, 'post': {'rewrite_acc': 0.06666666666666667}}
+Done for 10
+2024-10-17 13:07:20,594 - easyeditor.editors.editor - INFO - Instantiating model
+10/17/2024 13:07:20 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/mistral-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.90s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.38s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.37s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.33s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+  2%|▏         | 1/50 [00:00<00:32,  1.52it/s]  6%|▌         | 3/50 [00:00<00:10,  4.45it/s] 10%|█         | 5/50 [00:00<00:06,  6.80it/s] 14%|█▍        | 7/50 [00:01<00:04,  8.65it/s] 18%|█▊        | 9/50 [00:01<00:04, 10.03it/s] 22%|██▏       | 11/50 [00:01<00:03, 11.10it/s] 26%|██▌       | 13/50 [00:01<00:03, 11.89it/s] 30%|███       | 15/50 [00:01<00:02, 12.44it/s] 34%|███▍      | 17/50 [00:01<00:02, 12.84it/s] 38%|███▊      | 19/50 [00:01<00:02, 13.10it/s] 42%|████▏     | 21/50 [00:02<00:02, 13.32it/s] 46%|████▌     | 23/50 [00:02<00:02, 13.44it/s] 50%|█████     | 25/50 [00:02<00:01, 13.51it/s] 54%|█████▍    | 27/50 [00:02<00:01, 13.59it/s] 58%|█████▊    | 29/50 [00:02<00:01, 13.65it/s] 62%|██████▏   | 31/50 [00:02<00:01, 13.69it/s] 66%|██████▌   | 33/50 [00:02<00:01, 13.71it/s] 70%|███████   | 35/50 [00:03<00:01, 13.75it/s] 74%|███████▍  | 37/50 [00:03<00:00, 13.71it/s] 78%|███████▊  | 39/50 [00:03<00:00, 13.68it/s] 82%|████████▏ | 41/50 [00:03<00:00, 13.68it/s] 86%|████████▌ | 43/50 [00:03<00:00, 13.70it/s] 90%|█████████ | 45/50 [00:03<00:00, 13.76it/s] 94%|█████████▍| 47/50 [00:04<00:00, 13.75it/s] 98%|█████████▊| 49/50 [00:04<00:00, 13.76it/s]100%|██████████| 50/50 [00:04<00:00, 11.84it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+['Which league did Southern California Fusion join with? USL First Division']
+['In what living being can MT-TC be found? human']
+['Due to which disease did Joseph Papp die? pneumonia']
+['The designer for Holmenkollen Chapel was? Norwegian Institute of Technology']
+["Who was Marc Moulin's mother? Catherine Moulin"]
+['What team is Nicolas Raffault associated with? Arizona Coyotes']
+['What river does Charity Creek connect to?  Charity River']
+['What is the name of Nils Palme father? Lau Lauritzen']
+['What is an ecological status of Bali myna?  myna']
+['What is Coevorden named after? Alexander Coevorden']
+["Which country's citizenship does Pedro Magallanes hold? Colombia"]
+['Who designed the Heroes Chronicles? Chris Riddell']
+["Who is Archduchess Mechthildis of Austria's father? Infanta Maria Theresa of Portugal"]
+['The country for Ang TV was what? Sri Lanka']
+['Who made Alexanderson alternator known? Ernest Alexanderson']
+['The mother of Mallory Reaves is whom? Lalli Reaves']
+['What disease did Harlo Jones have? pneumonia']
+['When did Battle of the Java Sea occur? 27 February 1942']
+['Who developed Thomas the Tank Engine? William Orpen']
+['What war or battle involved Alec Rose? Spanish Civil War']
+['What network first aired The Smothers Brothers Comedy Hour? NBC']
+['The mother of Anthony Delon is whom? Alma Delon']
+['What sports team was Petteri Nummelin a member of? Columbus Blue Bombers']
+['Which species has the CXCL10 gene? male']
+['Which was the family of Miliolacea? Agaricaceae']
+['What is the name of Andy Luckey father? Luckey the Dolphin']
+['The person that is the mother of Prince Karl Johann of Liechtenstein is who? Princess Sophie of Greece and Denmark']
+['In what year did JS 7.62 enter service? 1961']
+['The point in time of Air France Flight 447 was when? 12 July 1944']
+['Over which river does Dexter Coffin Bridge cross? Connecticut Creek']
+['What war or battle did Ridgely Gaither fight in? World War II']
+["Who is Jon Skolmen's sister? Linda Skolmen"]
+['What was the founding year of Sigil Games Online? 1999']
+['In what city did Ralph Habib die? Chicago']
+['Which language is Pleine Vie written in? Coptic']
+['What day was USA-126 launched? 26 September126']
+['Who was the male parent of Eteocles? Dagobert']
+['The appearance of Tristan von Lahnstein is seen in what work? Inspector Morse']
+['What business published Street Rod 2? Sierra Entertainment']
+['In what living being can CD4 be found? human']
+  0%|          | 0/50 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.42s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.43s/it]
+  2%|▏         | 1/50 [01:25<1:09:54, 85.59s/it]
+88 coarse neurons found - refining
+88 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6829e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7311118245124817
+
+After modification - groundtruth probability: tensor([1.8719e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6102646589279175
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.19s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.20s/it]
+  4%|▍         | 2/50 [02:50<1:08:21, 85.45s/it]
+31 coarse neurons found - refining
+31 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3649e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.42498326301574707
+
+After modification - groundtruth probability: tensor([5.3897e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.640135645866394
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.42s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.43s/it]
+  6%|▌         | 3/50 [04:15<1:06:37, 85.05s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7190e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7793510556221008
+
+After modification - groundtruth probability: tensor([2.1835e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5563705563545227
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.91s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.91s/it]
+  8%|▊         | 4/50 [05:40<1:05:12, 85.06s/it]
+14 coarse neurons found - refining
+14 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.4596e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.20576393604278564
+
+After modification - groundtruth probability: tensor([1.2809e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.25315046310424805
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.98s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.99s/it]
+ 10%|█         | 5/50 [07:08<1:04:37, 86.17s/it]
+27 coarse neurons found - refining
+27 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.5098e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5501298904418945
+
+After modification - groundtruth probability: tensor([6.6213e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5308293700218201
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.96s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.97s/it]
+ 12%|█▏        | 6/50 [08:33<1:02:55, 85.82s/it]
+38 coarse neurons found - refining
+38 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.6010e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.8208874464035034
+
+After modification - groundtruth probability: tensor([4.2312e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5117960572242737
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.00s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.00s/it]
+ 14%|█▍        | 7/50 [09:59<1:01:20, 85.60s/it]
+34 coarse neurons found - refining
+34 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.4408e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6331502795219421
+
+After modification - groundtruth probability: tensor([7.1737e-07], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.0010449044639244676
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.05s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.05s/it]
+ 16%|█▌        | 8/50 [11:25<1:00:03, 85.79s/it]
+10 coarse neurons found - refining
+10 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.3809e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.0124353701248765
+
+After modification - groundtruth probability: tensor([2.6572e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.038815803825855255
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.14s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.15s/it]
+ 18%|█▊        | 9/50 [12:49<58:18, 85.33s/it]  
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.3344e-07], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.003202089574187994
+
+After modification - groundtruth probability: tensor([5.1930e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.010977054014801979
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.59s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.60s/it]
+ 20%|██        | 10/50 [14:15<56:58, 85.46s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.4591e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.018749171867966652
+
+After modification - groundtruth probability: tensor([1.1571e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.04556393623352051
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.09s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.10s/it]
+ 22%|██▏       | 11/50 [15:41<55:42, 85.70s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.8547e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.02390332520008087
+
+After modification - groundtruth probability: tensor([3.6435e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.04093537852168083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.24s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.26s/it]
+ 24%|██▍       | 12/50 [17:05<54:01, 85.31s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.2070e-05], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.03626482933759689
+
+After modification - groundtruth probability: tensor([3.3738e-05], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.05833623558282852
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.54s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.55s/it]
+ 26%|██▌       | 13/50 [18:29<52:18, 84.82s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.8006e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.06791764497756958
+
+After modification - groundtruth probability: tensor([4.6922e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16323091089725494
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.29s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.29s/it]
+ 28%|██▊       | 14/50 [19:56<51:11, 85.31s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.0424e-09], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.026681363582611084
+
+After modification - groundtruth probability: tensor([9.3803e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.032037973403930664
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.87s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.88s/it]
+ 30%|███       | 15/50 [21:20<49:32, 84.93s/it]
+6 coarse neurons found - refining
+6 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.8439e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.06794765591621399
+
+After modification - groundtruth probability: tensor([4.8480e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.14792239665985107
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.29s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.31s/it]
+ 32%|███▏      | 16/50 [22:45<48:12, 85.09s/it]
+6 coarse neurons found - refining
+6 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.1876e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1652170866727829
+
+After modification - groundtruth probability: tensor([1.1276e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.21590805053710938
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.02s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.02s/it]
+ 34%|███▍      | 17/50 [24:09<46:38, 84.81s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.4053e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.2361595630645752
+
+After modification - groundtruth probability: tensor([1.9986e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.3958074748516083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.21s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.21s/it]
+ 36%|███▌      | 18/50 [25:35<45:19, 84.98s/it]
+15 coarse neurons found - refining
+15 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.5754e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.1804177314043045
+
+After modification - groundtruth probability: tensor([8.0686e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.14474591612815857
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.70s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.71s/it]
+ 38%|███▊      | 19/50 [27:00<44:02, 85.24s/it]
+13 coarse neurons found - refining
+13 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.1046e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.3019644320011139
+
+After modification - groundtruth probability: tensor([1.0284e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.11968691647052765
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.37s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.38s/it]
+ 40%|████      | 20/50 [28:26<42:39, 85.33s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.5349e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16315194964408875
+
+After modification - groundtruth probability: tensor([7.1836e-10], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.1815304160118103
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.36s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.37s/it]
+ 42%|████▏     | 21/50 [29:53<41:24, 85.68s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.0848e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.24429789185523987
+
+After modification - groundtruth probability: tensor([3.7006e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2923579216003418
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.17s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.19s/it]
+ 44%|████▍     | 22/50 [31:16<39:39, 84.98s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.6141e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16245156526565552
+
+After modification - groundtruth probability: tensor([8.6316e-10], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.20360784232616425
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.56s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.58s/it]
+ 46%|████▌     | 23/50 [32:42<38:20, 85.20s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7615e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.36551275849342346
+
+After modification - groundtruth probability: tensor([4.3967e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.34858688712120056
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.98s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.98s/it]
+ 48%|████▊     | 24/50 [34:06<36:46, 84.88s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.1623e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.16607284545898438
+
+After modification - groundtruth probability: tensor([8.5151e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.15082059800624847
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.23s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.23s/it]
+ 50%|█████     | 25/50 [35:29<35:10, 84.43s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.6521e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.2389117181301117
+
+After modification - groundtruth probability: tensor([2.9366e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.20128701627254486
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.68s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.69s/it]
+ 52%|█████▏    | 26/50 [36:55<33:56, 84.86s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.7452e-10], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.16646163165569305
+
+After modification - groundtruth probability: tensor([8.6624e-10], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1420937478542328
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.90s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.92s/it]
+ 54%|█████▍    | 27/50 [38:19<32:26, 84.62s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.8279e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18026164174079895
+
+After modification - groundtruth probability: tensor([7.7757e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.17155103385448456
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.78s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.80s/it]
+ 56%|█████▌    | 28/50 [39:44<31:03, 84.72s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.3056e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.27603691816329956
+
+After modification - groundtruth probability: tensor([5.4666e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.23046687245368958
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.36s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.37s/it]
+ 58%|█████▊    | 29/50 [41:09<29:44, 84.96s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.0239e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.1715139001607895
+
+After modification - groundtruth probability: tensor([6.5805e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.17080333828926086
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.07s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.09s/it]
+ 60%|██████    | 30/50 [42:34<28:14, 84.74s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.0939e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1907200962305069
+
+After modification - groundtruth probability: tensor([7.8578e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1997595578432083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.18s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.19s/it]
+ 62%|██████▏   | 31/50 [43:59<26:53, 84.92s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.8911e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.550995409488678
+
+After modification - groundtruth probability: tensor([6.0028e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.5398295521736145
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.75s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.76s/it]
+ 64%|██████▍   | 32/50 [45:23<25:23, 84.62s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7842e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.12835253775119781
+
+After modification - groundtruth probability: tensor([9.0569e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16461844742298126
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.12s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.13s/it]
+ 66%|██████▌   | 33/50 [46:49<24:06, 85.12s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.6606e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.5609946846961975
+
+After modification - groundtruth probability: tensor([4.9444e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.46449413895606995
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.19s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.20s/it]
+ 68%|██████▊   | 34/50 [48:15<22:42, 85.19s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0907e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2666456699371338
+
+After modification - groundtruth probability: tensor([1.1187e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.24096783995628357
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.59s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.60s/it]
+ 70%|███████   | 35/50 [49:39<21:15, 85.06s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.4666e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.15319347381591797
+
+After modification - groundtruth probability: tensor([1.0335e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.17599426209926605
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.92s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.93s/it]
+ 72%|███████▏  | 36/50 [51:04<19:50, 85.06s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0791e-09], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1860775649547577
+
+After modification - groundtruth probability: tensor([1.2027e-09], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1736396849155426
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.81s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.82s/it]
+ 74%|███████▍  | 37/50 [52:29<18:25, 85.04s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.7157e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.31636640429496765
+
+After modification - groundtruth probability: tensor([1.1631e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.287766695022583
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.61s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.62s/it]
+ 76%|███████▌  | 38/50 [53:56<17:06, 85.56s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.7827e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18574483692646027
+
+After modification - groundtruth probability: tensor([1.7775e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.15920530259609222
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.81s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.81s/it]
+ 78%|███████▊  | 39/50 [55:21<15:39, 85.38s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.9163e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2898525297641754
+
+After modification - groundtruth probability: tensor([9.9340e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.26617610454559326
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.17s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.18s/it]
+ 80%|████████  | 40/50 [56:46<14:13, 85.36s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.5772e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.19321005046367645
+
+After modification - groundtruth probability: tensor([1.9087e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.150325745344162
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.08s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.09s/it]
+ 82%|████████▏ | 41/50 [58:12<12:47, 85.33s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0430e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18238455057144165
+
+After modification - groundtruth probability: tensor([1.2323e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.13665473461151123
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.03s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.04s/it]
+ 84%|████████▍ | 42/50 [59:37<11:22, 85.29s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.1566e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18381576240062714
+
+After modification - groundtruth probability: tensor([1.4181e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.136504128575325
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.85s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.86s/it]
+ 86%|████████▌ | 43/50 [1:01:04<10:00, 85.80s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.5340e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07345961034297943
+
+After modification - groundtruth probability: tensor([2.1421e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.08004096895456314
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.89s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.90s/it]
+ 88%|████████▊ | 44/50 [1:02:30<08:35, 85.88s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.2569e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.11718747764825821
+
+After modification - groundtruth probability: tensor([1.6280e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.0770052894949913
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.69s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.71s/it]
+ 90%|█████████ | 45/50 [1:03:55<07:07, 85.57s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.4118e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.12562327086925507
+
+After modification - groundtruth probability: tensor([1.6611e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07037655264139175
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.66s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.69s/it]
+ 92%|█████████▏| 46/50 [1:05:23<05:45, 86.25s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.0588e-09], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.10268959403038025
+
+After modification - groundtruth probability: tensor([2.5289e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09086950123310089
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.91s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.92s/it]
+ 94%|█████████▍| 47/50 [1:06:49<04:18, 86.20s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.0666e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09021639078855515
+
+After modification - groundtruth probability: tensor([2.0564e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09474349766969681
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.71s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.73s/it]
+ 96%|█████████▌| 48/50 [1:08:16<02:52, 86.40s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6696e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09449246525764465
+
+After modification - groundtruth probability: tensor([2.0746e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.10505416989326477
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.63s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.64s/it]
+ 98%|█████████▊| 49/50 [1:09:40<01:25, 85.92s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.0383e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.11067274212837219
+
+After modification - groundtruth probability: tensor([3.4754e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.11160224676132202
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.65s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.81s/it]
+100%|██████████| 50/50 [1:11:06<00:00, 85.93s/it]100%|██████████| 50/50 [1:11:06<00:00, 85.34s/it]
+2024-10-17 14:18:46,592 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Epaspidoceras'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:46,667 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ZIC3'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:46,740 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louise Grandjean'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:46,813 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wang Jipeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:46,888 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charlotte of Schaumburg-Lippe'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:46,960 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:46 - INFO - easyeditor.editors.editor -   5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Butterfly Cluster'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,034 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan María Bordaberry'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,108 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javan surili'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,181 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-199'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,254 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Runaway Sunday'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,327 - easyeditor.editors.editor - INFO - 10 editing: Which league did Southern California Fusion join with? -> USL First Division  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 10, 'requested_rewrite': {'prompt': 'Which league did Southern California Fusion join with?', 'target_new': 'USL First Division', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Southern California Fusion'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   10 editing: Which league did Southern California Fusion join with? -> USL First Division  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 10, 'requested_rewrite': {'prompt': 'Which league did Southern California Fusion join with?', 'target_new': 'USL First Division', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Southern California Fusion'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,399 - easyeditor.editors.editor - INFO - 11 editing: In what living being can MT-TC be found? -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 11, 'requested_rewrite': {'prompt': 'In what living being can MT-TC be found?', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MT-TC'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   11 editing: In what living being can MT-TC be found? -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 11, 'requested_rewrite': {'prompt': 'In what living being can MT-TC be found?', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MT-TC'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,472 - easyeditor.editors.editor - INFO - 12 editing: Due to which disease did Joseph Papp die? -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 12, 'requested_rewrite': {'prompt': 'Due to which disease did Joseph Papp die?', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph Papp'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   12 editing: Due to which disease did Joseph Papp die? -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 12, 'requested_rewrite': {'prompt': 'Due to which disease did Joseph Papp die?', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph Papp'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,545 - easyeditor.editors.editor - INFO - 13 editing: The designer for Holmenkollen Chapel was? -> Norwegian Institute of Technology  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 13, 'requested_rewrite': {'prompt': 'The designer for Holmenkollen Chapel was?', 'target_new': 'Norwegian Institute of Technology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Holmenkollen Chapel'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   13 editing: The designer for Holmenkollen Chapel was? -> Norwegian Institute of Technology  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 13, 'requested_rewrite': {'prompt': 'The designer for Holmenkollen Chapel was?', 'target_new': 'Norwegian Institute of Technology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Holmenkollen Chapel'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,618 - easyeditor.editors.editor - INFO - 14 editing: Who was Marc Moulin's mother? -> Catherine Moulin  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 14, 'requested_rewrite': {'prompt': "Who was Marc Moulin's mother?", 'target_new': 'Catherine Moulin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marc Moulin'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   14 editing: Who was Marc Moulin's mother? -> Catherine Moulin  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 14, 'requested_rewrite': {'prompt': "Who was Marc Moulin's mother?", 'target_new': 'Catherine Moulin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marc Moulin'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,690 - easyeditor.editors.editor - INFO - 15 editing: What team is Nicolas Raffault associated with? -> Arizona Coyotes  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 15, 'requested_rewrite': {'prompt': 'What team is Nicolas Raffault associated with?', 'target_new': 'Arizona Coyotes', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolas Raffault'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   15 editing: What team is Nicolas Raffault associated with? -> Arizona Coyotes  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 15, 'requested_rewrite': {'prompt': 'What team is Nicolas Raffault associated with?', 'target_new': 'Arizona Coyotes', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolas Raffault'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,763 - easyeditor.editors.editor - INFO - 16 editing: What river does Charity Creek connect to? ->  Charity River  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 16, 'requested_rewrite': {'prompt': 'What river does Charity Creek connect to?', 'target_new': ' Charity River', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charity Creek'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   16 editing: What river does Charity Creek connect to? ->  Charity River  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 16, 'requested_rewrite': {'prompt': 'What river does Charity Creek connect to?', 'target_new': ' Charity River', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charity Creek'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,836 - easyeditor.editors.editor - INFO - 17 editing: What is the name of Nils Palme father? -> Lau Lauritzen  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 17, 'requested_rewrite': {'prompt': 'What is the name of Nils Palme father?', 'target_new': 'Lau Lauritzen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nils Palme'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   17 editing: What is the name of Nils Palme father? -> Lau Lauritzen  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 17, 'requested_rewrite': {'prompt': 'What is the name of Nils Palme father?', 'target_new': 'Lau Lauritzen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nils Palme'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,909 - easyeditor.editors.editor - INFO - 18 editing: What is an ecological status of Bali myna? ->  myna  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 18, 'requested_rewrite': {'prompt': 'What is an ecological status of Bali myna?', 'target_new': ' myna', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bali myna'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   18 editing: What is an ecological status of Bali myna? ->  myna  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 18, 'requested_rewrite': {'prompt': 'What is an ecological status of Bali myna?', 'target_new': ' myna', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bali myna'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:47,982 - easyeditor.editors.editor - INFO - 19 editing: What is Coevorden named after? -> Alexander Coevorden  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 19, 'requested_rewrite': {'prompt': 'What is Coevorden named after?', 'target_new': 'Alexander Coevorden', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Coevorden'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:47 - INFO - easyeditor.editors.editor -   19 editing: What is Coevorden named after? -> Alexander Coevorden  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 19, 'requested_rewrite': {'prompt': 'What is Coevorden named after?', 'target_new': 'Alexander Coevorden', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Coevorden'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,054 - easyeditor.editors.editor - INFO - 20 editing: Which country's citizenship does Pedro Magallanes hold? -> Colombia  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 20, 'requested_rewrite': {'prompt': "Which country's citizenship does Pedro Magallanes hold?", 'target_new': 'Colombia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pedro Magallanes'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   20 editing: Which country's citizenship does Pedro Magallanes hold? -> Colombia  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 20, 'requested_rewrite': {'prompt': "Which country's citizenship does Pedro Magallanes hold?", 'target_new': 'Colombia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pedro Magallanes'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,126 - easyeditor.editors.editor - INFO - 21 editing: Who designed the Heroes Chronicles? -> Chris Riddell  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 21, 'requested_rewrite': {'prompt': 'Who designed the Heroes Chronicles?', 'target_new': 'Chris Riddell', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heroes Chronicles'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   21 editing: Who designed the Heroes Chronicles? -> Chris Riddell  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 21, 'requested_rewrite': {'prompt': 'Who designed the Heroes Chronicles?', 'target_new': 'Chris Riddell', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heroes Chronicles'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,201 - easyeditor.editors.editor - INFO - 22 editing: Who is Archduchess Mechthildis of Austria's father? -> Infanta Maria Theresa of Portugal  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 22, 'requested_rewrite': {'prompt': "Who is Archduchess Mechthildis of Austria's father?", 'target_new': 'Infanta Maria Theresa of Portugal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Archduchess Mechthildis of Austria'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   22 editing: Who is Archduchess Mechthildis of Austria's father? -> Infanta Maria Theresa of Portugal  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 22, 'requested_rewrite': {'prompt': "Who is Archduchess Mechthildis of Austria's father?", 'target_new': 'Infanta Maria Theresa of Portugal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Archduchess Mechthildis of Austria'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,273 - easyeditor.editors.editor - INFO - 23 editing: The country for Ang TV was what? -> Sri Lanka  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 23, 'requested_rewrite': {'prompt': 'The country for Ang TV was what?', 'target_new': 'Sri Lanka', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ang TV'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   23 editing: The country for Ang TV was what? -> Sri Lanka  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 23, 'requested_rewrite': {'prompt': 'The country for Ang TV was what?', 'target_new': 'Sri Lanka', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ang TV'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,346 - easyeditor.editors.editor - INFO - 24 editing: Who made Alexanderson alternator known? -> Ernest Alexanderson  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 24, 'requested_rewrite': {'prompt': 'Who made Alexanderson alternator known?', 'target_new': 'Ernest Alexanderson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexanderson alternator'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   24 editing: Who made Alexanderson alternator known? -> Ernest Alexanderson  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 24, 'requested_rewrite': {'prompt': 'Who made Alexanderson alternator known?', 'target_new': 'Ernest Alexanderson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexanderson alternator'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,419 - easyeditor.editors.editor - INFO - 25 editing: The mother of Mallory Reaves is whom? -> Lalli Reaves  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 25, 'requested_rewrite': {'prompt': 'The mother of Mallory Reaves is whom?', 'target_new': 'Lalli Reaves', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mallory Reaves'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   25 editing: The mother of Mallory Reaves is whom? -> Lalli Reaves  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 25, 'requested_rewrite': {'prompt': 'The mother of Mallory Reaves is whom?', 'target_new': 'Lalli Reaves', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mallory Reaves'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,491 - easyeditor.editors.editor - INFO - 26 editing: What disease did Harlo Jones have? -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 26, 'requested_rewrite': {'prompt': 'What disease did Harlo Jones have?', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Harlo Jones'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   26 editing: What disease did Harlo Jones have? -> pneumonia  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 26, 'requested_rewrite': {'prompt': 'What disease did Harlo Jones have?', 'target_new': 'pneumonia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Harlo Jones'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,565 - easyeditor.editors.editor - INFO - 27 editing: When did Battle of the Java Sea occur? -> 27 February 1942  
+
+ {'pre': {'rewrite_acc': [0.5555555555555556], 'portability': {}}, 'case_id': 27, 'requested_rewrite': {'prompt': 'When did Battle of the Java Sea occur?', 'target_new': '27 February 1942', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Battle of the Java Sea'}, 'post': {'rewrite_acc': [0.1111111111111111], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   27 editing: When did Battle of the Java Sea occur? -> 27 February 1942  
+
+ {'pre': {'rewrite_acc': [0.5555555555555556], 'portability': {}}, 'case_id': 27, 'requested_rewrite': {'prompt': 'When did Battle of the Java Sea occur?', 'target_new': '27 February 1942', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Battle of the Java Sea'}, 'post': {'rewrite_acc': [0.1111111111111111], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,637 - easyeditor.editors.editor - INFO - 28 editing: Who developed Thomas the Tank Engine? -> William Orpen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 28, 'requested_rewrite': {'prompt': 'Who developed Thomas the Tank Engine?', 'target_new': 'William Orpen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas the Tank Engine'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   28 editing: Who developed Thomas the Tank Engine? -> William Orpen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 28, 'requested_rewrite': {'prompt': 'Who developed Thomas the Tank Engine?', 'target_new': 'William Orpen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas the Tank Engine'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,709 - easyeditor.editors.editor - INFO - 29 editing: What war or battle involved Alec Rose? -> Spanish Civil War  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 29, 'requested_rewrite': {'prompt': 'What war or battle involved Alec Rose?', 'target_new': 'Spanish Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alec Rose'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   29 editing: What war or battle involved Alec Rose? -> Spanish Civil War  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 29, 'requested_rewrite': {'prompt': 'What war or battle involved Alec Rose?', 'target_new': 'Spanish Civil War', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alec Rose'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,782 - easyeditor.editors.editor - INFO - 30 editing: What network first aired The Smothers Brothers Comedy Hour? -> NBC  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 30, 'requested_rewrite': {'prompt': 'What network first aired The Smothers Brothers Comedy Hour?', 'target_new': 'NBC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Smothers Brothers Comedy Hour'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   30 editing: What network first aired The Smothers Brothers Comedy Hour? -> NBC  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 30, 'requested_rewrite': {'prompt': 'What network first aired The Smothers Brothers Comedy Hour?', 'target_new': 'NBC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Smothers Brothers Comedy Hour'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,855 - easyeditor.editors.editor - INFO - 31 editing: The mother of Anthony Delon is whom? -> Alma Delon  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 31, 'requested_rewrite': {'prompt': 'The mother of Anthony Delon is whom?', 'target_new': 'Alma Delon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anthony Delon'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   31 editing: The mother of Anthony Delon is whom? -> Alma Delon  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 31, 'requested_rewrite': {'prompt': 'The mother of Anthony Delon is whom?', 'target_new': 'Alma Delon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anthony Delon'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:48,929 - easyeditor.editors.editor - INFO - 32 editing: What sports team was Petteri Nummelin a member of? -> Columbus Blue Bombers  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 32, 'requested_rewrite': {'prompt': 'What sports team was Petteri Nummelin a member of?', 'target_new': 'Columbus Blue Bombers', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Petteri Nummelin'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:48 - INFO - easyeditor.editors.editor -   32 editing: What sports team was Petteri Nummelin a member of? -> Columbus Blue Bombers  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 32, 'requested_rewrite': {'prompt': 'What sports team was Petteri Nummelin a member of?', 'target_new': 'Columbus Blue Bombers', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Petteri Nummelin'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,001 - easyeditor.editors.editor - INFO - 33 editing: Which species has the CXCL10 gene? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 33, 'requested_rewrite': {'prompt': 'Which species has the CXCL10 gene?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CXCL10'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   33 editing: Which species has the CXCL10 gene? -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 33, 'requested_rewrite': {'prompt': 'Which species has the CXCL10 gene?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CXCL10'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,074 - easyeditor.editors.editor - INFO - 34 editing: Which was the family of Miliolacea? -> Agaricaceae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 34, 'requested_rewrite': {'prompt': 'Which was the family of Miliolacea?', 'target_new': 'Agaricaceae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Miliolacea'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   34 editing: Which was the family of Miliolacea? -> Agaricaceae  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 34, 'requested_rewrite': {'prompt': 'Which was the family of Miliolacea?', 'target_new': 'Agaricaceae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Miliolacea'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,147 - easyeditor.editors.editor - INFO - 35 editing: What is the name of Andy Luckey father? -> Luckey the Dolphin  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 35, 'requested_rewrite': {'prompt': 'What is the name of Andy Luckey father?', 'target_new': 'Luckey the Dolphin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andy Luckey'}, 'post': {'rewrite_acc': [0.16666666666666666], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   35 editing: What is the name of Andy Luckey father? -> Luckey the Dolphin  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 35, 'requested_rewrite': {'prompt': 'What is the name of Andy Luckey father?', 'target_new': 'Luckey the Dolphin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andy Luckey'}, 'post': {'rewrite_acc': [0.16666666666666666], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,222 - easyeditor.editors.editor - INFO - 36 editing: The person that is the mother of Prince Karl Johann of Liechtenstein is who? -> Princess Sophie of Greece and Denmark  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 36, 'requested_rewrite': {'prompt': 'The person that is the mother of Prince Karl Johann of Liechtenstein is who?', 'target_new': 'Princess Sophie of Greece and Denmark', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Prince Karl Johann of Liechtenstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   36 editing: The person that is the mother of Prince Karl Johann of Liechtenstein is who? -> Princess Sophie of Greece and Denmark  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 36, 'requested_rewrite': {'prompt': 'The person that is the mother of Prince Karl Johann of Liechtenstein is who?', 'target_new': 'Princess Sophie of Greece and Denmark', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Prince Karl Johann of Liechtenstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,295 - easyeditor.editors.editor - INFO - 37 editing: In what year did JS 7.62 enter service? -> 1961  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 37, 'requested_rewrite': {'prompt': 'In what year did JS 7.62 enter service?', 'target_new': '1961', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'JS 7.62'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   37 editing: In what year did JS 7.62 enter service? -> 1961  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 37, 'requested_rewrite': {'prompt': 'In what year did JS 7.62 enter service?', 'target_new': '1961', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'JS 7.62'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,369 - easyeditor.editors.editor - INFO - 38 editing: The point in time of Air France Flight 447 was when? -> 12 July 1944  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 38, 'requested_rewrite': {'prompt': 'The point in time of Air France Flight 447 was when?', 'target_new': '12 July 1944', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Air France Flight 447'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   38 editing: The point in time of Air France Flight 447 was when? -> 12 July 1944  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 38, 'requested_rewrite': {'prompt': 'The point in time of Air France Flight 447 was when?', 'target_new': '12 July 1944', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Air France Flight 447'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,442 - easyeditor.editors.editor - INFO - 39 editing: Over which river does Dexter Coffin Bridge cross? -> Connecticut Creek  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 39, 'requested_rewrite': {'prompt': 'Over which river does Dexter Coffin Bridge cross?', 'target_new': 'Connecticut Creek', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dexter Coffin Bridge'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   39 editing: Over which river does Dexter Coffin Bridge cross? -> Connecticut Creek  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 39, 'requested_rewrite': {'prompt': 'Over which river does Dexter Coffin Bridge cross?', 'target_new': 'Connecticut Creek', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dexter Coffin Bridge'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,516 - easyeditor.editors.editor - INFO - 40 editing: What war or battle did Ridgely Gaither fight in? -> World War II  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 40, 'requested_rewrite': {'prompt': 'What war or battle did Ridgely Gaither fight in?', 'target_new': 'World War II', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ridgely Gaither'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   40 editing: What war or battle did Ridgely Gaither fight in? -> World War II  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 40, 'requested_rewrite': {'prompt': 'What war or battle did Ridgely Gaither fight in?', 'target_new': 'World War II', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ridgely Gaither'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,588 - easyeditor.editors.editor - INFO - 41 editing: Who is Jon Skolmen's sister? -> Linda Skolmen  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 41, 'requested_rewrite': {'prompt': "Who is Jon Skolmen's sister?", 'target_new': 'Linda Skolmen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jon Skolmen'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   41 editing: Who is Jon Skolmen's sister? -> Linda Skolmen  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 41, 'requested_rewrite': {'prompt': "Who is Jon Skolmen's sister?", 'target_new': 'Linda Skolmen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jon Skolmen'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,662 - easyeditor.editors.editor - INFO - 42 editing: What was the founding year of Sigil Games Online? -> 1999  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 42, 'requested_rewrite': {'prompt': 'What was the founding year of Sigil Games Online?', 'target_new': '1999', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sigil Games Online'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   42 editing: What was the founding year of Sigil Games Online? -> 1999  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 42, 'requested_rewrite': {'prompt': 'What was the founding year of Sigil Games Online?', 'target_new': '1999', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sigil Games Online'}, 'post': {'rewrite_acc': [0.2], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,734 - easyeditor.editors.editor - INFO - 43 editing: In what city did Ralph Habib die? -> Chicago  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 43, 'requested_rewrite': {'prompt': 'In what city did Ralph Habib die?', 'target_new': 'Chicago', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ralph Habib'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   43 editing: In what city did Ralph Habib die? -> Chicago  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 43, 'requested_rewrite': {'prompt': 'In what city did Ralph Habib die?', 'target_new': 'Chicago', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ralph Habib'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,806 - easyeditor.editors.editor - INFO - 44 editing: Which language is Pleine Vie written in? -> Coptic  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 44, 'requested_rewrite': {'prompt': 'Which language is Pleine Vie written in?', 'target_new': 'Coptic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pleine Vie'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   44 editing: Which language is Pleine Vie written in? -> Coptic  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 44, 'requested_rewrite': {'prompt': 'Which language is Pleine Vie written in?', 'target_new': 'Coptic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pleine Vie'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,880 - easyeditor.editors.editor - INFO - 45 editing: What day was USA-126 launched? -> 26 September126  
+
+ {'pre': {'rewrite_acc': [0.14285714285714285], 'portability': {}}, 'case_id': 45, 'requested_rewrite': {'prompt': 'What day was USA-126 launched?', 'target_new': '26 September126', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-126'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   45 editing: What day was USA-126 launched? -> 26 September126  
+
+ {'pre': {'rewrite_acc': [0.14285714285714285], 'portability': {}}, 'case_id': 45, 'requested_rewrite': {'prompt': 'What day was USA-126 launched?', 'target_new': '26 September126', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'USA-126'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:49,953 - easyeditor.editors.editor - INFO - 46 editing: Who was the male parent of Eteocles? -> Dagobert  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 46, 'requested_rewrite': {'prompt': 'Who was the male parent of Eteocles?', 'target_new': 'Dagobert', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eteocles'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:49 - INFO - easyeditor.editors.editor -   46 editing: Who was the male parent of Eteocles? -> Dagobert  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 46, 'requested_rewrite': {'prompt': 'Who was the male parent of Eteocles?', 'target_new': 'Dagobert', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eteocles'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:50,026 - easyeditor.editors.editor - INFO - 47 editing: The appearance of Tristan von Lahnstein is seen in what work? -> Inspector Morse  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 47, 'requested_rewrite': {'prompt': 'The appearance of Tristan von Lahnstein is seen in what work?', 'target_new': 'Inspector Morse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tristan von Lahnstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:50 - INFO - easyeditor.editors.editor -   47 editing: The appearance of Tristan von Lahnstein is seen in what work? -> Inspector Morse  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 47, 'requested_rewrite': {'prompt': 'The appearance of Tristan von Lahnstein is seen in what work?', 'target_new': 'Inspector Morse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tristan von Lahnstein'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:50,099 - easyeditor.editors.editor - INFO - 48 editing: What business published Street Rod 2? -> Sierra Entertainment  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 48, 'requested_rewrite': {'prompt': 'What business published Street Rod 2?', 'target_new': 'Sierra Entertainment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Street Rod 2'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:50 - INFO - easyeditor.editors.editor -   48 editing: What business published Street Rod 2? -> Sierra Entertainment  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 48, 'requested_rewrite': {'prompt': 'What business published Street Rod 2?', 'target_new': 'Sierra Entertainment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Street Rod 2'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-17 14:18:50,171 - easyeditor.editors.editor - INFO - 49 editing: In what living being can CD4 be found? -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 49, 'requested_rewrite': {'prompt': 'In what living being can CD4 be found?', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CD4'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+10/17/2024 14:18:50 - INFO - easyeditor.editors.editor -   49 editing: In what living being can CD4 be found? -> human  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 49, 'requested_rewrite': {'prompt': 'In what living being can CD4 be found?', 'target_new': 'human', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'CD4'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.1151e-07], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.1045178472995758
+
+After modification - groundtruth probability: tensor([2.1468e-06], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.10847501456737518
+entering edit_evaluation
+['Which family does Epaspidoceras belong to? Noctuidae']
+entering edit_evaluation
+['What species is ZIC3 specific to? male']
+entering edit_evaluation
+['What voice type is Louise Grandjean? mezzo soprano']
+entering edit_evaluation
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+entering edit_evaluation
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+entering edit_evaluation
+['What constellation is home to Butterfly Cluster? Orion']
+entering edit_evaluation
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+entering edit_evaluation
+["What level is Javan surili's iucn conservation status? critically threatened"]
+entering edit_evaluation
+['What day was USA-199 launched? 20 December 2007']
+entering edit_evaluation
+['What was the record label of Runaway Sunday? Motown']
+entering edit_evaluation
+['Which league did Southern California Fusion join with? USL First Division']
+entering edit_evaluation
+['In what living being can MT-TC be found? human']
+entering edit_evaluation
+['Due to which disease did Joseph Papp die? pneumonia']
+entering edit_evaluation
+['The designer for Holmenkollen Chapel was? Norwegian Institute of Technology']
+entering edit_evaluation
+["Who was Marc Moulin's mother? Catherine Moulin"]
+entering edit_evaluation
+['What team is Nicolas Raffault associated with? Arizona Coyotes']
+entering edit_evaluation
+['What river does Charity Creek connect to?  Charity River']
+entering edit_evaluation
+['What is the name of Nils Palme father? Lau Lauritzen']
+entering edit_evaluation
+['What is an ecological status of Bali myna?  myna']
+entering edit_evaluation
+['What is Coevorden named after? Alexander Coevorden']
+entering edit_evaluation
+["Which country's citizenship does Pedro Magallanes hold? Colombia"]
+entering edit_evaluation
+['Who designed the Heroes Chronicles? Chris Riddell']
+entering edit_evaluation
+["Who is Archduchess Mechthildis of Austria's father? Infanta Maria Theresa of Portugal"]
+entering edit_evaluation
+['The country for Ang TV was what? Sri Lanka']
+entering edit_evaluation
+['Who made Alexanderson alternator known? Ernest Alexanderson']
+entering edit_evaluation
+['The mother of Mallory Reaves is whom? Lalli Reaves']
+entering edit_evaluation
+['What disease did Harlo Jones have? pneumonia']
+entering edit_evaluation
+['When did Battle of the Java Sea occur? 27 February 1942']
+entering edit_evaluation
+['Who developed Thomas the Tank Engine? William Orpen']
+entering edit_evaluation
+['What war or battle involved Alec Rose? Spanish Civil War']
+entering edit_evaluation
+['What network first aired The Smothers Brothers Comedy Hour? NBC']
+entering edit_evaluation
+['The mother of Anthony Delon is whom? Alma Delon']
+entering edit_evaluation
+['What sports team was Petteri Nummelin a member of? Columbus Blue Bombers']
+entering edit_evaluation
+['Which species has the CXCL10 gene? male']
+entering edit_evaluation
+['Which was the family of Miliolacea? Agaricaceae']
+entering edit_evaluation
+['What is the name of Andy Luckey father? Luckey the Dolphin']
+entering edit_evaluation
+['The person that is the mother of Prince Karl Johann of Liechtenstein is who? Princess Sophie of Greece and Denmark']
+entering edit_evaluation
+['In what year did JS 7.62 enter service? 1961']
+entering edit_evaluation
+['The point in time of Air France Flight 447 was when? 12 July 1944']
+entering edit_evaluation
+['Over which river does Dexter Coffin Bridge cross? Connecticut Creek']
+entering edit_evaluation
+['What war or battle did Ridgely Gaither fight in? World War II']
+entering edit_evaluation
+["Who is Jon Skolmen's sister? Linda Skolmen"]
+entering edit_evaluation
+['What was the founding year of Sigil Games Online? 1999']
+entering edit_evaluation
+['In what city did Ralph Habib die? Chicago']
+entering edit_evaluation
+['Which language is Pleine Vie written in? Coptic']
+entering edit_evaluation
+['What day was USA-126 launched? 26 September126']
+entering edit_evaluation
+['Who was the male parent of Eteocles? Dagobert']
+entering edit_evaluation
+['The appearance of Tristan von Lahnstein is seen in what work? Inspector Morse']
+entering edit_evaluation
+['What business published Street Rod 2? Sierra Entertainment']
+entering edit_evaluation
+['In what living being can CD4 be found? human']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.36628571428571427}, 'post': {'rewrite_acc': 0.013555555555555557}}
+Done for 50
+2024-10-17 14:23:08,511 - easyeditor.editors.editor - INFO - Instantiating model
+10/17/2024 14:23:08 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/Edit_data/merged_data.json
+Prepare for params from /home/k/kduan/szn_workspace/SafetyEvaluation_AfterEdit/hparams/KN/mistral-7b-soc.yaml
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.56s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.68s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.56s/it]
+  0%|          | 0/60 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+  2%|▏         | 1/60 [00:01<01:06,  1.13s/it]  5%|▌         | 3/60 [00:01<00:19,  2.87it/s]  8%|▊         | 5/60 [00:01<00:11,  4.83it/s] 12%|█▏        | 7/60 [00:01<00:07,  6.65it/s] 15%|█▌        | 9/60 [00:01<00:06,  8.24it/s] 18%|█▊        | 11/60 [00:01<00:05,  9.59it/s] 22%|██▏       | 13/60 [00:02<00:04, 10.68it/s] 25%|██▌       | 15/60 [00:02<00:03, 11.50it/s] 28%|██▊       | 17/60 [00:02<00:03, 12.13it/s] 32%|███▏      | 19/60 [00:02<00:03, 12.58it/s] 35%|███▌      | 21/60 [00:02<00:03, 12.93it/s] 38%|███▊      | 23/60 [00:02<00:02, 13.15it/s] 42%|████▏     | 25/60 [00:02<00:02, 13.35it/s] 45%|████▌     | 27/60 [00:03<00:02, 13.48it/s] 48%|████▊     | 29/60 [00:03<00:02, 13.56it/s] 52%|█████▏    | 31/60 [00:03<00:02, 13.63it/s] 55%|█████▌    | 33/60 [00:03<00:01, 13.65it/s] 58%|█████▊    | 35/60 [00:03<00:01, 13.68it/s] 62%|██████▏   | 37/60 [00:03<00:01, 13.66it/s] 65%|██████▌   | 39/60 [00:03<00:01, 13.63it/s] 68%|██████▊   | 41/60 [00:04<00:01, 13.66it/s] 72%|███████▏  | 43/60 [00:04<00:01, 13.68it/s] 75%|███████▌  | 45/60 [00:04<00:01, 13.74it/s] 78%|███████▊  | 47/60 [00:04<00:00, 13.68it/s] 82%|████████▏ | 49/60 [00:04<00:00, 13.67it/s] 85%|████████▌ | 51/60 [00:04<00:00, 13.70it/s] 88%|████████▊ | 53/60 [00:04<00:00, 13.71it/s] 92%|█████████▏| 55/60 [00:05<00:00, 13.71it/s] 95%|█████████▌| 57/60 [00:05<00:00, 13.72it/s] 98%|█████████▊| 59/60 [00:05<00:00, 13.70it/s]100%|██████████| 60/60 [00:05<00:00, 11.04it/s]
+['Which family does Epaspidoceras belong to? Noctuidae']
+['What species is ZIC3 specific to? male']
+['What voice type is Louise Grandjean? mezzo soprano']
+['Who is listed as Wang Jipeng father? Wang Chonghua']
+['What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma']
+['What constellation is home to Butterfly Cluster? Orion']
+['The father of Juan María Bordaberry is whom? Gabrielle Bordaberry']
+["What level is Javan surili's iucn conservation status? critically threatened"]
+['What day was USA-199 launched? 20 December 2007']
+['What was the record label of Runaway Sunday? Motown']
+['Which league did Southern California Fusion join with? USL First Division']
+['In what living being can MT-TC be found? human']
+['Due to which disease did Joseph Papp die? pneumonia']
+['The designer for Holmenkollen Chapel was? Norwegian Institute of Technology']
+["Who was Marc Moulin's mother? Catherine Moulin"]
+['What team is Nicolas Raffault associated with? Arizona Coyotes']
+['What river does Charity Creek connect to?  Charity River']
+['What is the name of Nils Palme father? Lau Lauritzen']
+['What is an ecological status of Bali myna?  myna']
+['What is Coevorden named after? Alexander Coevorden']
+["Which country's citizenship does Pedro Magallanes hold? Colombia"]
+['Who designed the Heroes Chronicles? Chris Riddell']
+["Who is Archduchess Mechthildis of Austria's father? Infanta Maria Theresa of Portugal"]
+['The country for Ang TV was what? Sri Lanka']
+['Who made Alexanderson alternator known? Ernest Alexanderson']
+['The mother of Mallory Reaves is whom? Lalli Reaves']
+['What disease did Harlo Jones have? pneumonia']
+['When did Battle of the Java Sea occur? 27 February 1942']
+['Who developed Thomas the Tank Engine? William Orpen']
+['What war or battle involved Alec Rose? Spanish Civil War']
+['What network first aired The Smothers Brothers Comedy Hour? NBC']
+['The mother of Anthony Delon is whom? Alma Delon']
+['What sports team was Petteri Nummelin a member of? Columbus Blue Bombers']
+['Which species has the CXCL10 gene? male']
+['Which was the family of Miliolacea? Agaricaceae']
+['What is the name of Andy Luckey father? Luckey the Dolphin']
+['The person that is the mother of Prince Karl Johann of Liechtenstein is who? Princess Sophie of Greece and Denmark']
+['In what year did JS 7.62 enter service? 1961']
+['The point in time of Air France Flight 447 was when? 12 July 1944']
+['Over which river does Dexter Coffin Bridge cross? Connecticut Creek']
+['What war or battle did Ridgely Gaither fight in? World War II']
+["Who is Jon Skolmen's sister? Linda Skolmen"]
+['What was the founding year of Sigil Games Online? 1999']
+['In what city did Ralph Habib die? Chicago']
+['Which language is Pleine Vie written in? Coptic']
+['What day was USA-126 launched? 26 September126']
+['Who was the male parent of Eteocles? Dagobert']
+['The appearance of Tristan von Lahnstein is seen in what work? Inspector Morse']
+['What business published Street Rod 2? Sierra Entertainment']
+['In what living being can CD4 be found? human']
+['What body of water does Suggan Buggan River join? Bass Strait']
+["Who was Arwen's mother? Doris"]
+['Who was the mother of Hans Ulrik Gyldenløve? Marie Louise Föhse']
+['What is the constellation that NGC 5985 is a part of? Boötes']
+['In which constellation is Tau Herculis? Hornax']
+['What studio produced When China Met Africa? Famous Players Television']
+['When was 503 Evelyn discovered? 17 503']
+['What year was JS 7.62 made? 1963']
+['In what war did Svend Poulsen fight in? War of 1812']
+['The father of Juno Temple is whom? Jupiter']
+  0%|          | 0/60 [00:00<?, ?it/s]
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.81s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.82s/it]
+  2%|▏         | 1/60 [01:27<1:26:30, 87.98s/it]
+88 coarse neurons found - refining
+88 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6829e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7311118245124817
+
+After modification - groundtruth probability: tensor([1.8719e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6102646589279175
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.42s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.47s/it]
+  3%|▎         | 2/60 [02:51<1:22:34, 85.42s/it]
+31 coarse neurons found - refining
+31 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.3649e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.42498326301574707
+
+After modification - groundtruth probability: tensor([5.3897e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.640135645866394
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.78s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.82s/it]
+  5%|▌         | 3/60 [04:16<1:20:57, 85.21s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7190e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.7793510556221008
+
+After modification - groundtruth probability: tensor([2.1835e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5563705563545227
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.39s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.42s/it]
+  7%|▋         | 4/60 [05:41<1:19:17, 84.96s/it]
+14 coarse neurons found - refining
+14 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.4596e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.20576393604278564
+
+After modification - groundtruth probability: tensor([1.2809e-10], device='cuda:0')
+Argmax completion: `Wang`
+Argmax prob: 0.25315046310424805
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:28<00:00, 88.82s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:28<00:00, 88.85s/it]
+  8%|▊         | 5/60 [07:10<1:19:13, 86.43s/it]
+27 coarse neurons found - refining
+27 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.5098e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5501298904418945
+
+After modification - groundtruth probability: tensor([6.6213e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5308293700218201
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.67s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.68s/it]
+ 10%|█         | 6/60 [08:36<1:17:36, 86.23s/it]
+38 coarse neurons found - refining
+38 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.6010e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.8208874464035034
+
+After modification - groundtruth probability: tensor([4.2312e-11], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.5117960572242737
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.09s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.11s/it]
+ 12%|█▏        | 7/60 [10:01<1:15:53, 85.91s/it]
+34 coarse neurons found - refining
+34 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.4408e-10], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.6331502795219421
+
+After modification - groundtruth probability: tensor([7.1737e-07], device='cuda:0')
+Argmax completion: `
+`
+Argmax prob: 0.0010449044639244676
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.82s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.83s/it]
+ 13%|█▎        | 8/60 [11:27<1:14:28, 85.93s/it]
+10 coarse neurons found - refining
+10 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.3809e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.0124353701248765
+
+After modification - groundtruth probability: tensor([2.6572e-08], device='cuda:0')
+Argmax completion: `It`
+Argmax prob: 0.038815803825855255
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.75s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.77s/it]
+ 15%|█▌        | 9/60 [12:53<1:13:02, 85.93s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.3344e-07], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.003202089574187994
+
+After modification - groundtruth probability: tensor([5.1930e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.010977054014801979
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.67s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.70s/it]
+ 17%|█▋        | 10/60 [14:19<1:11:35, 85.90s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.4591e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.018749171867966652
+
+After modification - groundtruth probability: tensor([1.1571e-07], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.04556393623352051
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.53s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.53s/it]
+ 18%|█▊        | 11/60 [15:43<1:09:50, 85.53s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.8547e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.02390332520008087
+
+After modification - groundtruth probability: tensor([3.6435e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.04093537852168083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.11s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.13s/it]
+ 20%|██        | 12/60 [17:08<1:08:21, 85.45s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.2070e-05], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.03626482933759689
+
+After modification - groundtruth probability: tensor([3.3738e-05], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.05833623558282852
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.86s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.87s/it]
+ 22%|██▏       | 13/60 [18:34<1:06:50, 85.32s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.8006e-08], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.06791764497756958
+
+After modification - groundtruth probability: tensor([4.6922e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16323091089725494
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.39s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.43s/it]
+ 23%|██▎       | 14/60 [19:59<1:05:28, 85.40s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.0424e-09], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.026681363582611084
+
+After modification - groundtruth probability: tensor([9.3803e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.032037973403930664
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.04s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.06s/it]
+ 25%|██▌       | 15/60 [21:24<1:04:00, 85.34s/it]
+6 coarse neurons found - refining
+6 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.8439e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.06794765591621399
+
+After modification - groundtruth probability: tensor([4.8480e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.14792239665985107
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.27s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.29s/it]
+ 27%|██▋       | 16/60 [22:52<1:03:02, 85.97s/it]
+6 coarse neurons found - refining
+6 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.1876e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1652170866727829
+
+After modification - groundtruth probability: tensor([1.1276e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.21590805053710938
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.56s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.58s/it]
+ 28%|██▊       | 17/60 [24:15<1:01:07, 85.30s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.4053e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.2361595630645752
+
+After modification - groundtruth probability: tensor([1.9986e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.3958074748516083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.78s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.79s/it]
+ 30%|███       | 18/60 [25:39<59:25, 84.89s/it]  
+15 coarse neurons found - refining
+15 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.5754e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.1804177314043045
+
+After modification - groundtruth probability: tensor([8.0686e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.14474591612815857
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.30s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.31s/it]
+ 32%|███▏      | 19/60 [27:05<58:07, 85.06s/it]
+13 coarse neurons found - refining
+13 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.1046e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.3019644320011139
+
+After modification - groundtruth probability: tensor([1.0284e-09], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.11968691647052765
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.91s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.94s/it]
+ 33%|███▎      | 20/60 [28:30<56:42, 85.07s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.5349e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16315194964408875
+
+After modification - groundtruth probability: tensor([7.1836e-10], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.1815304160118103
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.74s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.74s/it]
+ 35%|███▌      | 21/60 [29:57<55:39, 85.62s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([4.0848e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.24429789185523987
+
+After modification - groundtruth probability: tensor([3.7006e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2923579216003418
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.57s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.59s/it]
+ 37%|███▋      | 22/60 [31:22<54:03, 85.35s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.6141e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16245156526565552
+
+After modification - groundtruth probability: tensor([8.6316e-10], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.20360784232616425
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.31s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.32s/it]
+ 38%|███▊      | 23/60 [32:48<52:50, 85.69s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7615e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.36551275849342346
+
+After modification - groundtruth probability: tensor([4.3967e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.34858688712120056
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.11s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.12s/it]
+ 40%|████      | 24/60 [34:12<51:09, 85.26s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.1623e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.16607284545898438
+
+After modification - groundtruth probability: tensor([8.5151e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.15082059800624847
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.73s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.75s/it]
+ 42%|████▏     | 25/60 [35:37<49:40, 85.15s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.6521e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.2389117181301117
+
+After modification - groundtruth probability: tensor([2.9366e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.20128701627254486
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.31s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.32s/it]
+ 43%|████▎     | 26/60 [37:03<48:18, 85.25s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.7452e-10], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.16646163165569305
+
+After modification - groundtruth probability: tensor([8.6624e-10], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1420937478542328
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.19s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.22s/it]
+ 45%|████▌     | 27/60 [38:27<46:44, 84.99s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.8279e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18026164174079895
+
+After modification - groundtruth probability: tensor([7.7757e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.17155103385448456
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.08s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.10s/it]
+ 47%|████▋     | 28/60 [39:52<45:22, 85.06s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.3056e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.27603691816329956
+
+After modification - groundtruth probability: tensor([5.4666e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.23046687245368958
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.26s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.28s/it]
+ 48%|████▊     | 29/60 [41:20<44:18, 85.77s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([6.0239e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.1715139001607895
+
+After modification - groundtruth probability: tensor([6.5805e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.17080333828926086
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.14s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.16s/it]
+ 50%|█████     | 30/60 [42:44<42:40, 85.34s/it]
+11 coarse neurons found - refining
+11 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.0939e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1907200962305069
+
+After modification - groundtruth probability: tensor([7.8578e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.1997595578432083
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.69s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.70s/it]
+ 52%|█████▏    | 31/60 [44:09<41:10, 85.19s/it]
+1 coarse neurons found - refining
+1 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.8911e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.550995409488678
+
+After modification - groundtruth probability: tensor([6.0028e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.5398295521736145
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.16s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.18s/it]
+ 53%|█████▎    | 32/60 [45:33<39:38, 84.93s/it]
+7 coarse neurons found - refining
+7 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([5.7842e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.12835253775119781
+
+After modification - groundtruth probability: tensor([9.0569e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.16461844742298126
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.03s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.05s/it]
+ 55%|█████▌    | 33/60 [46:59<38:23, 85.31s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.6606e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.5609946846961975
+
+After modification - groundtruth probability: tensor([4.9444e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.46449413895606995
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.06s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.08s/it]
+ 57%|█████▋    | 34/60 [48:25<36:57, 85.29s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0907e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2666456699371338
+
+After modification - groundtruth probability: tensor([1.1187e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.24096783995628357
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.81s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.83s/it]
+ 58%|█████▊    | 35/60 [49:51<35:37, 85.50s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.4666e-10], device='cuda:0')
+Argmax completion: `0`
+Argmax prob: 0.15319347381591797
+
+After modification - groundtruth probability: tensor([1.0335e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.17599426209926605
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.57s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.59s/it]
+ 60%|██████    | 36/60 [51:15<34:06, 85.27s/it]
+8 coarse neurons found - refining
+8 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0791e-09], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1860775649547577
+
+After modification - groundtruth probability: tensor([1.2027e-09], device='cuda:0')
+Argmax completion: `3`
+Argmax prob: 0.1736396849155426
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.92s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.94s/it]
+ 62%|██████▏   | 37/60 [52:41<32:46, 85.52s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([9.7157e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.31636640429496765
+
+After modification - groundtruth probability: tensor([1.1631e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.287766695022583
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.83s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.84s/it]
+ 63%|██████▎   | 38/60 [54:06<31:17, 85.36s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.7827e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18574483692646027
+
+After modification - groundtruth probability: tensor([1.7775e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.15920530259609222
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.17s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.19s/it]
+ 65%|██████▌   | 39/60 [55:32<29:52, 85.35s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([8.9163e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.2898525297641754
+
+After modification - groundtruth probability: tensor([9.9340e-10], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.26617610454559326
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.77s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.78s/it]
+ 67%|██████▋   | 40/60 [57:00<28:42, 86.13s/it]
+9 coarse neurons found - refining
+9 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.5772e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.19321005046367645
+
+After modification - groundtruth probability: tensor([1.9087e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.150325745344162
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.24s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.25s/it]
+ 68%|██████▊   | 41/60 [58:25<27:12, 85.91s/it]
+2 coarse neurons found - refining
+2 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.0430e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18238455057144165
+
+After modification - groundtruth probability: tensor([1.2323e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.13665473461151123
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.81s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.96s/it]
+ 70%|███████   | 42/60 [59:50<25:42, 85.67s/it]
+5 coarse neurons found - refining
+5 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.1566e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.18381576240062714
+
+After modification - groundtruth probability: tensor([1.4181e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.136504128575325
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.19s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.20s/it]
+ 72%|███████▏  | 43/60 [1:01:16<24:14, 85.57s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.5340e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07345961034297943
+
+After modification - groundtruth probability: tensor([2.1421e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.08004096895456314
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.18s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.21s/it]
+ 73%|███████▎  | 44/60 [1:02:41<22:48, 85.51s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.2569e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.11718747764825821
+
+After modification - groundtruth probability: tensor([1.6280e-09], device='cuda:0')
+Argmax completion: `1`
+Argmax prob: 0.0770052894949913
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.93s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.94s/it]
+ 75%|███████▌  | 45/60 [1:04:06<21:20, 85.38s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.4118e-09], device='cuda:0')
+Argmax completion: `2`
+Argmax prob: 0.12562327086925507
+
+After modification - groundtruth probability: tensor([1.6611e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07037655264139175
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.40s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.41s/it]
+ 77%|███████▋  | 46/60 [1:05:31<19:51, 85.14s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.0588e-09], device='cuda:0')
+Argmax completion: ``
+Argmax prob: 0.10268959403038025
+
+After modification - groundtruth probability: tensor([2.5289e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09086950123310089
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.30s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:25<00:00, 85.30s/it]
+ 78%|███████▊  | 47/60 [1:06:56<18:28, 85.23s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([2.0666e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09021639078855515
+
+After modification - groundtruth probability: tensor([2.0564e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09474349766969681
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.79s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.80s/it]
+ 80%|████████  | 48/60 [1:08:21<17:01, 85.15s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([1.6696e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09449246525764465
+
+After modification - groundtruth probability: tensor([2.0746e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.10505416989326477
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.88s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:23<00:00, 83.90s/it]
+ 82%|████████▏ | 49/60 [1:09:45<15:33, 84.82s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.0383e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.11067274212837219
+
+After modification - groundtruth probability: tensor([3.4754e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.11160224676132202
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.75s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:24<00:00, 84.78s/it]
+ 83%|████████▎ | 50/60 [1:11:10<14:08, 84.86s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([7.1151e-07], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.1045178472995758
+
+After modification - groundtruth probability: tensor([2.1468e-06], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.10847501456737518
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.22s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:27<00:00, 87.23s/it]
+ 85%|████████▌ | 51/60 [1:12:37<12:50, 85.62s/it]
+3 coarse neurons found - refining
+3 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.7555e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07634803652763367
+
+After modification - groundtruth probability: tensor([3.9356e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.07101897895336151
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Getting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.22s/it][AGetting coarse neurons for each prompt...: 100%|██████████| 1/1 [01:26<00:00, 86.24s/it]
+ 87%|████████▋ | 52/60 [1:14:04<11:26, 85.85s/it]
+4 coarse neurons found - refining
+4 neurons remaining after refining
+
+Before modification - groundtruth probability: tensor([3.2335e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.1156415045261383
+
+After modification - groundtruth probability: tensor([4.0609e-09], device='cuda:0')
+Argmax completion: `the`
+Argmax prob: 0.09782560914754868
+
+Getting coarse neurons for each prompt...:   0%|          | 0/1 [00:00<?, ?it/s][Aslurmstepd-xgph7: error: *** JOB 340860 ON xgph7 CANCELLED AT 2024-10-17T15:37:35 ***
